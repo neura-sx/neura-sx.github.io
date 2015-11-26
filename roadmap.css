@@ -20,7 +20,7 @@ caption{
 	text-align:left;
 }
 thead th{
-	background:#9cf;
+	background:#fc3;
 	text-align:left;
 }
 tbody th{
@@ -32,12 +32,12 @@ tbody td{
 }
 
 tbody tr.done th{
-	background:#fff;
-	color:green;
+	background:#cf3;
+	color:black;
 }
 tbody tr.done td{
 	background:#fff;
-	color:green;
+	color:gray;
 }
 tbody tr td.overlap{
 	background:orange;	
