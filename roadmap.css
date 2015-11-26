@@ -24,8 +24,8 @@ thead th{
 	text-align:left;
 }
 tbody th{
-	text-align:left;
 	background:#69c;
+	text-align:left;
 }
 tfoot td{
 	text-align:right;
@@ -45,7 +45,7 @@ tbody td{
 .undone {
 }
 .done {
-	color:green;
+	color:black;
 	text-decoration: line-through;
 }
 
