@@ -18,7 +18,7 @@
                 <th id="th4" scope="col">Estimated Cost</th>
                 <th id="th5" scope="col">Worker Proposal</th>
                 <th id="th6" scope="col">Contractor</th>
-                <th id="th7" scope="col">Linku</th>
+                <th id="th7" scope="col">Links</th>
               </tr>
             </thead>
             <tbody>
