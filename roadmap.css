@@ -24,11 +24,16 @@ thead th{
 	text-align:left;
 }
 tbody th{
-	background:#0cf;
+	background:#585C5C;
+	color:white;
 	text-align:left;
 }
 tbody td{
-	background:#0cc;	
+	background:#5C585C;
+	color:white;
+}
+tbody tr td.overlap{
+	background:#B87333;	
 }
 
 tbody tr.done th{
@@ -38,10 +43,6 @@ tbody tr.done th{
 tbody tr.done td{
 	background:#0f3;
 	color:gray;
-}
-
-tbody tr td.overlap{
-	background:#66c;	
 }
 
 .links div{
