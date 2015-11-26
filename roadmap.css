@@ -32,7 +32,7 @@ tbody td{
 }
 
 tbody tr.done th{
-	background:#ddd;
+	background:#ccc;
 	color:green;
 }
 tbody tr.done td{
