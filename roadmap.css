@@ -45,11 +45,11 @@ tbody td{
 	background:#626666;
 	color:white;
 }
-tbody tr td.warn{
-	background:#FFA62F;	
+tbody tr td.warning{
+	background:#FFA62F;
 }
 tbody tr td.alert{
-	background:#C11B17;	
+	background:#C11B17;
 }
 tbody tr.done th{
 	background:#0c3;

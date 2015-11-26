@@ -28,7 +28,7 @@
                 <tr>
                   <xsl:attribute name="class">
                     <xsl:choose>
-                      <xsl:when test="@done &gt; 0">done</xsl:when>
+                      <xsl:when test="@progress &gt; 0">done</xsl:when>
                       <xsl:otherwise></xsl:otherwise>
                     </xsl:choose>
                   </xsl:attribute>
@@ -37,8 +37,8 @@
                   <td id="td3">
                     <xsl:attribute name="class">
                       <xsl:choose>
-                        <xsl:when test="(@done &lt;= 0) and (overlap = 'Y')">alert</xsl:when>
-                        <xsl:when test="(@done &lt;= 0) and (overlap = '?')">warn</xsl:when>
+                        <xsl:when test="(@progress &lt;= 0) and (overlap = 'Y')">alert</xsl:when>
+                        <xsl:when test="(@progress &lt;= 0) and (overlap = '?')">warning</xsl:when>
                         <xsl:otherwise></xsl:otherwise>
                       </xsl:choose>
                     </xsl:attribute>
