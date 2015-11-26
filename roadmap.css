@@ -40,7 +40,7 @@ tbody tr.done td{
 	color:gray;
 }
 
-.overlap{
+tbody tr td.overlap{
 	background:orange;	
 }
 
