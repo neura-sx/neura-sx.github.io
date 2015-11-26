@@ -37,10 +37,10 @@ tbody td{
 }
 
 .active {
-	color:red;
+	color:green;
 }
 .passive {
-	color:green;
+	color:gray;
 }
 
 .links div {
