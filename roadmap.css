@@ -43,6 +43,6 @@ tbody tr.odd td{
 #th2,#th3,#th4,#th5,#th6{width:140px;}
 #th7{width:180px;}
 
-div.links {
+.links div {
   display: inline;
 }
