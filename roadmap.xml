@@ -127,7 +127,7 @@
       </item>
       
       <item done="1">
-        <title>Application pages forgetting their state</title>
+        <title>Application pages able to keep their state</title>
         <status>Completed in milestone 15.11.25</status>
         <overlap>N</overlap>
         <cost>n/a</cost>
