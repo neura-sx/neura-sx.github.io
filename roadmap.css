@@ -27,6 +27,8 @@ caption{
 thead th{
 	background:#eee;
 	text-align:left;
+	font-size:50%;
+	color:gray;
 }
 tbody th{
 	background:#585C5C;
