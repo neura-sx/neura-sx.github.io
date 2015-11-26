@@ -4,7 +4,7 @@
   <area>
     <name>Unfinished tasks after launch</name>
     <items>
-      <item done="y">
+      <item done="1">
         <title>Refferal URLs</title>
         <status>Completed</status>
         <overlap>N</overlap>
@@ -14,7 +14,7 @@
         <links>
         </links>
       </item>
-      <item done="n">
+      <item done="0">
         <title>Migration tool for holders of a large number of private keys</title>
         <status>Ongoing</status>
         <overlap>N</overlap>
@@ -24,7 +24,7 @@
         <links>
         </links>
       </item>
-      <item done="n">
+      <item done="0">
         <title>Complete API for trading bots and other apps</title>
         <status>Ongoing</status>
         <overlap>N</overlap>
@@ -40,7 +40,7 @@
   <area>
     <name>Major GUI improvements</name>
     <items>
-      <item done="n">
+      <item done="0">
         <title>GUI tool for committee / worker proposals</title>
         <status>Ongoing</status>
         <overlap>N</overlap>
@@ -50,7 +50,7 @@
         <links>
         </links>
       </item>
-      <item done="n">
+      <item done="0">
         <title>GUI tool for listing all open orders</title>
         <status>Completed, soon to be released</status>
         <overlap>N</overlap>
@@ -60,7 +60,7 @@
         <links>
         </links>
       </item>
-      <item done="n">
+      <item done="0">
         <title>Improve deposit/withdraw UX</title>
         <status>Planned for 15.12.02 milestone</status>
         <overlap>N</overlap>
@@ -80,7 +80,7 @@
   <area>
     <name>Funded workers</name>
     <items>
-      <item done="n">
+      <item done="0">
         <title>Refund market order creation fees</title>
         <status>Funded worker</status>
         <overlap>N</overlap>
@@ -104,7 +104,7 @@
   <area>
     <name></name>
     <items>
-      <item done="n">
+      <item done="0">
         <title></title>
         <status></status>
         <overlap></overlap>
