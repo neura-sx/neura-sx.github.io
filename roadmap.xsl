@@ -38,14 +38,18 @@
                   <td>
                     <div class="links">
                       <xsl:for-each select="links/link">
-                        <div>
+                        <!--<div>
                           <a>
                             <xsl:attribute name="href">
                               <xsl:value-of select="url"/>
                             </xsl:attribute>
                             <xsl:value-of select="label"/>
                           </a>
-                        </div>
+                        </div>-->
+                        <div class="intro">
+                <div><a href="sa">content1e</a></div>
+                 <div><a href="sa">content2w</a></div>
+            </div>
                       </xsl:for-each>
                     </div>
                   </td>
