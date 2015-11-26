@@ -17,7 +17,7 @@ td,th{
 }	
 
 caption{
-  background:#ddd;
+  background:#ccc;
 	font-size:140%;
 	border:1px solid #000;
 	border-bottom:none;
@@ -25,8 +25,7 @@ caption{
 	text-align:left;
 }
 thead th{
-	background:#ddd;
-	font-size:80%;
+	background:#eee;
 	text-align:left;
 	color:gray;
 	font-style:italic;
