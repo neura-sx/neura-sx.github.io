@@ -88,7 +88,7 @@
 	    <th scope="row">BA 1254</th>
 	    <td>Luton</td>
 	    <td>
-	        <div class="intro">
+	        <div class="links">
                 <div><a href="sa">content1e</a></div>
                  <div><a href="sa">content2w</a></div>
             </div>
