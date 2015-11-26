@@ -23,7 +23,7 @@
             </thead>
             <tfoot>
               <tr>
-                <td colspan="6">Total: xxx items</td>
+                <td colspan="7">Total: xxx items</td>
               </tr>
             </tfoot>
             <tbody>
@@ -38,7 +38,7 @@
                   <td>
                     <div class="links">
                       <xsl:for-each select="links/link">
-                        <a href="url"><xsl:value-of select="url"/></a>
+                        <a href="url"><xsl:value-of select="label"/></a>
                       </xsl:for-each>
                     </div>
                   </td>
