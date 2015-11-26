@@ -17,9 +17,10 @@
                 <th id="th2" scope="col">Status</th>
                 <th id="th3" scope="col">Overlap</th>
                 <th id="th4" scope="col">Estimated Cost</th>
-                <th id="th5" scope="col">Worker Proposal</th>
-                <th id="th6" scope="col">Contractor</th>
-                <th id="th7" scope="col">Links</th>
+                <th id="th5" scope="col">Estimated Time</th>
+                <th id="th6" scope="col">Worker Proposal</th>
+                <th id="th7" scope="col">Contractor</th>
+                <th id="th8" scope="col">Links</th>
               </tr>
             </thead>
             <tbody>
@@ -44,8 +45,9 @@
                     <xsl:value-of select="overlap"/>
                   </td>
                   <td id="td4"><xsl:value-of select="cost"/></td>
-                  <td id="td5"><xsl:value-of select="worker"/></td>
-                  <td id="td6">
+                  <td id="td5"><xsl:value-of select="time"/></td>
+                  <td id="td6"><xsl:value-of select="worker"/></td>
+                  <td id="td7">
                     <a>
                       <xsl:attribute name="href">
                         <xsl:value-of select="contractor/url"/>
@@ -53,7 +55,7 @@
                       <xsl:value-of select="contractor/name"/>
                     </a>
                   </td>
-                  <td id="td7">
+                  <td id="td8">
                     <div class="links">
                       <xsl:for-each select="links/link">
                         <span class="link">
