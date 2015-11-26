@@ -1,3 +1,7 @@
+body{background-color: #2C3539;}
+a:link{color: yellow;}
+a:visited{color: khaki;}
+
 table {
 	border:1px solid #000;
 	border-collapse:collapse;
