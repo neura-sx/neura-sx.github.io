@@ -33,10 +33,7 @@ tfoot td{
 	background:#369;
 }
 tbody td{
-	background:#999;	
-}
-tbody tr.odd td{
-	background:#ccc;
+	background:#eee;	
 }
 
 .links div {
