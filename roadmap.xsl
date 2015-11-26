@@ -33,15 +33,13 @@
                   <th id="td1" scope="row"><xsl:value-of select="title"/></th>
                   <td id="td2"><xsl:value-of select="status"/></td>
                   <td id="td3">
-                    <span>
-                      <xsl:attribute name="class">
-                        <xsl:choose>
-                          <xsl:when test="(@done &lt;= 0) and (overlap != 'N')">overlap</xsl:when>
-                          <xsl:otherwise></xsl:otherwise>
-                        </xsl:choose>
-                      </xsl:attribute>
-                      <xsl:value-of select="overlap"/>
-                    </span>
+                    <xsl:attribute name="class">
+                      <xsl:choose>
+                        <xsl:when test="(@done &lt;= 0) and (overlap != 'N')">overlap</xsl:when>
+                        <xsl:otherwise></xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:attribute>
+                    <xsl:value-of select="overlap"/>
                   </td>
                   <td id="td4"><xsl:value-of select="cost"/></td>
                   <td id="td5"><xsl:value-of select="worker"/></td>
