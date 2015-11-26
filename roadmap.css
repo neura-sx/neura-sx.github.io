@@ -20,7 +20,7 @@ caption{
 	text-align:left;
 }
 thead th{
-	background:#fc0;
+	background:#eee;
 	text-align:left;
 }
 tbody th{
@@ -28,11 +28,11 @@ tbody th{
 	text-align:left;
 }
 tbody td{
-	background:#0c3;	
+	background:#0ff;	
 }
 
 tbody tr.done th{
-	background:#0ff;
+	background:#0c3;
 	color:#666;
 }
 tbody tr.done td{
