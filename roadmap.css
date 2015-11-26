@@ -42,7 +42,7 @@ tbody tr.odd td{
 .links div {
   display: inline;
 }
-.link span {
+.link {
   padding-right: 10px;
 }
 
