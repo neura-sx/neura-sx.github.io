@@ -48,7 +48,7 @@
                         </div>
                         
                       </xsl:for-each>-->
-                    		<span><a href="sa">uno2</a></span>
+                    		<span style="padding-right: 20px;"><a href="sa">uno222</a></span>
                         <span><a href="sa">due</a></span>
                     </div>
                   </td>
