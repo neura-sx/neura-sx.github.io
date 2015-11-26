@@ -35,7 +35,8 @@
                   <td id="td3">
                     <xsl:attribute name="class">
                       <xsl:choose>
-                        <xsl:when test="(@done &lt;= 0) and (overlap != 'N')">overlap</xsl:when>
+                        <xsl:when test="(@done &lt;= 0) and (overlap = 'Y')">alert</xsl:when>
+                        <xsl:when test="(@done &lt;= 0) and (overlap == '?')">warn</xsl:when>
                         <xsl:otherwise></xsl:otherwise>
                       </xsl:choose>
                     </xsl:attribute>
