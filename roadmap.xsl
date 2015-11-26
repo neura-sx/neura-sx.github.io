@@ -18,7 +18,7 @@
                 <th id="th4" scope="col">Estimated Cost</th>
                 <th id="th5" scope="col">Worker Proposal</th>
                 <th id="th6" scope="col">Contractor</th>
-                <th id="th7" scope="col">Links</th>
+                <th id="th7" scope="col">Linksx</th>
               </tr>
             </thead>
             <tbody>
@@ -26,7 +26,7 @@
                 <tr>
                   <xsl:attribute name="class">
                     <xsl:choose>
-                      <xsl:when test="@done=y">passive</xsl:when>
+                      <xsl:when test="@done &gt; 0">passive</xsl:when>
                       <xsl:otherwise>active</xsl:otherwise>
                     </xsl:choose>
                   </xsl:attribute>
