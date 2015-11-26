@@ -24,7 +24,7 @@ thead th{
 	text-align:left;
 }
 tbody th{
-	background:#6cc;
+	background:#ffc;
 	text-align:left;
 }
 tbody td{
@@ -33,13 +33,14 @@ tbody td{
 
 tbody tr.done th{
 	background:#ddd;
-	color:black;
+	color:#666;
 }
 tbody tr.done td{
 	background:#f2f2f2;
 	color:gray;
 }
-tbody tr td.overlap{
+
+.overlap{
 	background:orange;	
 }
 
