@@ -10,7 +10,7 @@
         <xsl:for-each select="areas/area">
           <table>
             <caption><xsl:value-of select="name"/></caption>
-            <!--<thead>
+            <thead>
               <tr>
                 <th id="th1" scope="col">Title</th>  
                 <th id="th2" scope="col">Status</th>
@@ -20,7 +20,7 @@
                 <th id="th6" scope="col">Contractor</th>
                 <th id="th7" scope="col">Links</th>
               </tr>
-            </thead>-->
+            </thead>
             <tbody>
               <xsl:for-each select="items/item">
                 <tr>
