@@ -30,20 +30,22 @@
                       <xsl:otherwise></xsl:otherwise>
                     </xsl:choose>
                   </xsl:attribute>
-                  <th scope="row"><xsl:value-of select="title"/></th>
-                  <td><xsl:value-of select="status"/></td>
-                  <td>
-                    <xsl:attribute name="class">
-                      <xsl:choose>
-                        <xsl:when test="overlap != 'N'">overlap</xsl:when>
-                        <xsl:otherwise></xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:attribute>
-                    <xsl:value-of select="overlap"/>
+                  <th id="td1" scope="row"><xsl:value-of select="title"/></th>
+                  <td id="td2"><xsl:value-of select="status"/></td>
+                  <td id="td3">
+                    <span>
+                      <xsl:attribute name="class">
+                        <xsl:choose>
+                          <xsl:when test="@done = 0 and test="overlap != 'N'">overlap</xsl:when>
+                          <xsl:otherwise></xsl:otherwise>
+                        </xsl:choose>
+                      </xsl:attribute>
+                      <xsl:value-of select="overlap"/>
+                    </span>
                   </td>
-                  <td><xsl:value-of select="cost"/></td>
-                  <td><xsl:value-of select="worker"/></td>
-                  <td>
+                  <td id="td4"><xsl:value-of select="cost"/></td>
+                  <td id="td5"><xsl:value-of select="worker"/></td>
+                  <td id="td6">
                     <a>
                       <xsl:attribute name="href">
                         <xsl:value-of select="contractor/url"/>
@@ -51,7 +53,7 @@
                       <xsl:value-of select="contractor/name"/>
                     </a>
                   </td>
-                  <td>
+                  <td id="td7">
                     <div class="links">
                       <xsl:for-each select="links/link">
                         <span class="link">
