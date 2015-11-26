@@ -38,7 +38,7 @@
                   <td>
                     <div class="links">
                       <xsl:for-each select="links/link">
-                        <div><a href="url"><xsl:value-of select="url"/></a></div>
+                        <a href="url"><xsl:value-of select="url"/></a>
                       </xsl:for-each>
                     </div>
                   </td>
