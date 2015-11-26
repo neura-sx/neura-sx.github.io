@@ -4,11 +4,8 @@
   <xsl:template match="/">
     <html>
       <head>
-        <style>
-          
-        </style>
+        <link rel="stylesheet" href="roadmap.css">
       </head>
-  
       <body>
         <xsl:for-each select="areas/area">
           <table>
