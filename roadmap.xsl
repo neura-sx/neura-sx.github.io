@@ -18,27 +18,18 @@
                 <th id="th4" scope="col">Estimated Cost</th>
                 <th id="th5" scope="col">Worker Proposal</th>
                 <th id="th6" scope="col">Contractor</th>
-                <th id="th7" scope="col">Linksx</th>
+                <th id="th7" scope="col">Linku</th>
               </tr>
             </thead>
             <tbody>
               <xsl:for-each select="items/item">
                 <tr>
-                  <xsl:attribute name="class">
-                    <xsl:choose>
-                      <xsl:when test="@done &gt; 0">passive</xsl:when>
-                      <xsl:otherwise>active</xsl:otherwise>
-                    </xsl:choose>
-                  </xsl:attribute>
-                  <th scope="row">
+                  <xsl:if test="expression">
                     <xsl:attribute name="class">
-                      <xsl:choose>
-                        <xsl:when test="@done &gt; 0">done</xsl:when>
-                        <xsl:otherwise>undone</xsl:otherwise>
-                      </xsl:choose>
+                      <xsl:when test="@done &gt; 0">done</xsl:when>
                     </xsl:attribute>
-                    <xsl:value-of select="title"/>
-                  </th>
+                  </xsl:if>
+                  <th scope="row"><xsl:value-of select="title"/></th>
                   <td><xsl:value-of select="status"/></td>
                   <td><xsl:value-of select="overlap"/></td>
                   <td><xsl:value-of select="cost"/></td>
