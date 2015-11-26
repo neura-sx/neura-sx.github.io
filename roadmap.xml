@@ -29,7 +29,7 @@
         <links/>
       </item>
       <item done="0">
-        <title>Complete API for trading bots and other apps</title>
+        <title>Complete API for trading bots &amp; other apps</title>
         <status>Ongoing</status>
         <overlap>N</overlap>
         <cost>n/a</cost>
@@ -167,7 +167,7 @@
       </item>
       
       <item done="0">
-        <title>Improve market statistics and standardize trading API</title>
+        <title>Improve market statistics &amp; standardize trading API</title>
         <status>Not started</status>
         <overlap>N</overlap>
         <cost>7.7k</cost>
@@ -328,8 +328,30 @@
     <name>Features proposed by Community</name>
     <items>
       <item done="0">
-        <title></title>
-        <status></status>
+        <title>Fix margin call trigger</title>
+        <status>Completed, tests pending</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links>
+          <link>
+            <label>forum</label>
+            <url>https://bitsharestalk.org/index.php/topic,19735.0.html</url>
+          </link>
+          <link>
+            <label>forum</label>
+            <url>https://bitsharestalk.org/index.php/topic,19102.0.html</url>
+          </link>
+        </links>
+      </item>
+      
+      <item done="0">
+        <title>Affiliate dashboard for LTM</title>
+        <status>Not started</status>
         <overlap>N</overlap>
         <cost></cost>
         <worker></worker>
@@ -339,49 +361,130 @@
         </contractor>
         <links/>
       </item>
+      
       <item done="0">
-        <title></title>
-        <status></status>
+        <title>Trollbox for the Exchange</title>
+        <status>Not started</status>
         <overlap>N</overlap>
         <cost></cost>
         <worker></worker>
         <contractor>
-          <name>CNX</name>
-          <url>https://cryptonomex.com/</url>
+          <name>?</name>
+          <url/>
         </contractor>
-        <links/>
+        <links>
+          <link>
+            <label>forum</label>
+            <url>https://bitsharestalk.org/index.php/topic,19251.0.html</url>
+          </link>
+          <link>
+            <label>forum</label>
+            <url>https://bitsharestalk.org/index.php/topic,19762.0.html</url>
+          </link>
+        </links>
       </item>
+      
       <item done="0">
-        <title></title>
-        <status>N</status>
-        <overlap></overlap>
+        <title>Chatbox Customer Support</title>
+        <status>Not started</status>
+        <overlap>N</overlap>
         <cost></cost>
         <worker></worker>
         <contractor>
-          <name>CNX</name>
-          <url>https://cryptonomex.com/</url>
+          <name>?</name>
+          <url/>
         </contractor>
-        <links/>
+        <links>
+          <link>
+            <label>forum</label>
+            <url>https://bitsharestalk.org/index.php/topic,20100.0.html</url>
+          </link>
+        </links>
       </item>
     </items>
   </area>
   
   <area>
-    <name>Features proposed by Community</name>
-    <items>
-     </items>
-  </area>
-  
-  <area>
     <name>Integration with 3rd party</name>
     <items>
-     </items>
+      <item done="0">
+        <title>AdamBLevine's Tokenly Ecosystem integration</title>
+        <status>Pending a worker proposal</status>
+        <overlap>N</overlap>
+        <cost></cost>
+        <worker></worker>
+        <contractor>
+          <name>?</name>
+          <url/>
+        </contractor>
+        <links>
+          <link>
+            <label>forum</label>
+            <url>https://bitsharestalk.org/index.php/topic,19634.0.html</url>
+          </link>
+        </links>
+      </item>
+    </items>
   </area>
   
   <area>
     <name>Existing features to be exposed in the GUI</name>
     <items>
-     </items>
+      <item done="0">
+        <title>Prediction Markets</title>
+        <status>Postponed</status>
+        <overlap>N</overlap>
+        <cost></cost>
+        <worker></worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links>
+          <link>
+            <label>forum</label>
+            <url>https://bitsharestalk.org/index.php/topic,19716.0.html</url>
+          </link>
+        </links>
+      </item>
+      
+      <item done="0">
+        <title>Recurring &amp; Scheduled Payments</title>
+        <status>Postponed</status>
+        <overlap>N</overlap>
+        <cost></cost>
+        <worker></worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links>
+          <link>
+            <label>technology</label>
+            <url>https://bitshares.org/technology/recurring-and-scheduled-payments/</url>
+          </link>
+        </links>
+      </item>
+      
+      <item done="0">
+        <title>Transferable Named Accounts</title>
+        <status>Postponed</status>
+        <overlap>N</overlap>
+        <cost></cost>
+        <worker></worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links>
+          <link>
+            <label>technology</label>
+            <url>https://bitshares.org/technology/transferable-named-accounts/</url>
+          </link>
+        </links>
+      </item>
+      
+    </items>
   </area>
   
 </areas>
