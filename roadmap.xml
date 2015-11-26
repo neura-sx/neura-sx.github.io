@@ -89,6 +89,92 @@
           </link>
         </links>
       </item>
+      
+      <item done="1">
+        <title>Show stake percentages</title>
+        <status>Completed in milestone 15.11.25</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links>
+          <link>
+            <label>github</label>
+            <url>https://github.com/cryptonomex/graphene-ui/issues/522</url>
+          </link>
+        </links>
+      </item>
+      
+      <item done="1">
+        <title>Request settlement of bit asset</title>
+        <status>Completed in milestone 15.11.25</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links>
+          <link>
+            <label>github</label>
+            <url>https://github.com/cryptonomex/graphene-ui/issues/493</url>
+          </link>
+        </links>
+      </item>
+      
+      <item done="1">
+        <title>Application pages forgetting their state</title>
+        <status>Completed in milestone 15.11.25</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links>
+          <link>
+            <label>github</label>
+            <url>https://github.com/cryptonomex/graphene-ui/issues/272</url>
+          </link>
+        </links>
+      </item>
+      
+      <item done="1">
+        <title>Proposed transactions support</title>
+        <status>Completed in milestone 15.11.25</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links>
+          <link>
+            <label>github</label>
+            <url>https://github.com/cryptonomex/graphene-ui/issues/39</url>
+          </link>
+        </links>
+      </item>
+      
+      <item done="1">
+        <title>Fee schedule</title>
+        <status>Completed in milestone 15.11.25</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
+      </item>
+      
     </items>
   </area>
   
