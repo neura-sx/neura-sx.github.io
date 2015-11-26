@@ -31,16 +31,16 @@ tbody td{
 	background:#eee;	
 }
 
-.active {
-}
-.undone {
-}
-.passive {
+tbody tr.done th{
+	background:green;
 	color:gray;
-	background:#fff;
 }
-.done {
-	background:#ddd;
+tbody tr.done td{
+	background:#ccc;
+	color:green;
+}
+tbody tr.overlap td{
+	background:orange;	
 }
 
 .links div {
