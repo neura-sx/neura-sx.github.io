@@ -3,9 +3,17 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/">
     <html>
-      <head>
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/> 
+	<title></title>
+	<style type="text/css">
+		@import "test.css";
+	</style>
+	<script type="text/javascript">
+    </script>
+      <!--<head>
         <link rel="stylesheet" href="roadmap.css"/>
-      </head>
+      </head>-->
       <body>
         <xsl:for-each select="areas/area">
           <table>
@@ -64,7 +72,7 @@
 	  <caption>Flight Schedule1</caption>
 	  <thead>
 	    <tr>
-	      <th id="fn" scope="col">Flight Number:</th>  
+	      <th id="fn" scope="col">Flight Number:::</th>  
 	      <th id="fr" scope="col">From:</th>  
 	      <th id="to" scope="col">To:</th>  
 	      <th id="dp" scope="col">Departure:</th>  
