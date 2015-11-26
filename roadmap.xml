@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="roadmap.xsl"?>
 <areas>
   <area>
-    <name>Unfinished tasks after launch</name>
+    <name>Outstanding tasks after launch</name>
     <items>
       <item done="1">
         <title>Referral URLs</title>
