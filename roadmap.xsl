@@ -35,7 +35,7 @@
                   <td>
                     <xsl:attribute name="class">
                       <xsl:choose>
-                        <xsl:when test="overlap != N">overlap</xsl:when>
+                        <xsl:when test="overlap != 'N'">overlap</xsl:when>
                         <xsl:otherwise></xsl:otherwise>
                       </xsl:choose>
                     </xsl:attribute>
