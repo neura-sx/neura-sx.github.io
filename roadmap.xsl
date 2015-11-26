@@ -24,11 +24,12 @@
             <tbody>
               <xsl:for-each select="items/item">
                 <tr>
-                  <xsl:if test="expression">
-                    <xsl:attribute name="class">
+                  <xsl:attribute name="class">
+                    <xsl:choose>
                       <xsl:when test="@done &gt; 0">done</xsl:when>
-                    </xsl:attribute>
-                  </xsl:if>
+                      <xsl:otherwise></xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:attribute>
                   <th scope="row"><xsl:value-of select="title"/></th>
                   <td><xsl:value-of select="status"/></td>
                   <td><xsl:value-of select="overlap"/></td>
