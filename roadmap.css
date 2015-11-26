@@ -1,6 +1,5 @@
 body{background-color: #2C3539;}
-a:link{color: yellow;}
-a:visited{color: khaki;}
+a{color: #ADA96E;}
 
 table {
 	border:1px solid #000;
@@ -47,6 +46,9 @@ tbody tr.done th{
 tbody tr.done td{
 	background:#0f3;
 	color:gray;
+}
+tbody tr.done td a{
+	color:red;
 }
 
 .links div{
