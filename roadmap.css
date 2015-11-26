@@ -42,10 +42,10 @@ tbody tr.odd td{
 .links div {
   display: inline;
 }
+.link span {
+  padding-right: 10px;
+}
 
 #th1{width:250px;}
 #th2,#th3,#th4,#th5,#th6{width:140px;}
 #th7{width:180px;}
-
-#fn,#dp,#ar{width:58px;}
-#fr,#to{width:138px;}
