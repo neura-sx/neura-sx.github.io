@@ -10,9 +10,11 @@
         <overlap>N</overlap>
         <cost>n/a</cost>
         <worker>n/a</worker>
-        <contractor>CNX</contractor>
-        <links>
-        </links>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
       </item>
       <item done="0">
         <title>Migration tool for holders of a large number of private keys</title>
@@ -20,9 +22,11 @@
         <overlap>N</overlap>
         <cost>n/a</cost>
         <worker>n/a</worker>
-        <contractor>CNX</contractor>
-        <links>
-        </links>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
       </item>
       <item done="0">
         <title>Complete API for trading bots and other apps</title>
@@ -30,9 +34,11 @@
         <overlap>N</overlap>
         <cost>n/a</cost>
         <worker>n/a</worker>
-        <contractor>CNX</contractor>
-        <links>
-        </links>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
       </item>
     </items>
   </area>
@@ -43,22 +49,26 @@
       <item done="0">
         <title>GUI tool for committee / worker proposals</title>
         <status>Ongoing</status>
-        <overlap>N</overlap>
+        <overlap>Y</overlap>
         <cost>n/a</cost>
         <worker>n/a</worker>
-        <contractor>CNX</contractor>
-        <links>
-        </links>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
       </item>
-      <item done="0">
+      <item done="1">
         <title>GUI tool for listing all open orders</title>
         <status>Completed, soon to be released</status>
         <overlap>N</overlap>
         <cost>n/a</cost>
         <worker>n/a</worker>
-        <contractor>CNX</contractor>
-        <links>
-        </links>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
       </item>
       <item done="0">
         <title>Improve deposit/withdraw UX</title>
@@ -66,7 +76,10 @@
         <overlap>N</overlap>
         <cost>n/a</cost>
         <worker>n/a</worker>
-        <contractor>CNX</contractor>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
         <links>
           <link>
             <label>github</label>
@@ -86,7 +99,10 @@
         <overlap>N</overlap>
         <cost>4k</cost>
         <worker>1.14.7</worker>
-        <contractor>CNX</contractor>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
         <links>
           <link>
             <label>forum</label>
@@ -110,13 +126,11 @@
         <overlap></overlap>
         <cost></cost>
         <worker></worker>
-        <contractor></contractor>
-        <links>
-          <link>
-            <label></label>
-            <url></url>
-          </link>
-        </links>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
       </item>
       <item done="n">
         <title></title>
@@ -124,13 +138,11 @@
         <overlap></overlap>
         <cost></cost>
         <worker></worker>
-        <contractor></contractor>
-        <links>
-          <link>
-            <label></label>
-            <url></url>
-          </link>
-        </links>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
       </item>
       <item done="n">
         <title></title>
@@ -138,13 +150,11 @@
         <overlap></overlap>
         <cost></cost>
         <worker></worker>
-        <contractor></contractor>
-        <links>
-          <link>
-            <label></label>
-            <url></url>
-          </link>
-        </links>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
       </item>
     </items>
   </area>
@@ -158,13 +168,11 @@
         <overlap></overlap>
         <cost></cost>
         <worker></worker>
-        <contractor></contractor>
-        <links>
-          <link>
-            <label></label>
-            <url></url>
-          </link>
-        </links>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
       </item>
       <item done="n">
         <title></title>
@@ -172,13 +180,11 @@
         <overlap></overlap>
         <cost></cost>
         <worker></worker>
-        <contractor></contractor>
-        <links>
-          <link>
-            <label></label>
-            <url></url>
-          </link>
-        </links>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
       </item>
       <item done="n">
         <title></title>
@@ -186,13 +192,11 @@
         <overlap></overlap>
         <cost></cost>
         <worker></worker>
-        <contractor></contractor>
-        <links>
-          <link>
-            <label></label>
-            <url></url>
-          </link>
-        </links>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
       </item>
     </items>
   </area>
