@@ -4,7 +4,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <link rel="stylesheet" href="roadmap.css">
+        <link rel="stylesheet" href="roadmap.css"/>
       </head>
       <body>
         <xsl:for-each select="areas/area">
