@@ -22,9 +22,9 @@
               </tr>
             </thead>
             <tfoot>
-              <tr>
+              <!--<tr>
                 <td colspan="7">Total: xxx items</td>
-              </tr>
+              </tr>-->
             </tfoot>
             <tbody>
               <xsl:for-each select="items/item">
