@@ -1,8 +1,0 @@
-tocTab[tocTab.length] = new Array("0.4.3:1", "", "Test3", "EARoot/EA4/EA3/EA280.htm", "185.png", "53", "0", "", "Sequence diagram0","{BEA72323-0BDB-423f-BF7F-633F89E92D42}");
-tocTab[tocTab.length] = new Array("0.4.3:2", "", "", "EARoot/EA4/EA3/EA282.htm", "101.png", "E682", "0", "", "InteractionFragment0","{0D3F9FF3-DDBE-4a2c-ADEB-D6D7DA1E21E8}");
-tocTab[tocTab.length] = new Array("0.4.3:3", "", "", "EARoot/EA4/EA3/EA283.htm", "100.png", "E553", "0", "", "MessageEndpoint0","{59B8AF74-721D-4cd9-AB2C-C3FB29A4FBB9}");
-tocTab[tocTab.length] = new Array("0.4.3:4", "", "«entity» Object1", "EARoot/EA4/EA3/EA284.htm", "57.png", "E551", "0", "", "Sequence0","{0F635831-A593-48c3-B78C-86C6C936AA10}");
-tocTab[tocTab.length] = new Array("0.4.3:5", "", "«entity» Object2", "EARoot/EA4/EA3/EA285.htm", "57.png", "E552", "0", "", "Sequence0","{91713B15-C9E4-4a5a-BF12-B300B804E3FE}");
-tocTab[tocTab.length] = new Array("0.4.3:6", "", "«entity» Object3", "EARoot/EA4/EA3/EA286.htm", "57.png", "E554", "0", "", "Sequence0","{AEF13C91-9E25-4883-877D-E1FD2D9C69DF}");
-tocTab[tocTab.length] = new Array("0.4.3:7", "", "«entity» Object4", "EARoot/EA4/EA3/EA287.htm", "57.png", "E555", "0", "", "Sequence0","{DE6E6228-90A6-43e0-BE7B-842C1BE3E185}");
-tocTab[tocTab.length] = new Array("0.4.3:8", "", "Test2", "EARoot/EA4/EA3/EA288.htm", "102.png", "E557", "0", "", "InteractionOccurrence0","{442572EE-2FE2-42f0-A635-F0619EB5E9E2}");

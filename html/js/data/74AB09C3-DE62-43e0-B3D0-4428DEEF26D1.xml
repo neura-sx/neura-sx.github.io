@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.4.2:1", "", "Test2", "EARoot/EA4/EA2/EA274.htm", "185.png", "48", "0", "", "Sequence diagram0","{4686A781-D0C0-4f89-8000-9186DE5C21A2}");
-tocTab[tocTab.length] = new Array("0.4.2:2", "", "«entity» Object2", "EARoot/EA4/EA2/EA277.htm", "57.png", "E495", "0", "", "Sequence0","{7CDDFB0B-F941-481d-9BFE-24CC06C3BDC3}");
-tocTab[tocTab.length] = new Array("0.4.2:3", "", "«boundary» Object3", "EARoot/EA4/EA2/EA278.htm", "57.png", "E496", "0", "", "Sequence0","{82255DD1-ACAC-4665-B302-2888EF0B7619}");
-tocTab[tocTab.length] = new Array("0.4.2:4", "", "Training2", "EARoot/EA4/EA2/EA279.htm", "102.png", "E536", "0", "", "InteractionOccurrence0","{A5A43DD9-7CD9-4a37-B407-05162F5E8506}");
