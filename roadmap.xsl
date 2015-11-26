@@ -30,7 +30,15 @@
                       <xsl:otherwise>active</xsl:otherwise>
                     </xsl:choose>
                   </xsl:attribute>
-                  <th scope="row"><xsl:value-of select="title"/></th>
+                  <th scope="row">
+                    <xsl:attribute name="class">
+                      <xsl:choose>
+                        <xsl:when test="@done &gt; 0">done</xsl:when>
+                        <xsl:otherwise>undone</xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:attribute>
+                    <xsl:value-of select="title"/>
+                  </th>
                   <td><xsl:value-of select="status"/></td>
                   <td><xsl:value-of select="overlap"/></td>
                   <td><xsl:value-of select="cost"/></td>
