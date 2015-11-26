@@ -369,7 +369,7 @@
         <cost></cost>
         <worker></worker>
         <contractor>
-          <name>?</name>
+          <name/>
           <url/>
         </contractor>
         <links>
@@ -391,7 +391,7 @@
         <cost></cost>
         <worker></worker>
         <contractor>
-          <name>?</name>
+          <name/>
           <url/>
         </contractor>
         <links>
@@ -414,7 +414,7 @@
         <cost></cost>
         <worker></worker>
         <contractor>
-          <name>?</name>
+          <name/>
           <url/>
         </contractor>
         <links>
