@@ -1,5 +1,5 @@
-body{background-color: #2C3539;}
-a{color: #ADA96E;}
+body{background-color:#2C3539;}
+a{color:#ADA96E;}
 
 table {
 	border:1px solid #000;
@@ -48,7 +48,7 @@ tbody tr.done td{
 	color:gray;
 }
 tbody tr.done td a{
-	color:red;
+	color:gray;
 }
 
 .links div{
