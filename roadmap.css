@@ -27,8 +27,8 @@ caption{
 thead th{
 	background:#eee;
 	text-align:left;
-	font-size:90%;
 	color:gray;
+	font-style:italic;
 }
 tbody th{
 	background:#585C5C;
@@ -40,10 +40,10 @@ tbody td{
 	color:white;
 }
 tbody tr td.warn{
-	background:#C11B17;	
+	background:#FFA62F;	
 }
 tbody tr td.alert{
-	background:#FFA62F;	
+	background:#C11B17;	
 }
 
 tbody tr.done th{
