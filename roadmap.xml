@@ -59,9 +59,9 @@
         <links/>
       </item>
       
-      <item done="0">
+      <item done="1">
         <title>GUI tool for listing all open orders</title>
-        <status>Completed, soon to be released</status>
+        <status>Completed</status>
         <overlap>Y</overlap>
         <cost>n/a</cost>
         <worker>n/a</worker>
