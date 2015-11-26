@@ -36,7 +36,7 @@
                     <span>
                       <xsl:attribute name="class">
                         <xsl:choose>
-                          <xsl:when test="@done &lt; 1 and overlap != 'N'">overlap</xsl:when>
+                          <xsl:when test="(@done &lt; 1) and (overlap != 'N')">overlap</xsl:when>
                           <xsl:otherwise></xsl:otherwise>
                         </xsl:choose>
                       </xsl:attribute>
