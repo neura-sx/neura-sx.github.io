@@ -32,8 +32,8 @@ tbody td{
 }
 
 tbody tr.done th{
-	background:lime;
-	color:white;
+	background:#ddd;
+	color:green;
 }
 tbody tr.done td{
 	background:#ddd;
@@ -51,5 +51,7 @@ tbody tr td.overlap{
 }
 
 #th1{width:250px;}
-#th2,#th3,#th4,#th5,#th6{width:140px;}
-#th7{width:180px;}
+#th2{width:150px;}
+#th3{width:60px;}
+#th4,#th5,#th6{width:120px;}
+#th7{width:150px;}
