@@ -39,7 +39,10 @@ tbody td{
 	background:#626666;
 	color:white;
 }
-tbody tr td.overlap{
+tbody tr td.warn{
+	background:#C11B17;	
+}
+tbody tr td.alert{
 	background:#C11B17;	
 }
 
