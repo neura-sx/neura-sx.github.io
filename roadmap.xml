@@ -127,24 +127,6 @@
       </item>
       
       <item done="1">
-        <title>Application pages able to keep their state</title>
-        <status>Completed in milestone 15.11.25</status>
-        <overlap>N</overlap>
-        <cost>n/a</cost>
-        <worker>n/a</worker>
-        <contractor>
-          <name>CNX</name>
-          <url>https://cryptonomex.com/</url>
-        </contractor>
-        <links>
-          <link>
-            <label>github</label>
-            <url>https://github.com/cryptonomex/graphene-ui/issues/272</url>
-          </link>
-        </links>
-      </item>
-      
-      <item done="1">
         <title>Support for proposed transactions</title>
         <status>Completed in milestone 15.11.25</status>
         <overlap>N</overlap>
@@ -173,6 +155,24 @@
           <url>https://cryptonomex.com/</url>
         </contractor>
         <links/>
+      </item>
+      
+      <item done="0">
+        <title>Advanced Chart Index</title>
+        <status>Planned for milestone 15.12.02</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links>
+          <link>
+            <label>github</label>
+            <url>https://github.com/cryptonomex/graphene-ui/issues/466</url>
+          </link>
+        </links>
       </item>
       
     </items>
