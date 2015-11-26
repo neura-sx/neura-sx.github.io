@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="cdcatalog.xsl"?>
 <catalog>
-  <cd>
-    <title>Empire Burlesque</title>
-    <artist>Bob Dylan</artist>
-    <country>USA</country>
-    <company>Columbia</company>
-    <price>10.90</price>
-    <year>1985</year>
-  </cd>
-  <cd>
+	<cd>
+		<title>Empire Burlesque</title>
+		<artist>Bob Dylan</artist>
+		<country>USA</country>
+		<company>Columbia</company>
+		<price>10.90</price>
+		<year>1985</year>
+	</cd>
+	<cd>
 		<title>Hide your heart</title>
 		<artist>Bonnie Tyler</artist>
 		<country>UK</country>
@@ -209,4 +208,4 @@
 		<price>8.20</price>
 		<year>1987</year>
 	</cd>
-</catalog> 
+</catalog>
