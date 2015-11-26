@@ -26,7 +26,7 @@
               </tr>
             </tfoot>
             <tbody>
-              <xsl:for-each select="item">
+              <xsl:for-each select="items/item">
                 <tr>
                   <th scope="row"><xsl:value-of select="title"/></th>
                   <td><xsl:value-of select="status"/></td>
