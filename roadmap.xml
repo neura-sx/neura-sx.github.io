@@ -61,8 +61,8 @@
       
       <item done="1">
         <title>GUI tool for listing all open orders</title>
-        <status>Completed</status>
-        <overlap>Y</overlap>
+        <status>Completed in milestone 15.11.25</status>
+        <overlap>N</overlap>
         <cost>n/a</cost>
         <worker>n/a</worker>
         <contractor>
@@ -74,7 +74,7 @@
       
       <item done="0">
         <title>Improve deposit/withdraw UX</title>
-        <status>Planned for 15.12.02 milestone</status>
+        <status>Planned for milestone 15.12.02</status>
         <overlap>N</overlap>
         <cost>n/a</cost>
         <worker>n/a</worker>
