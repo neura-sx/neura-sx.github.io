@@ -36,6 +36,13 @@ tbody td{
 	background:#eee;	
 }
 
+.active {
+	color:red;
+}
+.passive {
+	color:green;
+}
+
 .links div {
   display: inline;
 }
