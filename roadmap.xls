@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cdcatalog.xsl"?>
+<areas>
+  <area>
+    <name>Unfinished tasks after launch</name>
+    <items>
+      <item done="y">
+        <title>Refferal URLs</title>
+        <status>Completed</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>CNX</contractor>
+        <links>
+        </links>
+      </item>
+      <item done="n">
+        <title>Migration tool for holders of a large number of private keys</title>
+        <status>Ongoing</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>CNX</contractor>
+        <links>
+        </links>
+      </item>
+      <item done="n">
+        <title>Complete API for trading bots & other apps</title>
+        <status>Ongoing</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>CNX</contractor>
+        <links>
+        </links>
+      </item>
+    </items>
+  </area>
+  
+  <area>
+    <name>Major GUI improvements</name>
+    <items>
+      <item done="n">
+        <title>GUI tool for committee / worker proposals</title>
+        <status>Ongoing</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>CNX</contractor>
+        <links>
+        </links>
+      </item>
+      <item done="n">
+        <title>GUI tool for listing all open orders</title>
+        <status>Completed, soon to be released</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>CNX</contractor>
+        <links>
+        </links>
+      </item>
+      <item done="n">
+        <title>Improve deposit/withdraw UX</title>
+        <status>Planned for 15.12.02 milestone</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>CNX</contractor>
+        <links>
+          <link>
+            <label>github</<label>
+            <url>https://github.com/cryptonomex/graphene-ui/issues/465</url>
+          </link>
+        </links>
+      </item>
+    </items>
+  </area>
+  
+  <area>
+    <name>Funded workers</name>
+    <items>
+      <item done="n">
+        <title>Refund market order creation fees</title>
+        <status>Funded worker</status>
+        <overlap>N</overlap>
+        <cost>4k</cost>
+        <worker>1.14.7</worker>
+        <contractor>CNX</contractor>
+        <links>
+          <link>
+            <label>forum</<label>
+            <url>https://bitsharestalk.org/index.php/topic,20089.0.html</url>
+          </link>
+          <link>
+            <label>github</<label>
+            <url>https://github.com/cryptonomex/graphene/issues/445</url>
+          </link>
+        </links>
+      </item>
+    </items>
+  </area>
+
+  <area>
+    <name></name>
+    <items>
+      <item done="n">
+        <title></title>
+        <status></status>
+        <overlap></overlap>
+        <cost></cost>
+        <worker></worker>
+        <contractor></contractor>
+        <links>
+          <link>
+            <label></<label>
+            <url></url>
+          </link>
+        </links>
+      </item>
+      <item done="n">
+        <title></title>
+        <status></status>
+        <overlap></overlap>
+        <cost></cost>
+        <worker></worker>
+        <contractor></contractor>
+        <links>
+          <link>
+            <label></<label>
+            <url></url>
+          </link>
+        </links>
+      </item>
+      <item done="n">
+        <title></title>
+        <status></status>
+        <overlap></overlap>
+        <cost></cost>
+        <worker></worker>
+        <contractor></contractor>
+        <links>
+          <link>
+            <label></<label>
+            <url></url>
+          </link>
+        </links>
+      </item>
+    </items>
+  </area>
+  
+  <area>
+    <name></name>
+    <items>
+      <item done="n">
+        <title></title>
+        <status></status>
+        <overlap></overlap>
+        <cost></cost>
+        <worker></worker>
+        <contractor></contractor>
+        <links>
+          <link>
+            <label></<label>
+            <url></url>
+          </link>
+        </links>
+      </item>
+      <item done="n">
+        <title></title>
+        <status></status>
+        <overlap></overlap>
+        <cost></cost>
+        <worker></worker>
+        <contractor></contractor>
+        <links>
+          <link>
+            <label></<label>
+            <url></url>
+          </link>
+        </links>
+      </item>
+      <item done="n">
+        <title></title>
+        <status></status>
+        <overlap></overlap>
+        <cost></cost>
+        <worker></worker>
+        <contractor></contractor>
+        <links>
+          <link>
+            <label></<label>
+            <url></url>
+          </link>
+        </links>
+      </item>
+    </items>
+  </area>
+  
+<areas>
