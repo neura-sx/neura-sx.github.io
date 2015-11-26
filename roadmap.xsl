@@ -37,19 +37,16 @@
                   <td><xsl:value-of select="contractor"/></td>
                   <td>
                     <div class="links">
-                      <!--<xsl:for-each select="links/link">
-                        <div>
+                      <xsl:for-each select="links/link">
+                        <span class="link">
                           <a>
                             <xsl:attribute name="href">
                               <xsl:value-of select="url"/>
                             </xsl:attribute>
                             <xsl:value-of select="label"/>
                           </a>
-                        </div>
-                        
-                      </xsl:for-each>-->
-                    		<span style="padding-right: 20px;"><a href="sa">uno222</a></span>
-                        <span><a href="sa">due</a></span>
+                        </span>
+                      </xsl:for-each>
                     </div>
                   </td>
                 </tr>
@@ -57,53 +54,6 @@
             </tbody>
           </table>
         </xsl:for-each>
-        
-        <table>
-	  <caption>Flight Schedule1</caption>
-	  <thead>
-	    <tr>
-	      <th id="fn" scope="col">Flight Number:::</th>  
-	      <th id="fr" scope="col">From:</th>  
-	      <th id="to" scope="col">To:</th>  
-	      <th id="dp" scope="col">Departure:</th>  
-	      <th id="ar" scope="col">Arrival:</th>  
-	    </tr>
-	  </thead>
-	  <tfoot>
-	    <tr>
-	      <td colspan="5">Total: 3 flights</td>
-	    </tr>
-	  </tfoot>
-	  <tbody>
-	  <tr>
-	    <th scope="row">BA 3451</th>
-	    <td>Heathrow</td>
-	    <td>Nuremberg</td>
-	    <td>19:20</td>
-	    <td>19:50</td>
-	  </tr>
-	  <tr class="odd">
-	    <th scope="row">BA 1254</th>
-	    <td>Luton</td>
-	    <td>
-	        <div class="links">
-                <div><a href="sa">content1xxx</a></div>
-                <div><a href="sa">content2yyy</a></div>
-            </div>
-	    </td>
-	    <td>19:40</td>
-	    <td>20:50</td>
-	  </tr>
-	  <tr>
-	    <th scope="row">LH 331</th>
-	    <td>Heathrow</td>
-	    <td>Hamburg</td>
-	    <td>20:00</td>
-	    <td>20:20</td>
-	  </tr>
-	  </tbody>
-	</table>
-        
       </body>
     </html>
   </xsl:template>
