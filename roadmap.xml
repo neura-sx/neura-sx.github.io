@@ -91,7 +91,7 @@
       </item>
       
       <item done="1">
-        <title>Show stake percentages</title>
+        <title>Funds expressed as stake percentages</title>
         <status>Completed in milestone 15.11.25</status>
         <overlap>N</overlap>
         <cost>n/a</cost>
@@ -109,7 +109,7 @@
       </item>
       
       <item done="1">
-        <title>Request settlement of bit asset</title>
+        <title>Support for requesting settlement of bit asset</title>
         <status>Completed in milestone 15.11.25</status>
         <overlap>N</overlap>
         <cost>n/a</cost>
@@ -145,7 +145,7 @@
       </item>
       
       <item done="1">
-        <title>Proposed transactions support</title>
+        <title>Support for proposed transactions</title>
         <status>Completed in milestone 15.11.25</status>
         <overlap>N</overlap>
         <cost>n/a</cost>
