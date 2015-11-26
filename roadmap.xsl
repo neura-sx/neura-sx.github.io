@@ -48,10 +48,8 @@
                         </div>
                         
                       </xsl:for-each>-->
-                      
-                    		<div><a href="sa">uno</a></div>
-                 				<div><a href="sa">due</a></div>
-        	 						
+                    		<span><a href="sa">uno2</a></span>
+                        <span><a href="sa">due</a></span>
                     </div>
                   </td>
                 </tr>
