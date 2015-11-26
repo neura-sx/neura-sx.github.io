@@ -26,7 +26,7 @@
                 <tr>
                   <xsl:attribute name="class">
                     <xsl:choose>
-                      <xsl:when test="@done='Y'">passive</xsl:when>
+                      <xsl:when test="@done=y">passive</xsl:when>
                       <xsl:otherwise>active</xsl:otherwise>
                     </xsl:choose>
                   </xsl:attribute>
