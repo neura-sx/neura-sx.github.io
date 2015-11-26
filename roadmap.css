@@ -28,7 +28,7 @@ tbody th{
 	text-align:left;
 }
 tbody td{
-	background:#0ff;	
+	background:#0cc;	
 }
 
 tbody tr.done th{
@@ -41,7 +41,7 @@ tbody tr.done td{
 }
 
 tbody tr td.overlap{
-	background:orange;	
+	background:#66c;	
 }
 
 .links div{
