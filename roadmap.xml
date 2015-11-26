@@ -16,6 +16,7 @@
         </contractor>
         <links/>
       </item>
+      
       <item done="0">
         <title>Migration tool for holders of a large number of private keys</title>
         <status>Ongoing</status>
@@ -28,6 +29,7 @@
         </contractor>
         <links/>
       </item>
+      
       <item done="0">
         <title>Complete API for trading bots &amp; other apps</title>
         <status>Ongoing</status>
@@ -192,7 +194,6 @@
           </link>
         </links>
       </item>
-      
     </items>
   </area>
   
@@ -447,8 +448,6 @@
           </link>
         </links>
       </item>
-      
-      
     </items>
   </area>
   
@@ -611,8 +610,6 @@
           </link>
         </links>
       </item>
-      
     </items>
   </area>
-  
 </areas>
