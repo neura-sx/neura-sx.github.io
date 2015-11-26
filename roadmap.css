@@ -29,11 +29,11 @@ tbody th{
 	text-align:left;
 }
 tbody td{
-	background:#3378B8;
+	background:#626666;
 	color:white;
 }
 tbody tr td.overlap{
-	background:#626666;	
+	background:#7F462C;	
 }
 
 tbody tr.done th{
