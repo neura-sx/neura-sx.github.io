@@ -43,15 +43,37 @@ tbody tr td.overlap{
 	background:orange;	
 }
 
-.links div {
-  display: inline;
+.links div{
+  display:inline;
 }
-.link {
-  padding-right: 10px;
+.link{
+  padding-right:10px;
 }
 
-#th1{width:250px;}
-#th2{width:150px;}
-#th3{width:60px;}
-#th4,#th5,#th6{width:120px;}
-#th7{width:150px;}
+#th1{
+	width:250px;
+}
+#th2{
+	width:150px;
+}
+#th3{
+	width:60px;
+	text-align:center;
+}
+#th4{
+	text-align:center;
+}
+#th4,#th5,#th6{
+	width:120px;
+}
+#th7{
+	width:150px;
+}
+
+
+#td3{
+	text-align:center;
+}
+#td4{
+	text-align:right;
+}
