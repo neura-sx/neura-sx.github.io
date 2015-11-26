@@ -9,8 +9,7 @@ td,th{
 	border-collapse:collapse;
 	padding:5px;
 }	
-#th1,#th2,#th3{width:140px;}
-#th4,#th5,#th6{width:100px;}
+
 caption{
   background:#ccc;
 	font-size:140%;
@@ -37,4 +36,12 @@ tbody td{
 }
 tbody tr.odd td{
 	background:#ccc;
+}
+
+#th1{width:250px;}
+#th2,#th3,#th4,#th5,#th6{width:140px;}
+#th7{width:100px;}
+
+div.links {
+  display: inline;
 }
