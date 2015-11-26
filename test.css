@@ -38,3 +38,7 @@ tbody td{
 tbody tr.odd td{
 	background:#ccc;
 }
+
+.links div {
+  display: inline;
+}
