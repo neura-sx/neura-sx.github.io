@@ -33,13 +33,13 @@ tbody td{
 
 tbody tr.done th{
 	background:green;
-	color:gray;
+	color:white;
 }
 tbody tr.done td{
-	background:#ccc;
+	background:#ddd;
 	color:green;
 }
-tbody tr.overlap td{
+tbody tr td.overlap{
 	background:orange;	
 }
 
