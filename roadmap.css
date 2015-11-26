@@ -37,10 +37,16 @@ tbody td{
 }
 
 .active {
-	color:green;
+	color:black;
 }
 .passive {
 	color:gray;
+}
+.undone {
+}
+.done {
+	color:green;
+	text-decoration: line-through;
 }
 
 .links div {
