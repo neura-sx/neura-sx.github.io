@@ -32,10 +32,25 @@
                   </xsl:attribute>
                   <th scope="row"><xsl:value-of select="title"/></th>
                   <td><xsl:value-of select="status"/></td>
-                  <td><xsl:value-of select="overlap"/></td>
+                  <td>
+                    <xsl:attribute name="class">
+                      <xsl:choose>
+                        <xsl:when test="overlap != N">overlap</xsl:when>
+                        <xsl:otherwise></xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:attribute>
+                    <xsl:value-of select="overlap"/>
+                  </td>
                   <td><xsl:value-of select="cost"/></td>
                   <td><xsl:value-of select="worker"/></td>
-                  <td><xsl:value-of select="contractor"/></td>
+                  <td>
+                    <a>
+                      <xsl:attribute name="href">
+                        <xsl:value-of select="contractor/url"/>
+                      </xsl:attribute>
+                      <xsl:value-of select="contractor/name"/>
+                    </a>
+                  </td>
                   <td>
                     <div class="links">
                       <xsl:for-each select="links/link">
