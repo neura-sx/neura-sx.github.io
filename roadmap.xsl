@@ -18,7 +18,7 @@
                 <th id="th4" scope="col">Estimated Cost</th>
                 <th id="th5" scope="col">Worker Proposal</th>
                 <th id="th6" scope="col">Contractor</th>
-                <th id="th7" scope="col">Links</th>
+                <th id="th7" scope="col">Links?</th>
               </tr>
             </thead>
             <tfoot>
@@ -38,7 +38,7 @@
                   <td>
                     <div class="links">
                       <xsl:for-each select="links/link">
-                        <span class="link">
+                        <span style="padding: 20px;">
                           <a>
                             <xsl:attribute name="href">
                               <xsl:value-of select="url"/>
