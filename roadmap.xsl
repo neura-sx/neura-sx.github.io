@@ -21,14 +21,15 @@
                 <th id="th7" scope="col">Links</th>
               </tr>
             </thead>
-            <tfoot>
-              <!--<tr>
-                <td colspan="7">Total: xxx items</td>
-              </tr>-->
-            </tfoot>
             <tbody>
               <xsl:for-each select="items/item">
                 <tr>
+                  <xsl:attribute name="class">
+                    <xsl:choose>
+                      <xsl:when test="@done='Y'">passive</xsl:when>
+                      <xsl:otherwise>active</xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:attribute>
                   <th scope="row"><xsl:value-of select="title"/></th>
                   <td><xsl:value-of select="status"/></td>
                   <td><xsl:value-of select="overlap"/></td>
