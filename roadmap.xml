@@ -93,7 +93,7 @@
       </item>
       
       <item done="1">
-        <title>Funds expressed as stake percentages</title>
+        <title>Funds expressed as stake percentages &amp; in chosen currency</title>
         <status>Completed in milestone 15.11.25</status>
         <overlap>N</overlap>
         <cost>n/a</cost>
@@ -106,6 +106,10 @@
           <link>
             <label>github</label>
             <url>https://github.com/cryptonomex/graphene-ui/issues/522</url>
+          </link>
+          <link>
+            <label>github</label>
+            <url>https://github.com/cryptonomex/graphene-ui/issues/512</url>
           </link>
         </links>
       </item>
