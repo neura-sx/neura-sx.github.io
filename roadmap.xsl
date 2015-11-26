@@ -3,17 +3,9 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/">
     <html>
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/> 
-	<title></title>
-	<style type="text/css">
-		@import "test.css";
-	</style>
-	<script type="text/javascript">
-    </script>
-      <!--<head>
+      <head>
         <link rel="stylesheet" href="roadmap.css"/>
-      </head>-->
+      </head>
       <body>
         <xsl:for-each select="areas/area">
           <table>
@@ -56,10 +48,10 @@
                         </div>
                         
                       </xsl:for-each>-->
-                      <div class="intro">
-                <div><a href="sa">content1e</a></div>
-                 <div><a href="sa">content2w</a></div>
-            </div>
+                      
+                    		<div><a href="sa">uno</a></div>
+                 				<div><a href="sa">due</a></div>
+        	 						
                     </div>
                   </td>
                 </tr>
