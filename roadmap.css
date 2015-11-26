@@ -32,11 +32,11 @@ tbody td{
 }
 
 tbody tr.done th{
-	background:#ccc;
+	background:#fff;
 	color:green;
 }
 tbody tr.done td{
-	background:#ddd;
+	background:#fff;
 	color:green;
 }
 tbody tr td.overlap{
@@ -76,4 +76,5 @@ tbody tr td.overlap{
 }
 #td4{
 	text-align:right;
+	padding-right:20px;
 }
