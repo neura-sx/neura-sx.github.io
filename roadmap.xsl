@@ -22,7 +22,7 @@
             </thead>
             <tfoot>
               <tr>
-                <td colspan="6">Total: ? items</td>
+                <td colspan="6">Total: xxx items</td>
               </tr>
             </tfoot>
             <tbody>
