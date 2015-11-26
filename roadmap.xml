@@ -271,7 +271,7 @@
       <item done="0">
         <title>Instant Orders (BitStamp style)</title>
         <status>Not started</status>
-        <overlap>Maybe</overlap>
+        <overlap>?</overlap>
         <cost>30.0k</cost>
         <worker></worker>
         <contractor>
