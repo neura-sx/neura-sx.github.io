@@ -27,7 +27,7 @@ caption{
 thead th{
 	background:#eee;
 	text-align:left;
-	font-size:50%;
+	font-size:90%;
 	color:gray;
 }
 tbody th{
@@ -43,7 +43,7 @@ tbody tr td.warn{
 	background:#C11B17;	
 }
 tbody tr td.alert{
-	background:#C11B17;	
+	background:#FFA62F;	
 }
 
 tbody tr.done th{
