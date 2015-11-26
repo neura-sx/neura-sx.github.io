@@ -175,6 +175,24 @@
         </links>
       </item>
       
+      <item done="0">
+        <title>Support for native deployment on mobile devices</title>
+        <status>Investigating React-native</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <worker>n/a</worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links>
+          <link>
+            <label>forum</label>
+            <url>https://bitsharestalk.org/index.php/topic,20272.0.html</url>
+          </link>
+        </links>
+      </item>
+      
     </items>
   </area>
   
