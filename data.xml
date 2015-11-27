@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<areas>
+  <area>
+    <name>Outstanding tasks after launch</name>
+    <items>
+      <item progress="1.0">
+        <title>Referral URLs</title>
+        <status>Completed</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <time>Nov 2015</time>
+        <worker>n/a</worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
+      </item>
+      
+      <item progress="0.0">
+        <title>Migration tool for holders of a large number of private keys</title>
+        <status>Ongoing</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <time>Dec 2015</time>
+        <worker>n/a</worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
+      </item>
+      
+      <item progress="0.0">
+        <title>Complete API for trading bots &amp; other apps</title>
+        <status>Ongoing</status>
+        <overlap>N</overlap>
+        <cost>n/a</cost>
+        <time>Dec 2015</time>
+        <worker>n/a</worker>
+        <contractor>
+          <name>CNX</name>
+          <url>https://cryptonomex.com/</url>
+        </contractor>
+        <links/>
+      </item>
+    </items>
+  </area>
+</areas>
