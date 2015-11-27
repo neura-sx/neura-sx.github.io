@@ -1,8 +1,6 @@
-<?xml version="1.0"?>
-<book xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>The Wit and Wisdom of George W. Bush</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="roadmap.xsl"?>
+
+<xxx xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="data.xml"/>
-<!--   <xi:include href="http://www.whitehouse.gov/malapropisms.xml"/> -->
-<!--   <xi:include href="http://www.whitehouse.gov/mispronunciations.xml"/> -->
-<!--   <xi:include href="http://www.whitehouse.gov/madeupwords.xml"/> -->
-</book>
+</xxx>
