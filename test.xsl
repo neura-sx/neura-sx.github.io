@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="roadmap.css"/>
       </head>
       <body>
-        <div><h1>BitShares 2.0 Roadmap</h1></div>
+        <div><h1>BitShares 2.0 Roadmap Test</h1></div>
         <xsl:for-each select="roadmap/areas/area">
           <table>
             <caption><xsl:value-of select="name"/></caption>
