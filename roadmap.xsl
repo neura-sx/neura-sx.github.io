@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/">
     <html>
-      <head>
-        <link rel="stylesheet" href="roadmap.css"/>
-      </head>
       <body>
-        <div><h1>BitShares 2.0 Roadmap</h1></div>
-        <xsl:for-each select="areas/area">
+        <div id="title">BitShares 2.0 Roadmap</div>
+        <div id="timestamp">Last update <xsl:value-of select="root/timestamp/day"/>-<xsl:value-of select="root/timestamp/month"/>-<xsl:value-of select="root/timestamp/year"/></div>
+        <xsl:for-each select="root/areas/area">
           <table>
             <caption><xsl:value-of select="name"/></caption>
             <thead>

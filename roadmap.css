@@ -1,12 +1,18 @@
 body{
 	background-color:#2C3539;
 }
-div h1{
+#title{
 	font-family:Helvetica, Arial, sans-serif;
 	text-align:center;
 	font-size:44px;
 	color:#686D6E;
-	margin:20px;
+	margin-top:20px;
+}
+#timestamp{
+  	font-family:Helvetica, Arial, sans-serif;
+	text-align:center;
+	font-size:14px;
+	color:#686D6E;
 }
 table{
 	border:1px solid #000;
