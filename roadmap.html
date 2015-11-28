@@ -12,23 +12,23 @@
 				xhttp.send("");
 				return xhttp.responseXML;
 			}
-			function displayResult(inputXML,inputXSL) {
-				var div = document.createElement('div');
-				document.getElementsByTagName('body')[0].appendChild(div);
+			function transformXMLDoc(target,inputXML,inputXSL) {
 				xml = loadXMLDoc(inputXML);
 				xsl = loadXMLDoc(inputXSL);
 				if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
 			  		ex = xml.transformNode(xsl);
-			  		div.innerHTML = ex;
+			  		document.getElementById(target).innerHTML = ex;
 			  	} else if (document.implementation && document.implementation.createDocument) {
 					xsltProcessor = new XSLTProcessor();
 					xsltProcessor.importStylesheet(xsl);
 					resultDocument = xsltProcessor.transformToFragment(xml, document);
-					div.appendChild(resultDocument);
+					document.getElementById(target).appendChild(resultDocument);
 				}
 			}
 		</script>
 		<link rel="stylesheet" href="roadmap.css"/>
 	</head>
-	<body onload="displayResult('roadmap.xml','roadmap.xsl')"/>
+	<body onload="transformXMLDoc('target','roadmap.xml','roadmap.xsl')">
+		<div id="target"/>
+	</body>
 </html>

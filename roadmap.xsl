@@ -10,38 +10,45 @@
             <caption><xsl:value-of select="name"/></caption>
             <thead>
               <tr>
-                <th id="th1" scope="col">Title</th>  
-                <th id="th2" scope="col">Status</th>
-                <th id="th3" scope="col">Overlap</th>
-                <th id="th4" scope="col">Estimated Cost</th>
-                <th id="th5" scope="col">Estimated Time</th>
-                <th id="th6" scope="col">Worker Proposal</th>
-                <th id="th7" scope="col">Contractor</th>
-                <th id="th8" scope="col">Links</th>
+                <th id="th1">Name</th>  
+                <th id="th2">Status</th>
+                <th id="th3">Overlap</th>
+                <th id="th4">Estimated Cost</th>
+                <th id="th5">Estimated Time</th>
+                <th id="th6">Worker Proposal</th>
+                <th id="th7">Contractor</th>
+                <th id="th8">Escrow</th>
+                <th id="th9">Links</th>
               </tr>
             </thead>
             <tbody>
               <xsl:for-each select="items/item">
                 <tr>
                   <xsl:attribute name="class">
-                    <xsl:choose>
-                      <xsl:when test="@progress &gt; 0">done</xsl:when>
-                      <xsl:otherwise></xsl:otherwise>
+                  	<xsl:choose>
+                      <xsl:when test="@progress=1.0">done</xsl:when>
+                      <xsl:when test="@funded='Y'">funded</xsl:when>
                     </xsl:choose>
                   </xsl:attribute>
-                  <th id="td1" scope="row"><xsl:value-of select="title"/></th>
+                  <td id="td1"><xsl:value-of select="name"/></td>
                   <td id="td2"><xsl:value-of select="status"/></td>
                   <td id="td3">
                     <xsl:attribute name="class">
                       <xsl:choose>
-                        <xsl:when test="(@progress &lt;= 0) and (overlap = 'Y')">alert</xsl:when>
-                        <xsl:when test="(@progress &lt;= 0) and (overlap = '?')">warning</xsl:when>
-                        <xsl:otherwise></xsl:otherwise>
+                        <xsl:when test="@progress=0 and @overlap='Y'">highlightTop</xsl:when>
+                        <xsl:when test="@progress=0 and @overlap!='N'">highlightMed</xsl:when>
                       </xsl:choose>
                     </xsl:attribute>
-                    <xsl:value-of select="overlap"/>
+                    <xsl:value-of select="@overlap"/>
                   </td>
-                  <td id="td4"><xsl:value-of select="cost"/></td>
+                  <td id="td4">
+                  	<xsl:if test="contractor/cost!=''">
+                  	  <xsl:value-of select="format-number(contractor/cost,'###,###')"/>
+                  	</xsl:if>
+                  	<xsl:if test="escrow/cost!=''">
+                  	   + <xsl:value-of select="format-number(escrow/cost,'###,###')"/>
+                  	</xsl:if>
+                  </td>
                   <td id="td5"><xsl:value-of select="time"/></td>
                   <td id="td6"><xsl:value-of select="worker"/></td>
                   <td id="td7">
@@ -53,16 +60,22 @@
                     </a>
                   </td>
                   <td id="td8">
+                    <a>
+                      <xsl:attribute name="href">
+                        <xsl:value-of select="escrow/url"/>
+                      </xsl:attribute>
+                      <xsl:value-of select="escrow/name"/>
+                    </a>
+                  </td>
+                  <td id="td9">
                     <div class="links">
                       <xsl:for-each select="links/link">
-                        <span class="link">
-                          <a>
+                          <a class="link">
                             <xsl:attribute name="href">
                               <xsl:value-of select="url"/>
                             </xsl:attribute>
                             <xsl:value-of select="label"/>
                           </a>
-                        </span>
                       </xsl:for-each>
                     </div>
                   </td>
