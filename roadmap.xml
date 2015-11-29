@@ -590,11 +590,11 @@
 					<links>
 						<link>
 							<label>forum</label>
-							<url>https://bitsharestalk.org/index.php/topic,19735.0.html</url>
+							<url>https://bitsharestalk.org/index.php/topic,19102.0.html</url>
 						</link>
 						<link>
-							<label>forum</label>
-							<url>https://bitsharestalk.org/index.php/topic,19102.0.html</url>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/436</url>
 						</link>
 					</links>
 				</item>
