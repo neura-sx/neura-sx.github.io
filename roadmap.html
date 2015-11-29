@@ -16,13 +16,11 @@
 				xml = loadXMLDoc(inputXML);
 				xsl = loadXMLDoc(inputXSL);
 				if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
-			  		ex = xml.transformNode(xsl);
-			  		document.getElementById(target).innerHTML = ex;
+			  		document.getElementById(target).innerHTML = xml.transformNode(xsl);
 			  	} else if (document.implementation && document.implementation.createDocument) {
-					xsltProcessor = new XSLTProcessor();
-					xsltProcessor.importStylesheet(xsl);
-					resultDocument = xsltProcessor.transformToFragment(xml, document);
-					document.getElementById(target).appendChild(resultDocument);
+					processor = new XSLTProcessor();
+					processor.importStylesheet(xsl);
+					document.getElementById(target).appendChild(processor.transformToFragment(xml, document));
 				}
 			}
 		</script>
