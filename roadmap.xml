@@ -9,6 +9,22 @@
 		<area id="A">
 			<name>Outstanding tasks after launch</name>
 			<items>
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Official documentation for BitShares 2.0</name>
+					<description/>
+					<status>Ongoing</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links/>
+				</item>
+				
 				<item progress="1.0" funded="Y" overlap="N">
 					<name>Referral URLs</name>
 					<description/>
