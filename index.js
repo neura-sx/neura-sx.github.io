@@ -37,9 +37,9 @@ function activatePage(menusId,menuId,pagesId,pageId) {
 	}
 }
 function loadPages() {
-	transformXMLDoc('page1','roadmap.xml','roadmap.xsl');
-	transformXMLDoc('page2','features.xml','features.xsl');
-	transformXMLDoc('page3','reasons.xml','reasons.xsl');
+	transformXMLDoc('page1','pages/roadmap.xml','pages/roadmap.xsl');
+	transformXMLDoc('page2','pages/features.xml','pages/features.xsl');
+	transformXMLDoc('page3','pages/reasons.xml','pages/reasons.xsl');
 	onHashChange();
 }
 function onHashChange() {
