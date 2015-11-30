@@ -5,62 +5,62 @@ body{
 	background-color:#fefefe;
 	font-family:Helvetica,Arial,sans-serif;
 }
-h1 {
-	margin: 0;
-	font-size: 1.5em;
-	font-weight: 500;
+h1{
+	margin:0;
+	font-size:1.5em;
+	font-weight:500;
 }
 
 /* --------------------------
 layout 
 -------------------------- */
-.container {
-	max-width: 1000px;
-	margin: 0 auto;
+.container{
+	max-width:1000px;
+	margin:0 auto;
 }
-.header {
-	background-color: #ccc;
-	padding: 1em 5%;
+.header{
+	background-color:#ccc;
+	padding:1em 5%;
 }
-.page {
-	float: left;
+.page{
+	float:left;
 }
-.footer {
-	clear: both;
-	background-color: #ccc;
-	padding: 20px 5%;
+.footer{
+	clear:both;
+	background-color:#ccc;
+	padding:20px 5%;
 }
 
 /* --------------------------
 menu 
 -------------------------- */
-.menu {
-	color: #fff;
-	background-color: #000;
-	padding: 0px 5% 0px 5%;
+.menu{
+	color:#fff;
+	background-color:#000;
+	padding:0px 5% 0px 5%;
 }
-.menu a {
-	display: inline;
-	padding: 0px 20px;
-	text-decoration: none;
+.menu a{
+	display:inline;
+	padding:0px 20px;
+	text-decoration:none;
 }
-.menu a:link { 
-	color: white;
+.menu a:link{ 
+	color:white;
 }
-.menu a:visited { 
-	color: white;
+.menu a:visited{ 
+	color:white;
 }
-.menu a:hover {
-	color: black;
-	background-color: #777;
+.menu a:hover{
+	color:black;
+	background-color:#777;
 }
-.menu a:active {
-	color: white;
-	background-color: #666;
+.menu a:active{
+	color:white;
+	background-color:#666;
 }
-.menu .selected {
-	color: black;
-	background-color: #999;
+.menu .selected{
+	color:black;
+	background-color:#999;
 }
 
 /* --------------------------
