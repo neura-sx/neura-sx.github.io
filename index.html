@@ -6,25 +6,37 @@
 		<script src="index.js"></script>
 		<script>
 			function loadPages() {
-				transformXMLDoc('page1','xml/roadmap.xml','xsl/roadmap.xsl');
-				transformXMLDoc('page2','xml/features.xml','xsl/features.xsl');
-				transformXMLDoc('page3','xml/reasons.xml','xsl/reasons.xsl');
+				transformXMLDoc('page1','xml/news.xml','xsl/news.xsl');
+				transformXMLDoc('page2','xml/roadmap.xml','xsl/roadmap.xsl');
+				transformXMLDoc('page3','xml/payments.xml','xsl/payments.xsl');
+				transformXMLDoc('page4','xml/exchange.xml','xsl/exchange.xsl');
+				transformXMLDoc('page5','xml/contracts.xml','xsl/contracts.xsl');
+				transformXMLDoc('page6','xml/reasons.xml','xsl/reasons.xsl');
 				onHashChange();
 			}
 			function onHashChange() {
 				if (location.hash != '') {
-					if (location.hash == '#roadmap')
+					if (location.hash == '#news')
 						activatePage('menus','menu1','pages','page1');
-					else if (location.hash == '#features')
+					else if (location.hash == '#roadmap')
 						activatePage('menus','menu2','pages','page2');
-					else if (location.hash == '#reasons')
+					else if (location.hash == '#payments')
 						activatePage('menus','menu3','pages','page3');
+					else if (location.hash == '#exchange')
+						activatePage('menus','menu4','pages','page4');
+					else if (location.hash == '#contracts')
+						activatePage('menus','menu5','pages','page5');
+					else if (location.hash == '#reasons')
+						activatePage('menus','menu6','pages','page6');
 				}
 			}
 		</script>
 		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="css/news.css"/>
 		<link rel="stylesheet" href="css/roadmap.css"/>
-		<link rel="stylesheet" href="css/features.css"/>
+		<link rel="stylesheet" href="css/payments.css"/>
+		<link rel="stylesheet" href="css/exchange.css"/>
+		<link rel="stylesheet" href="css/contracts.css"/>
 		<link rel="stylesheet" href="css/reasons.css"/>
 	</head>
 	<body onload="loadPages()" onhashchange="onHashChange()" style="overflow-y:scroll;">
@@ -33,14 +45,20 @@
 				<h1>BitShares 2.0</h1>
 			</div>
 			<div id="menus" class="menu">
-				<a id="menu1" href="#roadmap">Roadmap</a>
-				<a id="menu2" href="#features">Features</a>
-				<a id="menu3" href="#reasons">Reasons</a>
+				<a id="menu1" href="#news">News</a>
+				<a id="menu2" href="#roadmap">Roadmap</a>
+				<a id="menu3" href="#payments">Payments</a>
+				<a id="menu4" href="#exchange">Exchange</a>
+				<a id="menu5" href="#contracts">SmartContracts</a>
+				<a id="menu6" href="#reasons">Reasons</a>
 			</div>
 			<div id="pages">
 				<div id="page1" class="page" style="display:none;"></div>
 				<div id="page2" class="page" style="display:none;"></div>
 				<div id="page3" class="page" style="display:none;"></div>
+				<div id="page4" class="page" style="display:none;"></div>
+				<div id="page5" class="page" style="display:none;"></div>
+				<div id="page6" class="page" style="display:none;"></div>
 			</div>
 			<div class="footer">
 			</div>

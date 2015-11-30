@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
+<root>
+	<areas>
+		<area id="A">
+			<name>General features</name>
+			<items>
+				<item>
+					<feature>Currency free of volatility</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>Y</DebitCard>
+					<PayPal>Y</PayPal>
+					<Bitcoin>N</Bitcoin>
+					<Ripple>Y</Ripple>
+				</item>
+				<item>
+					<feature>No significant third-party risk involved</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>Y</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>Compliance with Central Bank monetary policy</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>Y</DebitCard>
+					<PayPal>Y</PayPal>
+					<Bitcoin>N</Bitcoin>
+					<Ripple>Y</Ripple>
+				</item>
+				<item>
+					<feature>Compliance with AML &amp; KYC policy</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>Y</DebitCard>
+					<PayPal>Y</PayPal>
+					<Bitcoin>?</Bitcoin>
+					<Ripple>Y</Ripple>
+				</item>
+				<item>
+					<feature>Customer having a lot of choice over service provider</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>Y</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>Immediate transaction settlement</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>Y</DebitCard>
+					<PayPal>Y</PayPal>
+					<Bitcoin>N</Bitcoin>
+					<Ripple>Y</Ripple>
+				</item>
+				<item>
+					<feature>Industrial-scale performance</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>Y</DebitCard>
+					<PayPal>Y</PayPal>
+					<Bitcoin>N</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>Quick sign-up process &amp; smooth user experience</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>Y</PayPal>
+					<Bitcoin>?</Bitcoin>
+					<Ripple>Y</Ripple>
+				</item>
+				<item>
+					<feature>Low &amp; flat transaction fees</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>Y</Bitcoin>
+					<Ripple>Y</Ripple>
+				</item>
+				<item>
+					<feature>Integrated currency exchange</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>N</Bitcoin>
+					<Ripple>?</Ripple>
+				</item>
+				<item>
+					<feature>Environmentally friendly</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>Y</DebitCard>
+					<PayPal>Y</PayPal>
+					<Bitcoin>N</Bitcoin>
+					<Ripple>Y</Ripple>
+				</item>
+			</items>
+		</area>
+		<area id="B">
+			<name>Online merchants</name>
+			<items>
+				<item>
+					<feature>Fees for receiving payments reduced almost to zero</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>Y</Bitcoin>
+					<Ripple>Y</Ripple>
+				</item>
+				<item>
+					<feature>Reversed business model: acquiring online payments can be profitable, instead of being a cost</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>N</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>Possibility to issue your own tokens for marketing purposes (customer loyalty, sales promotions etc)</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>Y</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>No dependence on a third-party</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>Y</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>Clear rules that never change (as they are hard-coded in the blockchain)</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>N</Bitcoin>
+					<Ripple>?</Ripple>
+				</item>
+			</items>
+		</area>
+		<area id="C">
+			<name>Online consumers</name>
+			<items>
+				<item>
+					<feature>Financial independence - be the ultimate owner of your money</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>Y</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>Participate in a new economy where everybody is free to exchange whatever assets they want</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>Y</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>Anonymity by default plus optional stealth mode (in stealth mode nobody can trace your payments)</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>Y</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>Direct access to other decentralized financial services (e.g. prediction markets, crowd-funding)</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>?</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>Opportunity for extra profits (via participation in the referral program)</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>N</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>UX on par with the best standards offered by the legacy systems</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>Y</PayPal>
+					<Bitcoin>N</Bitcoin>
+					<Ripple>Y</Ripple>
+				</item>
+			</items>
+		</area>	
+	</areas>
+</root>
