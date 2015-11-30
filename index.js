@@ -36,19 +36,3 @@ function activatePage(menusId,menuId,pagesId,pageId) {
 			node.style.display = (node == pageToActivate) ? 'block' : 'none';
 	}
 }
-function loadPages() {
-	transformXMLDoc('page1','pages/roadmap.xml','pages/roadmap.xsl');
-	transformXMLDoc('page2','pages/features.xml','pages/features.xsl');
-	transformXMLDoc('page3','pages/reasons.xml','pages/reasons.xsl');
-	onHashChange();
-}
-function onHashChange() {
-	if (location.hash != '') {
-		if (location.hash == '#roadmap')
-			activatePage('menus','menu1','pages','page1');
-		else if (location.hash == '#features')
-			activatePage('menus','menu2','pages','page2');
-		else if (location.hash == '#reasons')
-			activatePage('menus','menu3','pages','page3');
-	}
-}

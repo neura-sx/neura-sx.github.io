@@ -4,10 +4,28 @@
 		<meta charset="utf-8">
 		<title>BitShares 2.0</title>
 		<script src="index.js"></script>
+		<script>
+			function loadPages() {
+				transformXMLDoc('page1','xml/roadmap.xml','xsl/roadmap.xsl');
+				transformXMLDoc('page2','xml/features.xml','xsl/features.xsl');
+				transformXMLDoc('page3','xml/reasons.xml','xsl/reasons.xsl');
+				onHashChange();
+			}
+			function onHashChange() {
+				if (location.hash != '') {
+					if (location.hash == '#roadmap')
+						activatePage('menus','menu1','pages','page1');
+					else if (location.hash == '#features')
+						activatePage('menus','menu2','pages','page2');
+					else if (location.hash == '#reasons')
+						activatePage('menus','menu3','pages','page3');
+				}
+			}
+		</script>
 		<link rel="stylesheet" href="index.css">
-		<link rel="stylesheet" href="pages/roadmap.css"/>
-		<link rel="stylesheet" href="pages/features.css"/>
-		<link rel="stylesheet" href="pages/reasons.css"/>
+		<link rel="stylesheet" href="css/roadmap.css"/>
+		<link rel="stylesheet" href="css/features.css"/>
+		<link rel="stylesheet" href="css/reasons.css"/>
 	</head>
 	<body onload="loadPages()" onhashchange="onHashChange()" style="overflow-y:scroll;">
 		<div class="container">
