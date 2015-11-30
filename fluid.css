@@ -1,7 +1,6 @@
 /* --------------------------
 base styles 
 -------------------------- */
-
 body{
 	background-color:#fefefe;
 	font-family:Helvetica,Arial,sans-serif;
@@ -12,11 +11,9 @@ h1 {
 	font-weight: 500;
 }
 
-
 /* --------------------------
 layout 
 -------------------------- */
-
 .container {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -25,14 +22,7 @@ layout
 	background-color: #ccc;
 	padding: 1em 5%;
 }
-.nav {
-	color: #fff;
-	background-color: #000;
-}
-.content {
-	
-}
-.main {
+.page {
 	float: left;
 }
 .footer {
@@ -42,32 +32,99 @@ layout
 }
 
 /* --------------------------
-nav 
+menu 
 -------------------------- */
-
-.nav {
+.menu {
+	color: #fff;
+	background-color: #000;
 	padding: 0px 5% 0px 5%;
 }
-.nav a {
+.menu a {
 	display: inline;
 	padding: 0px 20px;
 	text-decoration: none;
 }
-.nav a:link { 
+.menu a:link { 
 	color: white;
 }
-.nav a:visited { 
+.menu a:visited { 
 	color: white;
 }
-.nav a:hover {
+.menu a:hover {
 	color: black;
 	background-color: #777;
 }
-.nav a:active {
+.menu a:active {
 	color: white;
 	background-color: #666;
 }
-.nav .selected {
+.menu .selected {
 	color: black;
 	background-color: #999;
+}
+
+/* --------------------------
+table 
+-------------------------- */
+.timestamp{
+	text-align:right;
+	font-size:12px;
+	color:#333;
+	margin:10px 0;
+}
+table{
+	border:1px solid #2C3539;
+	border-collapse:collapse;
+	font-size:80%;
+	margin-bottom:20px;
+}
+td,th{
+	border:1px solid #2C3539;
+	border-collapse:collapse;
+	padding:3px;
+}	
+thead th{
+	background:#eee;
+	text-align:left;
+	color:#666;
+	font-style:italic;
+}
+tbody td{
+	background:#626666;
+	color:white;
+}
+
+tbody td.caption{
+	background:#fff;
+	color:#333;
+	font-size:120%;
+}
+tbody td a{
+	color:#ddd;
+	text-decoration:none;
+}
+tbody td a.link{
+	padding-right:10px;
+}
+
+tbody tr td.highlightMed{
+	color:yellow;
+}
+tbody tr td.highlightTop{
+	color:#FFA62F;
+}
+
+tbody tr.funded td{
+	background:#566D7E;
+}
+tbody tr.funded td a{
+
+}
+
+tbody tr.done td{
+	background:#92A9BA;
+	color:#444;
+}
+tbody tr.done td a{
+	color:#444;
 }
