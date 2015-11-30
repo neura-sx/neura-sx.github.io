@@ -73,12 +73,12 @@ tbody td a{
 	padding-right:10px;
 }
 
-#roadmap #th1{width:200px;}
-#roadmap #th2{width:130px;}
-#roadmap #th3{width:50px;text-align:center;}
-#roadmap #th4{text-align:center;}
-#roadmap #th4,#th5,#th6,#th7,#th8{width:100px;}
-#roadmap #th9{width:120px;}
+#roadmap-table #th1{width:200px;}
+#roadmap-table #th2{width:130px;}
+#roadmap-table #th3{width:50px;text-align:center;}
+#roadmap-table #th4{text-align:center;}
+#roadmap-table #th4,#th5,#th6,#th7,#th8{width:100px;}
+#roadmap-table #th9{width:120px;}
 
-#roadmap #td3{text-align:center;}
-#roadmap #td4{text-align:right;padding-right:20px;}
+#roadmap-table #td3{text-align:center;}
+#roadmap-table #td4{text-align:right;padding-right:20px;}

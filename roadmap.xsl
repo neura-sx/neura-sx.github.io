@@ -5,7 +5,7 @@
       <body>
         <xsl:variable name="timestamp" select="root/timestamp"/>
         <div class="timestamp">Last update <xsl:value-of select="concat(substring($timestamp,9,2),'-',substring($timestamp,6,2),'-',substring($timestamp,1,4))"/></div>
-          <table id="roadmap">
+          <table id="roadmap-table">
             <thead>
               <tr>
                 <th id="th1">Name</th>  
