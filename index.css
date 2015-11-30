@@ -79,12 +79,13 @@ table{
 	font-size:80%;
 	margin-bottom:20px;
 }
+/*
 table caption{
-	
 	font-size:140%;
 	padding:5px;
 	text-align:left;
 }
+*/
 td,th{
 	border:1px solid #888;
 	border-collapse:collapse;

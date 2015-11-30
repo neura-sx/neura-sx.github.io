@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
 <root>
-	<timestamp>2015-12-31T00:00</timestamp>
+	<items>
+		<item>
+			<feature>Feature XXX</feature>
+			<BitShares>Y</BitShares>
+			<Metatrader>N</Metatrader>
+			<Bitstamp>Y</Bitstamp>
+			<Poloniex>N</Poloniex>
+		</item>
+		<item>
+			<feature>Feature YYY</feature>
+			<BitShares>Y</BitShares>
+			<Metatrader>Y</Metatrader>
+			<Bitstamp>N</Bitstamp>
+			<Poloniex>N</Poloniex>
+		</item>
+		<item>
+			<feature>Feature ZZZ</feature>
+			<BitShares>Y</BitShares>
+			<Metatrader>N</Metatrader>
+			<Bitstamp>Y</Bitstamp>
+			<Poloniex>Y</Poloniex>
+		</item>
+	</items>
 </root>

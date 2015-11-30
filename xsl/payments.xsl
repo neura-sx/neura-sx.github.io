@@ -3,7 +3,6 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/">
 		<table id="payments-table">
-			<caption><xsl:value-of select="name"/></caption>
 			<thead>
 				<tr>
 					<th id="th1">Feature</th>
