@@ -86,7 +86,7 @@ table caption{
 	text-align:left;
 }
 td,th{
-	border:1px solid #2C3539;
+	border:1px solid #888;
 	border-collapse:collapse;
 	padding:3px;
 }	
@@ -114,13 +114,6 @@ tbody td a.link{
 	padding-right:10px;
 }
 
-tbody tr td.highlightMed{
-	color:yellow;
-}
-tbody tr td.highlightTop{
-	color:#FFA62F;
-}
-
 tbody tr.funded td{
 	background:#566D7E;
 }
@@ -134,4 +127,22 @@ tbody tr.done td{
 }
 tbody tr.done td a{
 	color:#444;
+}
+
+tbody tr td.highlightTop{
+	color:#FFA62F;
+}
+tbody tr td.highlightMed{
+	color:yellow;
+}
+
+tbody tr td.highlightPos{
+	background:#566D7E;
+}
+tbody tr td.highlightNeg{
+	background:#92A9BA;
+	color:#444;
+}
+tbody tr td.highlightZero{
+
 }
