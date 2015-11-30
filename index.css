@@ -42,6 +42,7 @@ menu
 .menu a{
 	display:inline;
 	padding:0px 20px;
+	background-color:#444;
 	text-decoration:none;
 }
 .menu a:link{ 
@@ -77,6 +78,12 @@ table{
 	border-collapse:collapse;
 	font-size:80%;
 	margin-bottom:20px;
+}
+table caption{
+	
+	font-size:140%;
+	padding:5px;
+	text-align:left;
 }
 td,th{
 	border:1px solid #2C3539;
