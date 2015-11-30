@@ -1,0 +1,73 @@
+/* --------------------------
+base styles 
+-------------------------- */
+
+body{
+	background-color:#fefefe;
+	font-family:Helvetica,Arial,sans-serif;
+}
+h1 {
+	margin: 0;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+
+/* --------------------------
+layout 
+-------------------------- */
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.header {
+	background-color: #ccc;
+	padding: 1em 5%;
+}
+.nav {
+	color: #fff;
+	background-color: #000;
+}
+.content {
+	
+}
+.main {
+	float: left;
+}
+.footer {
+	clear: both;
+	background-color: #ccc;
+	padding: 20px 5%;
+}
+
+/* --------------------------
+nav 
+-------------------------- */
+
+.nav {
+	padding: 0px 5% 0px 5%;
+}
+.nav a {
+	display: inline;
+	padding: 0px 20px;
+	text-decoration: none;
+}
+.nav a:link { 
+	color: white;
+}
+.nav a:visited { 
+	color: white;
+}
+.nav a:hover {
+	color: black;
+	background-color: #777;
+}
+.nav a:active {
+	color: white;
+	background-color: #666;
+}
+.nav .selected {
+	color: black;
+	background-color: #999;
+}

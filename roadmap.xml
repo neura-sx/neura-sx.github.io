@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="roadmap.xsl"?> -->
 <root>
-	<timestamp>
-		<year>2015</year>
-		<month>11</month>
-		<day>29</day>
-	</timestamp>
+	<timestamp>2015-11-30T00:00</timestamp>
 	<areas>
 		<area id="A">
 			<name>Outstanding tasks after launch</name>
