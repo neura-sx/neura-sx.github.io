@@ -8,26 +8,53 @@
 			function loadPages() {
 				transformXMLDoc('page1','xml/news.xml','xsl/news.xsl');
 				transformXMLDoc('page2','xml/roadmap.xml','xsl/roadmap.xsl');
-				transformXMLDoc('page3','xml/payments.xml','xsl/payments.xsl');
-				transformXMLDoc('page4','xml/exchange.xml','xsl/exchange.xsl');
-				transformXMLDoc('page5','xml/contracts.xml','xsl/contracts.xsl');
-				transformXMLDoc('page6','xml/reasons.xml','xsl/reasons.xsl');
+				transformXMLDoc('page3_1','xml/payments.xml','xsl/payments.xsl');
+				transformXMLDoc('page3_2','xml/exchange.xml','xsl/exchange.xsl');
+				transformXMLDoc('page3_3','xml/contracts.xml','xsl/contracts.xsl');
+				transformXMLDoc('page4_1','xml/witnesses.xml','xsl/witnesses.xsl');
+				transformXMLDoc('page4_2','xml/committee.xml','xsl/workers.xsl');
+				transformXMLDoc('page4_3','xml/workers.xml','xsl/witnesses.xsl');
+				transformXMLDoc('page4_4','xml/proxies.xml','xsl/proxies.xsl');
+				transformXMLDoc('page5','xml/reasons.xml','xsl/reasons.xsl');
+				transformXMLDoc('page6','xml/links.xml','xsl/links.xsl');
 				onHashChange();
 			}
 			function onHashChange() {
 				if (location.hash != '') {
-					if (location.hash == '#news')
+					if (location.hash == '#news') {
 						activatePage('menus','menu1','pages','page1');
-					else if (location.hash == '#roadmap')
+					} else if (location.hash == '#roadmap') {
 						activatePage('menus','menu2','pages','page2');
-					else if (location.hash == '#payments')
+					} else if (location.hash == '#features') {
 						activatePage('menus','menu3','pages','page3');
-					else if (location.hash == '#exchange')
+					} else if (location.hash == '#features/payments') {
+						activatePage('menus','menu3','pages','page3');
+						activatePage('page3_menus','page3_menu1','page3_pages','page3_1');
+					} else if (location.hash == '#features/exchange') {
+						activatePage('menus','menu3','pages','page3');
+						activatePage('page3_menus','page3_menu2','page3_pages','page3_2');
+					} else if (location.hash == '#features/contracts') {
+						activatePage('menus','menu3','pages','page3');
+						activatePage('page3_menus','page3_menu3','page3_pages','page3_3');
+					} else if (location.hash == '#dpos') {
 						activatePage('menus','menu4','pages','page4');
-					else if (location.hash == '#contracts')
+					} else if (location.hash == '#dpos/witnesses') {
+						activatePage('menus','menu4','pages','page4');
+						activatePage('page4_menus','page4_menu1','page4_pages','page4_1');
+					} else if (location.hash == '#dpos/committee') {
+						activatePage('menus','menu4','pages','page4');
+						activatePage('page4_menus','page4_menu2','page4_pages','page4_2');
+					} else if (location.hash == '#dpos/workers') {
+						activatePage('menus','menu4','pages','page4');
+						activatePage('page4_menus','page4_menu3','page4_pages','page4_3');
+					} else if (location.hash == '#dpos/proxies') {
+						activatePage('menus','menu4','pages','page4');
+						activatePage('page4_menus','page4_menu4','page4_pages','page4_4');
+					} else if (location.hash == '#reasons') {
 						activatePage('menus','menu5','pages','page5');
-					else if (location.hash == '#reasons')
+					} else if (location.hash == '#links') {
 						activatePage('menus','menu6','pages','page6');
+					}
 				}
 			}
 		</script>
@@ -37,7 +64,12 @@
 		<link rel="stylesheet" href="css/payments.css"/>
 		<link rel="stylesheet" href="css/exchange.css"/>
 		<link rel="stylesheet" href="css/contracts.css"/>
+		<link rel="stylesheet" href="css/witnesses.css"/>
+		<link rel="stylesheet" href="css/committee.css"/>
+		<link rel="stylesheet" href="css/workers.css"/>
+		<link rel="stylesheet" href="css/proxies.css"/>
 		<link rel="stylesheet" href="css/reasons.css"/>
+		<link rel="stylesheet" href="css/links.css"/>
 	</head>
 	<body onload="loadPages()" onhashchange="onHashChange()" style="overflow-y:scroll;">
 		<div class="container">
@@ -47,16 +79,40 @@
 			<div id="menus" class="menu">
 				<a id="menu1" href="#news">News</a>
 				<a id="menu2" href="#roadmap">Roadmap</a>
-				<a id="menu3" href="#payments">Payments</a>
-				<a id="menu4" href="#exchange">Exchange</a>
-				<a id="menu5" href="#contracts">SmartContracts</a>
-				<a id="menu6" href="#reasons">Reasons</a>
+				<a id="menu3" href="#features">Features</a>
+				<a id="menu4" href="#dpos">Governance</a>
+				<a id="menu5" href="#reasons">Reasons</a>
+				<a id="menu6" href="#links">Links</a>
 			</div>
 			<div id="pages">
 				<div id="page1" class="page" style="display:none;"></div>
 				<div id="page2" class="page" style="display:none;"></div>
-				<div id="page3" class="page" style="display:none;"></div>
-				<div id="page4" class="page" style="display:none;"></div>
+				<div id="page3" class="page" style="display:none;">
+					<div id="page3_menus" class="menu submenu">
+						<a id="page3_menu1" href="#features/payments">Payments</a>
+						<a id="page3_menu2" href="#features/exchange">Exchange</a>
+						<a id="page3_menu3" href="#features/contracts">SmartContracts</a>
+					</div>
+					<div id="page3_pages">
+						<div id="page3_1" class="page" style="display:none;"></div>
+						<div id="page3_2" class="page" style="display:none;"></div>
+						<div id="page3_3" class="page" style="display:none;"></div>
+					</div>
+				</div>
+				<div id="page4" class="page" style="display:none;">
+					<div id="page4_menus" class="menu submenu">
+						<a id="page4_menu1" href="#dpos/witnesses">Witnesses</a>
+						<a id="page4_menu2" href="#dpos/committee">Committee</a>
+						<a id="page4_menu3" href="#dpos/workers">Workers</a>
+						<a id="page4_menu4" href="#dpos/proxies">Proxies</a>
+					</div>
+					<div id="page4_pages">
+						<div id="page4_1" class="page" style="display:none;"></div>
+						<div id="page4_2" class="page" style="display:none;"></div>
+						<div id="page4_3" class="page" style="display:none;"></div>
+						<div id="page4_4" class="page" style="display:none;"></div>
+					</div>
+				</div>
 				<div id="page5" class="page" style="display:none;"></div>
 				<div id="page6" class="page" style="display:none;"></div>
 			</div>

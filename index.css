@@ -10,6 +10,12 @@ h1{
 	font-size:1.5em;
 	font-weight:500;
 }
+.todo{
+	text-align:left;
+	font-size:12px;
+	color:#333;
+	margin:10px 0;
+}
 
 /* --------------------------
 layout 
@@ -40,6 +46,9 @@ menu
 	color:#fff;
 	background-color:#000;
 	padding:0px 5% 0px 5%;
+}
+.submenu {
+	margin-top:1px;
 }
 .menu a{
 	display:inline;
