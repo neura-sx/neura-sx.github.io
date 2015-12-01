@@ -89,7 +89,7 @@ table caption{
 td,th{
 	border:1px solid #888;
 	border-collapse:collapse;
-	padding:3px;
+	padding:5px;
 }	
 thead th{
 	background:#eee;

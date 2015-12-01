@@ -5,7 +5,7 @@
 		<item>
 			<timestamp>2015-11-30T00:00</timestamp>
 			<title>Forced settlement issue</title>
-			<description>The recent release of GUI wallet introduces a 'Force Settlement' button. Some people say that this function allows some users to exploit the current 'loophole' in the bitCNY market and "gain profit at the expense of the bitCNY providers". Others (including BM) say those changes have been discussed in the past and there are tradeoffs that must be made. There is nothing "new", "unexpected" or "flawed" in how the market is behaving.</description>
+			<description>The recent release of GUI wallet introduces a 'Force Settlement' button. Some people say that this function allows users to exploit a "loophole" in the bitCNY market and "gain profit at the expense of the bitCNY providers". Others (including BM) say those changes have been discussed in the past and there are tradeoffs that must be made, so there is nothing "new", "unexpected" or "flawed" in how the market is behaving.</description>
 			<links>
 				<link>
 					<label>forum</label>
@@ -14,6 +14,10 @@
 				<link>
 					<label>forum</label>
 					<url>https://bitsharestalk.org/index.php/topic,20356.0.html</url>
+				</link>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20287.0.html</url>
 				</link>
 			</links>
 		</item>
@@ -25,6 +29,95 @@
 				<link>
 					<label>forum</label>
 					<url>https://bitsharestalk.org/index.php/topic,20286.0.html</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<timestamp>2015-11-23T00:00</timestamp>
+			<title>New Stealth Transfer Worker</title>
+			<description>BM has been approached by a community member who has offered to cover the $45,000 to implement stealth transfers in the GUI *IF* he can get his money back through stealth transfer fees.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20205.0.html</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<timestamp>2015-11-23T00:00</timestamp>
+			<title>CNX to license Graphene and Graphene-UI under BSD</title>
+			<description>All features from all blockchains based upon Graphene can now be adopted by their brother and sister chains. It means that all public chains benefit from developments on other similarly licensed chains.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20209.0.html</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<timestamp>2015-11-20T00:00</timestamp>
+			<title>CCEDK Launch OBITS on OpenLedger</title>
+			<description>CCEDK is launching Obits: a currency that offers holders a share in current and future revenue streams. OBITS has been created as a token hosted on OpenLedger. With OBITS you can profit from all the transactions carried out on an up-and-coming cryptocurrency exchange. Buying OBITS is the equivalent of buying a stake in our exchange’s business. Not only will you share the profits but you will also have a say in the future development of OpenLedger via our exclusive voting features.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20309.0.html</url>
+				</link>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20136.0.html</url>
+				</link>
+				<link>
+					<label>website</label>
+					<url>http://www.obits.io/</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<timestamp>2015-11-20T00:00</timestamp>
+			<title>BitCash - Digital Money of the Future!</title>
+			<description>BitCash as a product is another name for SmartCoins, a revolutionary money that people can transform into digital equivalents of US Dollars, Euro, Yuan, gold &amp; even Bitcoin. BitCash as a company is a simple bitUSD-only wallet provider for the Bitshares ecosystem that plans to have a beta product at the very beginning of the new year.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20125.0.html</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<timestamp>2015-11-03T00:00</timestamp>
+			<title>Plasma? The holy grail of the crypto DEX?</title>
+			<description>BM hinted at a new project called plasma in a mumble session which would allow interoperability between chains. With plasma, the user can deposit btc backed by actual on-chain btc instead of btc collateralized by bts, eliminating the worry about margin maintenance and liquidity.  This would allow a much more seamless user trading experience, at least among various blockchain assets.  In other words, users would be able to trade pairs such as btc/eth while knowing that the assets are completely accounted for on the native chains.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,19728.0.html</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<timestamp>2015-10-27T00:00</timestamp>
+			<title>IOTA + Bitshares</title>
+			<description>IOTA is a lightweight, blockless micro-transactions token aimed specifically at Internet-of-Things (IoT). It seems that Bitshares is not aiming for micro-transactions and instead focusing on its strengths. One of IOTA's goals is to find overlap and collaborate with the serious blockchain projects as we see no reason to 'compete', instead we rather compliment the blockchain projects.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,19534.0.html</url>
+				</link>
+				<link>
+					<label>website</label>
+					<url>http://iotatoken.com/</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<timestamp>2015-10-23T00:00</timestamp>
+			<title>Nexus and BitShares</title>
+			<description>The team behind Maker is now in the process of branding ourselves as a company with a business model similar to Cryptonomex - they call ourselves Nexus and will focus on dapp development and development as a service.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,19418.0.html</url>
 				</link>
 			</links>
 		</item>
