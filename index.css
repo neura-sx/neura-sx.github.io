@@ -32,6 +32,7 @@ layout
 }
 .page{
 	float:left;
+	width:100%;
 }
 .footer{
 	clear:both;
@@ -44,7 +45,7 @@ menu
 -------------------------- */
 .menu{
 	color:#fff;
-	background-color:#000;
+	background-color:cyan;
 	padding:0px 5% 0px 5%;
 }
 .submenu {
