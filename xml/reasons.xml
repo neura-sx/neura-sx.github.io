@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
 <root>
-	<timestamp>2015-12-31T00:00</timestamp>
+	<items>
+		<item>
+			<who>delulo</who>
+			<quote>The concept we should promote in my opinion is to help people to become more resilient, to help people to reduce their dependency on governments and large corporations, to allow people to work directly for the blockchain, to allow people to be left alone.</quote>
+			<source>
+				<label>forum</label>
+				<url>https://bitsharestalk.org/index.php/topic,20123.msg259060.html#msg259060</url>
+			</source>
+		</item>
+		<item>
+			<who>bytemaster</who>
+			<quote>My mission in life has been to find free market solutions to secure life, liberty, and property. Systems that are so powerful and effective that they can render governments irrelevant. This is something that I am very passionate about and the quote why I believe most of your are here and loyal to BitShares. If we lose sight of this particular vision we lose our core belief, our mission, our "why". And without a reason why we are adrift chasing profits and losing hope when they don't come quickly enough.</quote>
+			<source>
+				<label>forum</label>
+				<url>https://bitsharestalk.org/index.php/topic,20123.msg258666.html#msg258666</url>
+			</source>
+		</item>
+		<item>
+			<who>Samupaha</who>
+			<quote>Bitshares – because revolution has to be profitable!</quote>
+			<source>
+				<label>forum</label>
+				<url>https://bitsharestalk.org/index.php/topic,18006.msg230555.html#msg230555</url>
+			</source>
+		</item>
+		<item>
+			<who>donkeypong</who>
+			<quote>If this thing succeeds, the world will be at your fingertips. It's not just the money; it's the legitimacy and a stepping stone to greater opportunities and open doors, whether these be in the realms of finance, social change, business, politics, or whatever calling each of us has to help solve problems and make a better world.</quote>
+			<source>
+				<label>forum</label>
+				<url>https://bitsharestalk.org/index.php/topic,20123.msg258674.html#msg258674</url>
+			</source>
+		</item>
+		<item>
+			<who></who>
+			<quote>I'm here because BitShares can absolutely transform the way society functions, because we can render existing structures of control obsolete, because we have a chance to rewrite the rules of the game.</quote>
+			<source>
+				<label>forum</label>
+				<url>https://bitsharestalk.org/index.php/topic,20123.msg258698.html#msg258698</url>
+			</source>
+		</item>
+		<item>
+			<who>Xeldal</who>
+			<quote>I'm still here because of the original vision though i do feel i have lost sight of it.  Bitshares can provide the tools that will create the new systems of immutable freedom of voluntary cooperation that will be crucial in bringing about a new system of control that is localized squarely with the individual.  I am whole heatedly on board for the ideas of civil disobedience and I see the state or government as the largest obstacle to a free and prosperous, peaceful society.</quote>
+			<source>
+				<label>forum</label>
+				<url>https://bitsharestalk.org/index.php/topic,20123.msg258703.html#msg258703</url>
+			</source>
+		</item>
+		<item>
+			<who>rgcrypto</who>
+			<quote>The reason why is because this project was built upon a mission: To Secure Life, Liberty and Property. Knowing that people rallied around that idea, built a community and an amazing technology is something that keeps me around.</quote>
+			<source>
+				<label>forum</label>
+				<url>https://bitsharestalk.org/index.php/topic,20123.msg258725.html#msg258725</url>
+			</source>
+		</item>
+	</items>
 </root>

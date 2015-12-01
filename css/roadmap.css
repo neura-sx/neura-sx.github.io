@@ -1,8 +1,11 @@
 #roadmap-table #th1{width:200px;}
 #roadmap-table #th2{width:130px;}
 #roadmap-table #th3{width:50px;text-align:center;}
-#roadmap-table #th4{text-align:center;}
-#roadmap-table #th4,#th5,#th6,#th7,#th8{width:100px;}
+#roadmap-table #th4{width:100px;text-align:center;}
+#roadmap-table #th5{width:100px;}
+#roadmap-table #th6{width:100px;}
+#roadmap-table #th7{width:100px;}
+#roadmap-table #th8{width:100px;}
 #roadmap-table #th9{width:120px;}
 
 #roadmap-table #td3{text-align:center;}

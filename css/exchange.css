@@ -1,4 +1,10 @@
 #exchange-table {margin-top:40px;}
 #exchange-table #th1{width:600px;}
-#exchange-table #th2,#th3,#th4,#th5{width:180px;text-align:center;}
-#exchange-table #td2,#td3,#td4,#td5{text-align:center;}
+#exchange-table #th2{width:180px;text-align:center;}
+#exchange-table #th3{width:180px;text-align:center;}
+#exchange-table #th4{width:180px;text-align:center;}
+#exchange-table #th5{width:180px;text-align:center;}
+#exchange-table #td2{text-align:center;}
+#exchange-table #td3{text-align:center;}
+#exchange-table #td4{text-align:center;}
+#exchange-table #td5{text-align:center;}

@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
 <root>
-	<timestamp>2015-12-31T00:00</timestamp>
+	<items>
+		<item>
+			<timestamp>2015-11-30T00:00</timestamp>
+			<title>Forced settlement issue</title>
+			<description>The recent release of GUI wallet introduces a 'Force Settlement' button. Some people say that this function allows some users to exploit the current 'loophole' in the bitCNY market and "gain profit at the expense of the bitCNY providers". Others (including BM) say those changes have been discussed in the past and there are tradeoffs that must be made. There is nothing "new", "unexpected" or "flawed" in how the market is behaving.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20299.0.html</url>
+				</link>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20356.0.html</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<timestamp>2015-11-27T00:00</timestamp>
+			<title>Fee Backed Assets</title>
+			<description>This new kind of digital asset trades like any of the others but has fascinating new properties. There could be a new asset for every new revenue generating feature in the whole ecosystem. Developers recoup their costs by selling (or pre-selling) these revenue generating software devices (or keeping them to earn the revenue they produce).</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20286.0.html</url>
+				</link>
+			</links>
+		</item>
+	</items>
 </root>
