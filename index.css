@@ -19,15 +19,17 @@ layout
 	margin:0 auto;
 }
 .header{
-	background-color:#ccc;
+	color:#888;
+	background-color:#ddd;
 	padding:1em 5%;
+	text-align:center;
 }
 .page{
 	float:left;
 }
 .footer{
 	clear:both;
-	background-color:#ccc;
+	background-color:#ddd;
 	padding:20px 5%;
 }
 
