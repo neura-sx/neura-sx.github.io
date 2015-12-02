@@ -18,7 +18,7 @@
 					<BitShares>Y</BitShares>
 					<DebitCard>N</DebitCard>
 					<PayPal>N</PayPal>
-					<Bitcoin>Y</Bitcoin>
+					<Bitcoin>Only if you are able to manage volatility on your own</Bitcoin>
 					<Ripple>N</Ripple>
 				</item>
 				<item>
@@ -30,11 +30,11 @@
 					<Ripple>Y</Ripple>
 				</item>
 				<item>
-					<feature>Compliance with AML &amp; KYC policy</feature>
+					<feature>Integrated tools for AML &amp; KYC compliance</feature>
 					<BitShares>Y</BitShares>
 					<DebitCard>Y</DebitCard>
 					<PayPal>Y</PayPal>
-					<Bitcoin>?</Bitcoin>
+					<Bitcoin>Depends on third-party gateway policy</Bitcoin>
 					<Ripple>Y</Ripple>
 				</item>
 				<item>
@@ -66,7 +66,7 @@
 					<BitShares>Y</BitShares>
 					<DebitCard>N</DebitCard>
 					<PayPal>Y</PayPal>
-					<Bitcoin>?</Bitcoin>
+					<Bitcoin>UX hindered by long confirmation time &amp; volatility</Bitcoin>
 					<Ripple>Y</Ripple>
 				</item>
 				<item>
@@ -83,7 +83,7 @@
 					<DebitCard>N</DebitCard>
 					<PayPal>N</PayPal>
 					<Bitcoin>N</Bitcoin>
-					<Ripple>?</Ripple>
+					<Ripple>Y</Ripple>
 				</item>
 				<item>
 					<feature>Environmentally friendly</feature>
@@ -123,12 +123,28 @@
 					<Ripple>N</Ripple>
 				</item>
 				<item>
-					<feature>No dependence on a third-party</feature>
+					<feature>Support for recurring and scheduled payments</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>N</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>No dependence on a third-party &amp; no contract needed with a Payment Service Provider</feature>
+					<BitShares>Y</BitShares>
+					<DebitCard>N</DebitCard>
+					<PayPal>N</PayPal>
+					<Bitcoin>You might need a third-party to mitigate volatility</Bitcoin>
+					<Ripple>N</Ripple>
+				</item>
+				<item>
+					<feature>No charge-backs</feature>
 					<BitShares>Y</BitShares>
 					<DebitCard>N</DebitCard>
 					<PayPal>N</PayPal>
 					<Bitcoin>Y</Bitcoin>
-					<Ripple>N</Ripple>
+					<Ripple>Depends of a gateway policy</Ripple>
 				</item>
 				<item>
 					<feature>Clear rules that never change (as they are hard-coded in the blockchain)</feature>
@@ -136,7 +152,7 @@
 					<DebitCard>N</DebitCard>
 					<PayPal>N</PayPal>
 					<Bitcoin>Y</Bitcoin>
-					<Ripple>?</Ripple>
+					<Ripple>Ripple (as a company) has a dominating position</Ripple>
 				</item>
 			</items>
 		</area>
@@ -172,7 +188,7 @@
 					<BitShares>Y</BitShares>
 					<DebitCard>N</DebitCard>
 					<PayPal>N</PayPal>
-					<Bitcoin>?</Bitcoin>
+					<Bitcoin>Poor UX due to slow confirmation times</Bitcoin>
 					<Ripple>N</Ripple>
 				</item>
 				<item>
@@ -188,7 +204,7 @@
 					<BitShares>Y</BitShares>
 					<DebitCard>N</DebitCard>
 					<PayPal>Y</PayPal>
-					<Bitcoin>N</Bitcoin>
+					<Bitcoin>Poor UX due to slow confirmation times</Bitcoin>
 					<Ripple>Y</Ripple>
 				</item>
 			</items>
