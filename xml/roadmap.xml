@@ -110,7 +110,7 @@
 				<item progress="0.0" funded="Y" overlap="N">
 					<name>Improve deposit/withdraw UX</name>
 					<description/>
-					<status>Planned for 15.12.02</status>
+					<status>Planned for 15.12.09</status>
 					<time>Dec 2015</time>
 					<worker/>
 					<terms/>
@@ -211,8 +211,29 @@
 					<links/>
 				</item>
 
-				<item progress="0.0" funded="Y" overlap="N">
+				<item progress="1.0" funded="Y" overlap="N">
 					<name>Advanced Chart Index</name>
+					<description/>
+					<status>Completed in 15.12.02</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene-ui/issues/466</url>
+						</link>
+					</links>
+				</item>
+				
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Buy/Sell BTS</name>
 					<description/>
 					<status>Planned for 15.12.02</status>
 					<time>Dec 2015</time>
@@ -227,7 +248,28 @@
 					<links>
 						<link>
 							<label>github</label>
-							<url>https://github.com/cryptonomex/graphene-ui/issues/466</url>
+							<url>https://github.com/cryptonomex/graphene-ui/issues/457</url>
+						</link>
+					</links>
+				</item>
+				
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Vested cashback balance and claim option</name>
+					<description/>
+					<status>Planned for 15.12.09</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene-ui/issues/500</url>
 						</link>
 					</links>
 				</item>

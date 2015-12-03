@@ -2,6 +2,44 @@
 <!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
 <root>
 	<items>
+<!-- 		<item> -->
+<!-- 			<timestamp>2015-12-00T00:00</timestamp> -->
+<!-- 			<title></title> -->
+<!-- 			<description></description> -->
+<!-- 			<links> -->
+<!-- 				<link> -->
+<!-- 					<label>forum</label> -->
+<!-- 					<url></url> -->
+<!-- 				</link> -->
+<!-- 			</links> -->
+<!-- 		</item> -->
+		
+		<item>
+			<timestamp>2015-12-03T00:00</timestamp>
+			<title>Forced settlement issue seems to be solved</title>
+			<description>The main reason of the controversy, i.e. inaccurate price feeds for CNY, has been successfully addressed by upgrading the price feed script. Committee members have created a proposal that re-enables the forced settlement feature and it will become effective later on today as most committee members support it.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20391.0.html</url>
+				</link>
+				<link>
+					<label>cryptofresh</label>
+					<url>http://cryptofresh.com/p/1.10.19</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<timestamp>2015-12-02T00:00</timestamp>
+			<title>Bitshares UI 2.0.151202 released</title>
+			<description>This release is part of the regular weekly upgrades for the GUI. Changes are available immediately in the web wallet or download the latest light client.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20396.0.html</url>
+				</link>
+			</links>
+		</item>
 		<item>
 			<timestamp>2015-11-30T00:00</timestamp>
 			<title>Forced settlement issue</title>
@@ -29,6 +67,17 @@
 				<link>
 					<label>forum</label>
 					<url>https://bitsharestalk.org/index.php/topic,20286.0.html</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<timestamp>2015-11-25T00:00</timestamp>
+			<title>We have professional Project Coordinator for the GUI</title>
+			<description>Worker proposal by wmbutler has passed which means that from now on the efforts of our GUI developers will be professionally coordinated/managed. We can expect weekly upgrades for the GUI.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20144.0.html</url>
 				</link>
 			</links>
 		</item>
