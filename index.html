@@ -17,6 +17,7 @@
 				transformXMLDoc('page4_4','xml/proxies.xml','xsl/proxies.xsl');
 				transformXMLDoc('page5','xml/reasons.xml','xsl/reasons.xsl');
 				transformXMLDoc('page6','xml/links.xml','xsl/links.xsl');
+				transformXMLDoc('page7','xml/technology.xml','xsl/technology.xsl');
 				onHashChange();
 			}
 			function onHashChange() {
@@ -54,6 +55,8 @@
 						activatePage('menus','menu5','pages','page5');
 					} else if (location.hash == '#links') {
 						activatePage('menus','menu6','pages','page6');
+					} else if (location.hash == '#technology') {
+						activatePage('menus','menu7','pages','page7');
 					}
 				}
 			}
@@ -70,6 +73,7 @@
 		<link rel="stylesheet" href="css/proxies.css"/>
 		<link rel="stylesheet" href="css/reasons.css"/>
 		<link rel="stylesheet" href="css/links.css"/>
+		<link rel="stylesheet" href="css/technology.css"/>
 	</head>
 	<body onload="loadPages()" onhashchange="onHashChange()" style="overflow-y:scroll;">
 		<div class="container">
@@ -79,6 +83,7 @@
 			<div id="menus" class="menu">
 				<a id="menu1" href="#news">News</a>
 				<a id="menu2" href="#roadmap">Roadmap</a>
+				<a id="menu7" href="#technology">Technology</a>
 				<a id="menu3" href="#features">Features</a>
 				<a id="menu4" href="#dpos">Governance</a>
 				<a id="menu5" href="#reasons">Reasons</a>
@@ -115,6 +120,7 @@
 				</div>
 				<div id="page5" class="page" style="display:none;"></div>
 				<div id="page6" class="page" style="display:none;"></div>
+				<div id="page7" class="page" style="display:none;"></div>
 			</div>
 			<div class="footer">
 			</div>

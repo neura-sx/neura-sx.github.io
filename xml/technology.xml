@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
+<root>
+	<groups>
+		<group>
+			<items>
+				<item row="1" col="1">
+					<feature>Price stability</feature>
+					<implementation>Counterparty free market pegged assets</implementation>
+				</item>
+				<item row="1" col="2">
+					<feature>Governance</feature>
+					<implementation>Built-in shareholder voting for decision makers</implementation>
+				</item>
+				<item row="1" col="3">
+					<feature>Economic Friction</feature>
+					<implementation>Multi-asset platform with atomic cross-trading</implementation>
+				</item>
+			</items>
+		</group>
+		<group>
+			<items>
+				<item row="2" col="1">
+					<feature>Scalability</feature>
+					<implementation>Up from 100 to 100k transactions per second</implementation>
+				</item>
+				<item row="2" col="2">
+					<feature>Sustainability</feature>
+					<implementation>Built-in shareholder voting for developer funding</implementation>
+				</item>
+				<item row="2" col="3">
+					<feature>Hackers &amp; Thieves</feature>
+					<implementation>On-chain trading with multi-signature accounts</implementation>
+				</item>
+			</items>
+		</group>
+		<group>
+			<items>
+				<item row="3" col="1">
+					<feature>Transaction Times</feature>
+					<implementation>Transact in real time down from 3 to 1 seconds</implementation>
+				</item>
+				<item row="3" col="2">
+					<feature>Growth Mechanism</feature>
+					<implementation>Built-in Viral Referral Program</implementation>
+				</item>
+				<item row="3" col="3">
+					<feature>Regulation Compliance</feature>
+					<implementation>Flow control with asset-level granularity</implementation>
+				</item>
+			</items>
+		</group>
+		<group>
+			<items>
+				<item row="4" col="1">
+					<feature>Profitability</feature>
+					<implementation>Cut costs, manage taxes, deflationary revenue</implementation>
+				</item>
+				<item row="4" col="2">
+					<feature>Easy of Use</feature>
+					<implementation>Auto-transactions among named accounts</implementation>
+				</item>
+				<item row="4" col="3">
+					<feature>Privacy or Transparency</feature>
+					<implementation>User have full-spectrum control</implementation>
+				</item>
+			</items>
+		</group>
+	</groups>
+</root>

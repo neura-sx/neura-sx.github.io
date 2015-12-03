@@ -1,0 +1,13 @@
+#technology-table {
+	margin-top:40px;
+	width:100%;
+	table-layout:fixed;
+}
+
+#technology-table .left {
+    border-left:20px solid white;
+}
+
+#technology-table .top {
+    border-top:20px solid white;
+}

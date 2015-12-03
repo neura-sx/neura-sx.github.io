@@ -52,7 +52,8 @@
 								<xsl:if test="contractor/cost!=''">
 									<xsl:value-of select="format-number(contractor/cost,'###,###')" />
 								</xsl:if>
-								<xsl:if test="escrow/cost!=''"> + <xsl:value-of select="format-number(escrow/cost,'###,###')" />
+								<xsl:if test="escrow/cost!=''">
+									<xsl:value-of select="concat(' + ',format-number(escrow/cost,'###,###'))" />
 								</xsl:if>
 							</td>
 							<td id="td5">
