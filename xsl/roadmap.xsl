@@ -63,7 +63,7 @@
 								<xsl:value-of select="worker" />
 							</td>
 							<td id="td7">
-								<a>
+								<a class="entity">
 									<xsl:attribute name="href">
 										<xsl:value-of select="contractor/url" />
 									</xsl:attribute>
@@ -71,7 +71,7 @@
 								</a>
 							</td>
 							<td id="td8">
-								<a>
+								<a class="entity">
 									<xsl:attribute name="href">
 										<xsl:value-of select="escrow/url" />
 									</xsl:attribute>

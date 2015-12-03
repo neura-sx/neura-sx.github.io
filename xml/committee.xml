@@ -1,10 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
 <root>
-	<items>
-		<item>
-			
-		</item>
-		
-	</items>
+	<groups>
+		<group>
+			<name>Active</name>
+			<items>
+				<item>
+					<account>
+						<id>1.2.1191</id>
+						<name>dele-puppy</name>
+						<url>http://www.cryptofresh.com/u/dele-puppy</url>
+					</account>
+					<forum>puppies</forum>
+					<description>I believe that I am open to reason and evidence, and am willing to change my mind when presented with such.  Other than in regards to witness pay I reserve the right to change any opinion, and vote according to that opinion. I believe that decentralizing the committee member position is important enough to elect some temporary candidates until we can find long term solutions.  If you agree feel free to vote me in.</description>
+					<comment>Also acts as a BitShares witness.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19444.0.html</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.23725</id>
+						<name>bitcube</name>
+						<url>http://www.cryptofresh.com/u/bitcube</url>
+					</account>
+					<forum>cube</forum>
+					<description>I support the following causes: (1) Lowering of account registration fee back to 95bts. (2) Lowering of trading fee back to 10bts and cost of 8bts for non-filled orders.  I weigh the needed cost for the network to support open trade positions + anti-spamming versus the burden on the traders, especially the 'small' traders.  We need to strike a balance here.</description>
+					<comment>Also acts as a BitShares witness.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19542.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://witness.cubeconnex.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.25010</id>
+						<name>bhuz</name>
+						<url>http://www.cryptofresh.com/u/bhuz</url>
+					</account>
+					<forum>Bhuz</forum>
+					<description>I am stepping up as a temporary committee member to help in the process of push through some proposals (by mindphlux, puppies, cube, and fav according community requests and practical needs) that still need more votes to take effect.</description>
+					<comment>Also acts as a BitShares witness.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19560.0.html</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.22517</id>
+						<name>mindphlux</name>
+						<url>http://www.cryptofresh.com/u/mindphlux</url>
+					</account>
+					<forum>mindphlux</forum>
+					<description>Agenda/Proposal:(a) lower trading fees (b) lower account creation (c) increase community control of bitshares, that includes that BM should eventually step down from controlling everything. we need to take over!</description>
+					<comment>Also acts as a BitShares witness.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19531.0.html</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.121</id>
+						<name>bitcrab</name>
+						<url>http://www.cryptofresh.com/u/bitcrab</url>
+					</account>
+					<forum>bitcrab</forum>
+					<description>Proposals: (a) lower fees and make the fee structure more reasonable, (b) make bitshares more decentralized, increase the community participation on decision making.</description>
+					<comment>Owner of bitCNY/CNY gateway Transwiser. Supporter of low transfer fees. Strong opponent of the forced settlement feature.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19670.0.html</url>
+						</link>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20318.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>transwiser.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.8891</id>
+						<name>clayop</name>
+						<url>http://www.cryptofresh.com/u/clayop</url>
+					</account>
+					<forum>clayop</forum>
+					<description>My goal is to make BitShares DEX more trader-attracting exchange, which means low trading fees, high liquidity, and a reliable system. I would like to argue that the most important thing for use at the moment is attracting new users (normal traders) to our DEX.</description>
+					<comment>Supporter of low transfer fees. Also acts as a BitShares witness.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19693.0.html</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.2204</id>
+						<name>baozi</name>
+						<url>http://www.cryptofresh.com/u/baozi</url>
+					</account>
+					<forum>alt</forum>
+					<description>Proposals: (a) lower fees and make the fee structure more reasonable, (b) make bitshares more decentralized, increase the community participation on decision making.</description>
+					<comment>Also acts as a BitShares witness.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20061.0.html</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.206</id>
+						<name>logxing</name>
+						<url>http://www.cryptofresh.com/u/logxing</url>
+					</account>
+					<forum>logxing</forum>
+					<description></description>
+					<comment>One of the entrepreneurs behind BitShares Play. Great support for Stan during his recent Shanghai visist.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19046.msg246118.html#msg246118</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>https://www.dacplay.org/en/</url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</group>
+		<group>
+			<name>Stand-by</name>
+			<items>
+				<item>
+					<account>
+						<id>1.2.97845</id>
+						<name>bunkerchainlabs-com</name>
+						<url>http://www.cryptofresh.com/u/bunkerchainlabs-com</url>
+					</account>
+					<forum>BunkerChain Labs</forum>
+					<description></description>
+					<comment>Main entrepreneur behind BunkerChain Labs, "your new Cryptonomex". Currently act as an escrow service for CNX worker proposals.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19721.msg253153.html#msg253153</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://www.bunkerchainlabs.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.21106</id>
+						<name>fav</name>
+						<url>http://www.cryptofresh.com/u/fav</url>
+					</account>
+					<forum>fav</forum>
+					<description></description>
+					<comment>Forum administrator. Main entrepreneur behind a BitShares-focused blog called SmartCoin. Also acts as a BitShares proxy.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,18959.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://blog.smartcoin.pw</url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</group>
+	</groups>
+	
 </root>

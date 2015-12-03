@@ -22,7 +22,7 @@
 							<td id="td1"><xsl:value-of select="title"/></td>
 							<td id="td2"><xsl:value-of select="comment"/></td>
 							<td id="td3">
-								<a>
+								<a class="url">
 									<xsl:attribute name="href">
 										<xsl:value-of select="url"/>
 									</xsl:attribute>

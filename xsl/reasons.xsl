@@ -16,7 +16,7 @@
 						<td id="td1"><xsl:value-of select="who"/></td>
 						<td id="td2" class="highlightPos"><xsl:value-of select="quote"/></td>
 						<td id="td3">
-							<a>
+							<a class="url">
 								<xsl:attribute name="href">
 									<xsl:value-of select="source/url" />
 								</xsl:attribute>

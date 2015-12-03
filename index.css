@@ -120,10 +120,19 @@ tbody td.caption{
 	font-size:120%;
 }
 tbody td a{
-	color:#ddd;
 	text-decoration:none;
 }
+tbody td a.account{
+	color:#ffc;
+}
+tbody td a.entity{
+	color:#ffc;
+}
+tbody td a.url{
+	color:#fff;
+}
 tbody td a.link{
+	color:#ddd;
 	padding-right:10px;
 }
 
