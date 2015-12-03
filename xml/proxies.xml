@@ -1,10 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
 <root>
-	<items>
-		<item>
-			
-		</item>
+	<groups>
+		<group>
+			<name>Publicly Announced</name>
+			<items>
+				<item>
+					<account>
+						<id>1.2.21106</id>
+						<name>fav</name>
+						<url>http://www.cryptofresh.com/u/fav</url>
+					</account>
+					<forum>fav</forum>
+					<description></description>
+					<comment>Forum administrator. Main entrepreneur behind a BitShares-focused blog called SmartCoin.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,18959</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://blog.smartcoin.pw</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.19600</id>
+						<name>jakub</name>
+						<url>http://www.cryptofresh.com/u/jakub</url>
+					</account>
+					<forum>jakub</forum>
+					<description>I'm a good choice for those who generally support BM's point of view but would like to see better execution / implementation / communication of his ideas. My focus will be to introduce stability to the BitShares ecosystem so that we finally have clear rules and stable business environment.</description>
+					<comment>Main entrepreneur behind Neura, an IT company, aiming to build business around the Referral Program. Creator of this website.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19247.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://neura.sx</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.8891</id>
+						<name>clayop</name>
+						<url>http://www.cryptofresh.com/u/clayop</url>
+					</account>
+					<forum>clayop</forum>
+					<description>Purpose: To attract new users with reasonable fee-base and to promote healthy network. Goals: (1) To vote for committee members who propose reasonable fee system. (2) To vote for diligent witnesses who are very reactive and reliable. (3) To vote for talented workers who can expand BitShares ecosystem</description>
+					<comment></comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19504.0.html</url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</group>
 		
-	</items>
+		<group>
+			<name>Unannounced</name>
+			<items>
+				<item>
+					<account>
+						<id>1.2.1090</id>
+						<name>angel</name>
+						<url>http://www.cryptofresh.com/u/</url>
+					</account>
+					<forum>bytemaster</forum>
+					<description></description>
+					<comment>Funds controlled by BM</comment>
+					<links>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.121</id>
+						<name>bitcrab</name>
+						<url>http://www.cryptofresh.com/u/bitcrab</url>
+					</account>
+					<forum>bitcrab</forum>
+					<description></description>
+					<comment>Owner of bitCNY/CNY gateway Transwiser. Supporter of low transfer fees. Strong opponent of the forced settlement feature.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19670.0.html</url>
+						</link>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20318.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>transwiser.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.310</id>
+						<name>bytemaster</name>
+						<url>http://www.cryptofresh.com/u/bytemaster</url>
+					</account>
+					<forum>bytemaster</forum>
+					<description></description>
+					<comment>Funds controlled by BM</comment>
+					<links>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.282</id>
+						<name>xeroc</name>
+						<url>http://www.cryptofresh.com/u/xeroc</url>
+					</account>
+					<forum>xeroc</forum>
+					<description></description>
+					<comment>Arguably the most distinguished member of the Community. Also very active in multiple efforts aiming at attracting big business partners to the BitShares ecosystem.</comment>
+					<links>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.159</id>
+						<name>ebit</name>
+						<url>http://www.cryptofresh.com/u/ebit</url>
+					</account>
+					<forum>?</forum>
+					<description></description>
+					<comment></comment>
+					<links>
+					</links>
+				</item>
+				<item>
+					<account>
+						<id>1.2.564</id>
+						<name>xeldal</name>
+						<url>http://www.cryptofresh.com/u/xeldal</url>
+					</account>
+					<forum>Xeldal</forum>
+					<description></description>
+					<comment></comment>
+					<links>
+					</links>
+				</item>
+			</items>
+		</group>
+	</groups>
 </root>
