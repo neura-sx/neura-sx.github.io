@@ -16,8 +16,8 @@
 		
 		<item>
 			<timestamp>2015-12-03T00:00</timestamp>
-			<title>Forced settlement issue seems to be solved</title>
-			<description>The main reason of the controversy, i.e. inaccurate price feeds for CNY, has been successfully addressed by upgrading the price feed script. Committee members have created a proposal that re-enables the forced settlement feature and it will become effective later on today as most committee members support it.</description>
+			<title>Forced settlement issue is re-enabled</title>
+			<description>The main reason of the controversy, i.e. inaccurate price feeds for CNY, has been successfully addressed by upgrading the price feed script. Committee members have created a proposal that re-enables the forced settlement feature and it has become effective after most committee members supported it.</description>
 			<links>
 				<link>
 					<label>forum</label>
