@@ -24,7 +24,7 @@
 			<feature>Is the smart-contract language Turing-complete?</feature>
 			<BitShares>Yes</BitShares>
 			<Ethereum>Yes</Ethereum>
-			<TauChain>Probably not</TauChain>
+			<TauChain>No. TauChain's assumption is that Turing-completeness is unnecessary.</TauChain>
 		</item>
 		<item>
 			<feature>How lethal smart-contracts are prevented &amp; eliminated?</feature>
