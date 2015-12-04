@@ -91,22 +91,6 @@
 					<links/>
 				</item>
 
-				<item progress="1.0" funded="Y" overlap="N">
-					<name>GUI tool for listing all open orders</name>
-					<description/>
-					<status>Completed in 15.11.25</status>
-					<time>Nov 2015</time>
-					<worker/>
-					<terms/>
-					<contractor>
-						<name>CNX</name>
-						<url>https://cryptonomex.com/</url>
-						<cost/>
-					</contractor>
-					<escrow/>
-					<links/>
-				</item>
-
 				<item progress="0.0" funded="Y" overlap="N">
 					<name>Improve deposit/withdraw UX</name>
 					<description/>
@@ -126,89 +110,6 @@
 							<url>https://github.com/cryptonomex/graphene-ui/issues/465</url>
 						</link>
 					</links>
-				</item>
-
-				<item progress="1.0" funded="Y" overlap="N">
-					<name>Funds expressed as stake percentages &amp; in chosen currency</name>
-					<description/>
-					<status>Completed in 15.11.25</status>
-					<time>Nov 2015</time>
-					<worker/>
-					<terms/>
-					<contractor>
-						<name>CNX</name>
-						<url>https://cryptonomex.com/</url>
-						<cost/>
-					</contractor>
-					<escrow/>
-					<links>
-						<link>
-							<label>github</label>
-							<url>https://github.com/cryptonomex/graphene-ui/issues/522</url>
-						</link>
-						<link>
-							<label>github</label>
-							<url>https://github.com/cryptonomex/graphene-ui/issues/512</url>
-						</link>
-					</links>
-				</item>
-
-				<item progress="1.0" funded="Y" overlap="N">
-					<name>Support for requesting settlement of bit asset</name>
-					<description/>
-					<status>Completed in 15.11.25</status>
-					<time>Nov 2015</time>
-					<worker/>
-					<terms/>
-					<contractor>
-						<name>CNX</name>
-						<url>https://cryptonomex.com/</url>
-						<cost/>
-					</contractor>
-					<escrow/>
-					<links>
-						<link>
-							<label>github</label>
-							<url>https://github.com/cryptonomex/graphene-ui/issues/493</url>
-						</link>
-					</links>
-				</item>
-
-				<item progress="1.0" funded="Y" overlap="N">
-					<name>Support for proposed transactions</name>
-					<description/>
-					<status>Completed in 15.11.25</status>
-					<time>Nov 2015</time>
-					<worker/>
-					<terms/>
-					<contractor>
-						<name>CNX</name>
-						<url>https://cryptonomex.com/</url>
-						<cost/>
-					</contractor>
-					<escrow/>
-					<links>
-						<link>
-							<label>github</label>
-							<url>https://github.com/cryptonomex/graphene-ui/issues/39</url>
-						</link>
-					</links>
-				</item>
-
-				<item progress="1.0" funded="Y" overlap="N">
-					<name>Fee schedule</name>
-					<description/>
-					<status>Completed in 15.11.25</status>
-					<time>Nov 2015</time>
-					<worker/>
-					<terms/>
-					<contractor>
-						<name>CNX</name>
-						<url>https://cryptonomex.com/</url>
-						<cost/>
-					</contractor>
-					<escrow/>
-					<links/>
 				</item>
 
 				<item progress="1.0" funded="Y" overlap="N">
@@ -270,6 +171,27 @@
 						<link>
 							<label>github</label>
 							<url>https://github.com/cryptonomex/graphene-ui/issues/500</url>
+						</link>
+					</links>
+				</item>
+				
+				<item progress="0.0" funded="Y" overlap="N">
+					<name>Theme / Skin Switch for Dark & Light theme on GUI settings</name>
+					<description/>
+					<status>Planned for 15.12.16</status>
+					<time>Dec 2015</time>
+					<worker/>
+					<terms/>
+					<contractor>
+						<name>CNX</name>
+						<url>https://cryptonomex.com/</url>
+						<cost/>
+					</contractor>
+					<escrow/>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene-ui/issues/576</url>
 						</link>
 					</links>
 				</item>
