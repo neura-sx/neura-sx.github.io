@@ -53,8 +53,7 @@
 									<xsl:value-of select="concat(contractor/cost/@unit,' ',format-number(contractor/cost,'###,###'))" />
 								</xsl:if>
 								<xsl:if test="escrow/cost!=''">
-									<br/>
-									<xsl:value-of select="concat('+',' ',escrow/cost/@unit,' ',format-number(escrow/cost,'###,###'))" />
+									<xsl:value-of select="concat(' ','+',' ',escrow/cost/@unit,' ',format-number(escrow/cost,'###,###'))" />
 								</xsl:if>
 							</td>
 							<td id="td5">
