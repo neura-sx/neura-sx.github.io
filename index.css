@@ -113,11 +113,13 @@ tbody td{
 	background:#626666;
 	color:white;
 }
-
 tbody td.caption{
 	background:#fff;
 	color:#333;
 	font-size:120%;
+}
+tbody td p{
+	margin:0;
 }
 tbody td a{
 	text-decoration:none;

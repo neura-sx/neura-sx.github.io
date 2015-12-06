@@ -15,6 +15,20 @@
 <!-- 		</item> -->
 		
 		<item>
+			<timestamp>2015-12-04T00:00</timestamp>
+			<title>Upcoming hard-fork</title>
+			<description>
+				<p>A series of changes to be rolled out in a single hard-fork:</p>
+				<p>(1) Refund order creation fees when the order is cancelled</p>
+				<p>(2) Fix Referral Program cash-back bug</p>
+				<p>(3) Fix margin call price so that is not called unless the feed is below/above the call price (this should prevent a lot of margin calls from occurring)</p>
+				<p>(4) Liquidity maker/taker differentiation for the purpose of allocating trading fees to stimulate liquidity - in the form of a new flag on assets (both SmartCoins &amp; UIA) that the issuers will be able to control</p>
+			</description>
+			<links>
+			</links>
+		</item>
+		
+		<item>
 			<timestamp>2015-12-03T00:00</timestamp>
 			<title>Forced settlement issue is re-enabled</title>
 			<description>The main reason of the controversy, i.e. inaccurate price feeds for CNY, has been successfully addressed by upgrading the price feed script. Committee members have created a proposal that re-enables the forced settlement feature and it has become effective after most committee members supported it.</description>
