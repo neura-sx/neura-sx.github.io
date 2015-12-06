@@ -32,7 +32,10 @@
 						<url>http://www.cryptofresh.com/u/jakub</url>
 					</account>
 					<forum>jakub</forum>
-					<description>I'm a good choice for those who generally support BM's point of view but would like to see better execution / implementation / communication of his ideas. My focus will be to introduce stability to the BitShares ecosystem so that we finally have clear rules and stable business environment.</description>
+					<description>
+						<p>I'm a good choice for those who generally support BM's point of view but would like to see better execution / implementation / communication of his ideas.</p>
+						<p>My focus will be to introduce stability to the BitShares ecosystem so that we finally have clear rules and stable business environment.</p>
+					</description>
 					<comment>Main entrepreneur behind Neura, an IT company, aiming to build business around the Referral Program. Creator of this website.</comment>
 					<links>
 						<link>
@@ -52,7 +55,13 @@
 						<url>http://www.cryptofresh.com/u/clayop</url>
 					</account>
 					<forum>clayop</forum>
-					<description>Purpose: To attract new users with reasonable fee-base and to promote healthy network. Goals: (1) To vote for committee members who propose reasonable fee system. (2) To vote for diligent witnesses who are very reactive and reliable. (3) To vote for talented workers who can expand BitShares ecosystem</description>
+					<description>
+						<p>Purpose: To attract new users with reasonable fee-base and to promote healthy network.</p>
+						<p>Goals:</p>
+						<p>(1) To vote for committee members who propose reasonable fee system.</p>
+						<p>(2) To vote for diligent witnesses who are very reactive and reliable.</p>
+						<p>(3) To vote for talented workers who can expand BitShares ecosystem</p>
+					</description>
 					<comment></comment>
 					<links>
 						<link>

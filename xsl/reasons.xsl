@@ -14,7 +14,16 @@
 				<xsl:for-each select="root/items/item">
 					<tr>
 						<td id="td1"><xsl:value-of select="who"/></td>
-						<td id="td2" class="highlightPos"><xsl:value-of select="quote"/></td>
+						<td id="td2" class="highlightPos">
+							<xsl:choose>
+								<xsl:when test="quote/p">
+									<xsl:for-each select="quote/p">
+										<p><xsl:value-of select="current()"/></p>
+									</xsl:for-each>
+								</xsl:when>
+								<xsl:otherwise><xsl:value-of select="quote"/></xsl:otherwise>
+							</xsl:choose>
+						</td>
 						<td id="td3">
 							<a class="url">
 								<xsl:attribute name="href">

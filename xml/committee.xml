@@ -28,7 +28,11 @@
 						<url>http://www.cryptofresh.com/u/bitcube</url>
 					</account>
 					<forum>cube</forum>
-					<description>I support the following causes: (1) Lowering of account registration fee back to 95bts. (2) Lowering of trading fee back to 10bts and cost of 8bts for non-filled orders.  I weigh the needed cost for the network to support open trade positions + anti-spamming versus the burden on the traders, especially the 'small' traders.  We need to strike a balance here.</description>
+					<description>
+						<p>I support the following causes:</p>
+						<p>(1) Lowering of account registration fee back to 95bts.</p>
+						<p>(2) Lowering of trading fee back to 10bts and cost of 8bts for non-filled orders. I weigh the needed cost for the network to support open trade positions + anti-spamming versus the burden on the traders, especially the 'small' traders.  We need to strike a balance here.</p>
+					</description>
 					<comment>Also acts as a BitShares witness.</comment>
 					<links>
 						<link>
@@ -64,7 +68,12 @@
 						<url>http://www.cryptofresh.com/u/mindphlux</url>
 					</account>
 					<forum>mindphlux</forum>
-					<description>Agenda/Proposal:(a) lower trading fees (b) lower account creation (c) increase community control of bitshares, that includes that BM should eventually step down from controlling everything. we need to take over!</description>
+					<description>
+						<p>Agenda / Proposals:</p>
+						<p>(1) lower trading fees</p>
+						<p>(2) lower account creation</p>
+						<p>(3) increase community control of bitshares, that includes that BM should eventually step down from controlling everything. we need to take over!</p>
+					</description>
 					<comment>Also acts as a BitShares witness.</comment>
 					<links>
 						<link>
@@ -80,7 +89,11 @@
 						<url>http://www.cryptofresh.com/u/bitcrab</url>
 					</account>
 					<forum>bitcrab</forum>
-					<description>Proposals: (a) lower fees and make the fee structure more reasonable, (b) make bitshares more decentralized, increase the community participation on decision making.</description>
+					<description>
+						<p>Proposals:</p>
+						<p>(1) lower fees and make the fee structure more reasonable,</p>
+						<p>(2) make bitshares more decentralized, increase the community participation on decision making.</p>
+					</description>
 					<comment>Owner of bitCNY/CNY gateway Transwiser. Supporter of low transfer fees. Strong opponent of the forced settlement feature.</comment>
 					<links>
 						<link>
@@ -120,7 +133,11 @@
 						<url>http://www.cryptofresh.com/u/baozi</url>
 					</account>
 					<forum>alt</forum>
-					<description>Proposals: (a) lower fees and make the fee structure more reasonable, (b) make bitshares more decentralized, increase the community participation on decision making.</description>
+					<description>
+						<p>Proposals:</p>
+						<p>(1) lower fees and make the fee structure more reasonable,</p>
+						<p>(2) make bitshares more decentralized, increase the community participation on decision making.</p>
+					</description>
 					<comment>Also acts as a BitShares witness.</comment>
 					<links>
 						<link>

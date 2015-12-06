@@ -30,7 +30,16 @@
 								</a>
 							</td>
 							<td id="td2"><xsl:value-of select="forum"/></td>
-							<td id="td3"><xsl:value-of select="description"/></td>
+							<td id="td3">
+								<xsl:choose>
+									<xsl:when test="description/p">
+										<xsl:for-each select="description/p">
+											<p><xsl:value-of select="current()"/></p>
+										</xsl:for-each>
+									</xsl:when>
+									<xsl:otherwise><xsl:value-of select="description"/></xsl:otherwise>
+								</xsl:choose>
+							</td>
 							<td id="td4"><xsl:value-of select="comment"/></td>
 							<td id="td5">
 								<xsl:for-each select="links/link">
