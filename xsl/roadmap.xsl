@@ -11,8 +11,8 @@
 					<th id="th2">Status</th>
 					<th id="th3">Overlap</th>
 					<th id="th4">Estimated Cost</th>
-					<th id="th5">Estimated Time</th>
-					<th id="th6">Worker Proposal</th>
+					<th id="th5">ETA</th>
+					<th id="th6">Worker</th>
 					<th id="th7">Contractor</th>
 					<th id="th8">Escrow</th>
 					<th id="th9">Links</th>
