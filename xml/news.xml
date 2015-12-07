@@ -31,7 +31,21 @@
 				</link>
 			</links>
 		</item>
-		
+		<item>
+			<timestamp>2015-12-04T00:00</timestamp>
+			<title>BTS voting initiative </title>
+			<description>A very comprehensive presentation of current voting landscape has been created by cryptofresh.com. It perfectly shows the whole DPOS system in action - you can compare support for each witness, committee member and worker proposal by each proxy or major BTS shareholder.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20430.0.html</url>
+				</link>
+				<link>
+					<label>cryptofresh</label>
+					<url>http://cryptofresh.com/ballots</url>
+				</link>
+			</links>
+		</item>
 		<item>
 			<timestamp>2015-12-03T00:00</timestamp>
 			<title>Forced settlement issue is re-enabled</title>
