@@ -7,11 +7,107 @@
 			<items>
 				<item>
 					<account>
-						<id></id>
-						<name></name>
-						<url></url>
+						<name>dele-puppy</name>
+						<url>http://www.cryptofresh.com/u/dele-puppy</url>
+					</account>
+					<forum>puppies</forum>
+					<location></location>
+					<description></description>
+					<comment>Also committee member.</comment>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/gileadmcgee/dele-puppy</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>mindphlux.witness</name>
+						<url>http://www.cryptofresh.com/u/mindphlux.witness</url>
+					</account>
+					<forum>mindphlux</forum>
+					<location></location>
+					<description></description>
+					<comment>Also committee member.</comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>in.abit</name>
+						<url>http://www.cryptofresh.com/u/in.abit</url>
 					</account>
 					<forum></forum>
+					<location></location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/abitmore</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>bitcube</name>
+						<url>http://www.cryptofresh.com/u/bitcube</url>
+					</account>
+					<forum>cube</forum>
+					<location></location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label>website</label>
+							<url>http://witness.cubeconnex.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>mr.agsexplorer</name>
+						<url>http://www.cryptofresh.com/u/mr.agsexplorer</url>
+					</account>
+					<forum></forum>
+					<location></location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>maqifrnswa</name>
+						<url>http://www.cryptofresh.com/u/maqifrnswa</url>
+					</account>
+					<forum>maqifrnswa</forum>
+					<location></location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>bhuz</name>
+						<url>http://www.cryptofresh.com/u/bhuz</url>
+					</account>
+					<forum>Bhuz</forum>
+					<location></location>
 					<description></description>
 					<comment></comment>
 					<links>
@@ -23,13 +119,77 @@
 				</item>
 				<item>
 					<account>
-						<id></id>
-						<name></name>
-						<url></url>
+						<name>spartako</name>
+						<url>http://www.cryptofresh.com/u/spartako</url>
 					</account>
 					<forum></forum>
+					<location></location>
 					<description></description>
 					<comment></comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>elmato</name>
+						<url>http://www.cryptofresh.com/u/elmato</url>
+					</account>
+					<forum>elmato</forum>
+					<location>Argentina</location>
+					<description></description>
+					<comment>Entrepreneur behind BitShares mobile wallet development.</comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>wackou</name>
+						<url>http://www.cryptofresh.com/u/wackou</url>
+					</account>
+					<forum>wackou</forum>
+					<location></location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label>website</label>
+							<url>http://digitalgaia.io</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>rnglab</name>
+						<url>http://www.cryptofresh.com/u/rnglab</url>
+					</account>
+					<forum>rnglab</forum>
+					<location></location>
+					<description></description>
+					<comment>Good efforts aimed at coordinating internationalization tasks.</comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>xeldal</name>
+						<url>http://www.cryptofresh.com/u/xeldal</url>
+					</account>
+					<forum>Xeldal</forum>
+					<location></location>
+					<description></description>
+					<comment>Active community member.</comment>
 					<links>
 						<link>
 							<label>forum</label>
@@ -39,20 +199,228 @@
 				</item>
 				<item>
 					<account>
-						<id></id>
-						<name></name>
-						<url></url>
+						<name>delegate.ihashfury</name>
+						<url>http://www.cryptofresh.com/u/delegate.ihashfury</url>
 					</account>
-					<forum></forum>
+					<forum>iHashFury</forum>
+					<location></location>
 					<description></description>
 					<comment></comment>
 					<links>
 						<link>
 							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,12856.0.html</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>delegate.taolje</name>
+						<url>http://www.cryptofresh.com/u/delegate.taolje</url>
+					</account>
+					<forum></forum>
+					<location></location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label></label>
 							<url></url>
 						</link>
 					</links>
 				</item>
+				<item>
+					<account>
+						<name>delegate-1.lafona</name>
+						<url>http://www.cryptofresh.com/u/delegate-1.lafona</url>
+					</account>
+					<forum>lafona</forum>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>fox</name>
+						<url>http://www.cryptofresh.com/u/fox</url>
+					</account>
+					<forum></forum>
+					<location></location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>delegate.baozi</name>
+						<url>http://www.cryptofresh.com/u/delegate.baozi</url>
+					</account>
+					<forum>alt</forum>
+					<location>China</location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>verbaltech2</name>
+						<url>http://www.cryptofresh.com/u/verbaltech2</url>
+					</account>
+					<forum>Thom</forum>
+					<location>USA</location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>spectral</name>
+						<url>http://www.cryptofresh.com/u/spectral</url>
+					</account>
+					<forum></forum>
+					<location></location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>delegate-clayop</name>
+						<url>http://www.cryptofresh.com/u/delegate-clayop</url>
+					</account>
+					<forum>clayop</forum>
+					<location>Korea</location>
+					<description></description>
+					<comment>Also committee member.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19448.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://www.bitshares.kr/</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>roadscape</name>
+						<url>http://www.cryptofresh.com/u/roadscape</url>
+					</account>
+					<forum>roadscape</forum>
+					<location>USA</location>
+					<description></description>
+					<comment>Entrepreneur behind cryptofresh.com.</comment>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/roadscape</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://cryptofresh.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>cyrano</name>
+						<url>http://www.cryptofresh.com/u/cyrano</url>
+					</account>
+					<forum>pc</forum>
+					<location>Germany</location>
+					<description></description>
+					<comment>Valuable contributor to the BitShares codebase.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19584.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://bts-witness.quisquis.de</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>datasecuritynode</name>
+						<url>http://www.cryptofresh.com/u/datasecuritynode</url>
+					</account>
+					<forum>BunkerChain Labs</forum>
+					<location>Canada</location>
+					<description></description>
+					<comment>Main entrepreneur behind BunkerChain Labs. Also committee member.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19122.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://www.bunkerchainlabs.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>bue</name>
+						<url>http://www.cryptofresh.com/u/bue</url>
+					</account>
+					<forum></forum>
+					<location></location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>harvey-xts</name>
+						<url>http://www.cryptofresh.com/u/harvey-xts</url>
+					</account>
+					<forum></forum>
+					<location></location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				
 			</items>
 		</group>
 		
@@ -61,49 +429,81 @@
 			<items>
 				<item>
 					<account>
-						<id></id>
-						<name></name>
-						<url></url>
+						<name>triox-delegate</name>
+						<url>http://www.cryptofresh.com/u/triox-delegate</url>
 					</account>
-					<forum></forum>
+					<forum>triox</forum>
+					<location>Poland</location>
 					<description></description>
 					<comment></comment>
 					<links>
 						<link>
-							<label>forum</label>
+							<label></label>
 							<url></url>
 						</link>
 					</links>
 				</item>
 				<item>
 					<account>
-						<id></id>
-						<name></name>
-						<url></url>
+						<name>delegated-proof-of-steak</name>
+						<url>http://www.cryptofresh.com/u/delegated-proof-of-steak</url>
 					</account>
 					<forum></forum>
+					<location></location>
 					<description></description>
 					<comment></comment>
 					<links>
 						<link>
-							<label>forum</label>
+							<label></label>
 							<url></url>
 						</link>
 					</links>
 				</item>
 				<item>
 					<account>
-						<id></id>
-						<name></name>
-						<url></url>
+						<name>delegate.webber</name>
+						<url>http://www.cryptofresh.com/u/delegate.webber</url>
 					</account>
 					<forum></forum>
+					<location></location>
 					<description></description>
 					<comment></comment>
 					<links>
 						<link>
-							<label>forum</label>
+							<label></label>
 							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>delegate.btsnow</name>
+						<url>http://www.cryptofresh.com/u/delegate.btsnow</url>
+					</account>
+					<forum></forum>
+					<location></location>
+					<description></description>
+					<comment></comment>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>liondani</name>
+						<url>http://www.cryptofresh.com/u/liondani</url>
+					</account>
+					<forum>liondani</forum>
+					<location>Greece</location>
+					<description></description>
+					<comment>Active community member.</comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,6406.0.html</url>
 						</link>
 					</links>
 				</item>
