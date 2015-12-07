@@ -105,7 +105,10 @@
 		</item>
 		<item>
 			<who>roadscape</who>
-			<quote>I'm here because I believe P2P can change the world for the better.. before cryptocurrency I didn't see any feasible solutions for our growing systemic problems. Bitcoin was eye-opening but DPOS took it much further. I'm not here for the dex in particular.. I want to see usable e-2-e encryption, better identity management, secure DNS, transparent governance &amp; voting, micropayments &amp; profitable open-source, DACs, reputation systems, etc etc... but we need to start somewhere and the dex &amp; MPA's are a good foundation (or will be.. soon.. hopefully).</quote>
+			<quote>
+				<p>I'm here because I believe P2P can change the world for the better.. before cryptocurrency I didn't see any feasible solutions for our growing systemic problems. Bitcoin was eye-opening but DPOS took it much further.</p>
+				<p>I'm not here for the dex in particular.. I want to see usable e-2-e encryption, better identity management, secure DNS, transparent governance &amp; voting, micropayments &amp; profitable open-source, DACs, reputation systems, etc etc... but we need to start somewhere and the dex &amp; MPA's are a good foundation (or will be.. soon.. hopefully).</p>
+			</quote>
 			<source>
 				<label>forum</label>
 				<url>https://bitsharestalk.org/index.php/topic,20123.msg258781.html#msg258781</url>

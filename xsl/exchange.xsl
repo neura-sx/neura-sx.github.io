@@ -26,7 +26,7 @@
 							</xsl:attribute>
 							<xsl:value-of select="BitShares"/>
 						</td>
-						<td id="td2">
+						<td id="td3">
 							<xsl:attribute name="class">
 								<xsl:choose>
 									<xsl:when test="Metatrader='Y'">highlightPos</xsl:when>
@@ -36,7 +36,7 @@
 							</xsl:attribute>
 							<xsl:value-of select="Metatrader"/>
 						</td>
-						<td id="td">
+						<td id="td4">
 							<xsl:attribute name="class">
 								<xsl:choose>
 									<xsl:when test="Bitstamp='Y'">highlightPos</xsl:when>
@@ -46,7 +46,7 @@
 							</xsl:attribute>
 							<xsl:value-of select="Bitstamp"/>
 						</td>
-						<td id="td">
+						<td id="td5">
 							<xsl:attribute name="class">
 								<xsl:choose>
 									<xsl:when test="Poloniex='Y'">highlightPos</xsl:when>

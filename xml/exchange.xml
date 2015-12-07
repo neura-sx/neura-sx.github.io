@@ -3,25 +3,75 @@
 <root>
 	<items>
 		<item>
-			<feature>Feature XXX</feature>
-			<BitShares>Y</BitShares>
-			<Metatrader>N</Metatrader>
-			<Bitstamp>Y</Bitstamp>
-			<Poloniex>N</Poloniex>
+			<feature>What funds are supported</feature>
+			<BitShares>Both fiat and crypto</BitShares>
+			<Metatrader>Only fiat</Metatrader>
+			<Bitstamp>Both fiat and crypto</Bitstamp>
+			<Poloniex>Only crypto</Poloniex>
 		</item>
 		<item>
-			<feature>Feature YYY</feature>
-			<BitShares>Y</BitShares>
-			<Metatrader>Y</Metatrader>
-			<Bitstamp>N</Bitstamp>
-			<Poloniex>N</Poloniex>
+			<feature>How to deposit funds?</feature>
+			<BitShares>By using a gateway service to exchange assets into bit-assets (a.k.a. SmartCoins).</BitShares>
+			<Metatrader>By depositing funds with a brokerage house.</Metatrader>
+			<Bitstamp>By depositing funds with the exchange company.</Bitstamp>
+			<Poloniex>By depositing funds with the exchange company.</Poloniex>
 		</item>
 		<item>
-			<feature>Feature ZZZ</feature>
-			<BitShares>Y</BitShares>
-			<Metatrader>N</Metatrader>
-			<Bitstamp>Y</Bitstamp>
-			<Poloniex>Y</Poloniex>
+			<feature>How to withdraw funds?</feature>
+			<BitShares>By using a gateway service to exchange bit-assets (a.k.a. SmartCoins) into underlying assets.</BitShares>
+			<Metatrader>By withdrawing funds from a brokerage house.</Metatrader>
+			<Bitstamp>By withdrawing funds from the exchange company.</Bitstamp>
+			<Poloniex>By withdrawing funds from the exchange company.</Poloniex>
 		</item>
+		<item>
+			<feature>Order-book mechanism</feature>
+			<BitShares>Very scalable. Multiple exchanges share their order-books with each other.</BitShares>
+			<Metatrader>The order-book is not visible to the user.</Metatrader>
+			<Bitstamp>Not scalable.</Bitstamp>
+			<Poloniex>Not scalable.</Poloniex>
+		</item>
+		<item>
+			<feature>Who owns assets listed on the order-book?</feature>
+			<BitShares>The user does.</BitShares>
+			<Metatrader>A brokerage house does.</Metatrader>
+			<Bitstamp>The exchange company does.</Bitstamp>
+			<Poloniex>The exchange company does.</Poloniex>
+		</item>
+		<item>
+			<feature>Is margin trading available?</feature>
+			<BitShares>Will be as soon as Collateralized Bond Market is implemented.</BitShares>
+			<Metatrader>Yes. Actually only margin trading is possible.</Metatrader>
+			<Bitstamp>Yes</Bitstamp>
+			<Poloniex>Yes</Poloniex>
+		</item>
+		<item>
+			<feature>Support for non-standard market orders (e.g. stop-loss, take-profit)</feature>
+			<BitShares>Planned</BitShares>
+			<Metatrader>Yes</Metatrader>
+			<Bitstamp>Yes</Bitstamp>
+			<Poloniex>Yes</Poloniex>
+		</item>
+		<item>
+			<feature>Technical Analysis indicators</feature>
+			<BitShares>Basic</BitShares>
+			<Metatrader>Very advanced</Metatrader>
+			<Bitstamp>Basic</Bitstamp>
+			<Poloniex>Basic</Poloniex>
+		</item>
+		<item>
+			<feature>API for trading bots </feature>
+			<BitShares>Yes (very soon)</BitShares>
+			<Metatrader>Yes</Metatrader>
+			<Bitstamp>Yes</Bitstamp>
+			<Poloniex>Yes</Poloniex>
+		</item>
+		<item>
+			<feature>Integrated scripting language for automated trading</feature>
+			<BitShares>No</BitShares>
+			<Metatrader>Yes</Metatrader>
+			<Bitstamp>No</Bitstamp>
+			<Poloniex>Yes</Poloniex>
+		</item>
+
 	</items>
 </root>
