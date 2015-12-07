@@ -10,7 +10,7 @@
 					<th id="th1">Name</th>
 					<th id="th2">Status</th>
 					<th id="th3">Overlap</th>
-					<th id="th4">Estimated Cost</th>
+					<th id="th4">Cost</th>
 					<th id="th5">ETA</th>
 					<th id="th6">Worker</th>
 					<th id="th7">Contractor</th>

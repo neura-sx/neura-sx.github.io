@@ -15,7 +15,7 @@
 			<tbody>
 				<xsl:for-each select="root/groups/group">
 					<tr>
-						<td class="caption" colspan="6">
+						<td class="caption" colspan="5">
 							<xsl:value-of select="name" />
 						</td>
 					</tr>

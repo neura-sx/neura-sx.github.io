@@ -1,10 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
 <root>
-	<items>
-		<item>
-			
-		</item>
-		
-	</items>
+	<groups>
+		<group>
+			<name>Funded</name>
+			<items>
+				<item>
+					<id>1.14.7</id>
+					<title>Refund Create Order Fees on Cancel</title>
+					<time>
+						<begin>Nov 21, 2015</begin>
+						<end>Dec 30, 2015</end>
+					</time>
+					<creator>
+						<id>1.2.97845</id>
+						<name>bunkerchainlabs-com</name>
+						<url>http://www.cryptofresh.com/u/bunkerchainlabs-com</url>
+						<forum>BunkerChain Labs</forum>
+					</creator>
+					<description>
+						<p>This proposal will charge the minimum order fee at the time the order is created. It will be refunded if the order is canceled before any part of the order is filled. A small fee will be charged to cancel orders. This order cancellation fee will be just enough to prevent spam (a fraction of a cent).</p>
+						<p>If the fee is paid in something other than BTS, it will be converted to BTS via the fee pool at the time the order is placed. If the order is canceled, BTS will be refunded to the user's account</p>
+					</description>
+					<comment/>
+					<links>
+						<link>
+							<label>github</label>
+							<url>https://github.com/cryptonomex/graphene/issues/445</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<id>1.14.9</id>
+					<title>Bitshares UI Project Coordinator</title>
+					<time>
+						<begin>Nov 24, 2015</begin>
+						<end>Feb 24, 2016</end>
+					</time>
+					<creator>
+						<id>1.2.21594</id>
+						<name>billbutler</name>
+						<url>http://www.cryptofresh.com/u/billbutler</url>
+						<forum>wmbutler</forum>
+					</creator>
+					<description>This worker proposal is intended to fund wmbutler's efforts to prioritize and communicate issues to graphene UI developers</description>
+					<comment></comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20144.0.html</url>
+						</link>
+						<link>
+							<label>docs</label>
+							<url>https://docs.google.com/document/d/14d9bBAyUoB9wcBpFnYoGpE1MF0RnOwMKpF2Z8eh0QkI/edit?usp=sharing</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<id>1.14.0</id>
+					<title>Refund400k</title>
+					<time>
+						<begin>Oct 20, 2015</begin>
+						<end>Dec 31, 2035</end>
+					</time>
+					<creator>
+						<id>1.2.90742</id>
+						<name>init0</name>
+						<url>http://www.cryptofresh.com/u/init0</url>
+						<forum/>
+					</creator>
+					<description>This is just an automated worker that recycles worker funds back to the committee account thus acts as a threshold for other worker proposals - they need to achieve a greater support than this worker in order to get funded.</description>
+					<comment></comment>
+					<links/>
+				</item>
+			</items>
+		</group>
+		<group>
+			<name>Proposed by not funded</name>
+			<items>
+				<item>
+					<id>1.14.6</id>
+					<title>Debian/Ubuntu-based PPA</title>
+					<time>
+						<begin>Oct 28 2015</begin>
+						<end>Jan 31 2016</end>
+					</time>
+					<creator>
+						<id>1.2.6004</id>
+						<name>maqifrnswa</name>
+						<url>http://www.cryptofresh.com/u/maqifrnswa</url>
+						<forum>maqifrnswa</forum>
+					</creator>
+					<description>This worker will provide repositories for Debian based distributions for BitShares. Debian and Ubuntu are ready on both amd64 and i386. The worker will also implement Mint and extend to ARM processors (Raspberry Pi).</description>
+					<comment></comment>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19485.msg250031.html</url>
+						</link>
+					</links>
+				</item>
+<!-- 				<item> -->
+<!-- 					<id></id> -->
+<!-- 					<title></title> -->
+<!-- 					<time> -->
+<!-- 						<begin></begin> -->
+<!-- 						<end></end> -->
+<!-- 					</time> -->
+<!-- 					<creator> -->
+<!-- 						<id></id> -->
+<!-- 						<name></name> -->
+<!-- 						<url>http://www.cryptofresh.com/u/</url> -->
+<!-- 						<forum/> -->
+<!-- 					</creator> -->
+<!-- 					<description></description> -->
+<!-- 					<comment></comment> -->
+<!-- 					<links> -->
+<!-- 						<link> -->
+<!-- 							<label>forum</label> -->
+<!-- 							<url></url> -->
+<!-- 						</link> -->
+<!-- 					</links> -->
+<!-- 				</item> -->
+			</items>
+		</group>
+	</groups>
 </root>
