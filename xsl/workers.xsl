@@ -31,6 +31,9 @@
 									</xsl:attribute>
 									<xsl:value-of select="creator/name" />
 								</a>
+								<xsl:if test="creator/forum">
+									<xsl:value-of select="concat(' (',creator/forum,')')" />
+								</xsl:if>
 							</td>
 							<td id="td4">
 								<xsl:choose>

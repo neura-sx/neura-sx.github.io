@@ -67,7 +67,6 @@
 						<id>1.2.90742</id>
 						<name>init0</name>
 						<url>http://www.cryptofresh.com/u/init0</url>
-						<forum/>
 					</creator>
 					<description>This is just an automated worker that recycles worker funds back to the committee account thus acts as a threshold for other worker proposals - they need to achieve a greater support than this worker in order to get funded.</description>
 					<comment></comment>
