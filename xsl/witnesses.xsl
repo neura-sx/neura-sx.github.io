@@ -8,15 +8,14 @@
 					<th id="th1">Account</th>
 					<th id="th2">Forum Name</th>
 					<th id="th3">Location</th>
-					<th id="th4">Description</th>
-					<th id="th5">Comments</th>
-					<th id="th6">Links</th>
+					<th id="th4">Info</th>
+					<th id="th5">Links</th>
 				</tr>
 			</thead>
 			<tbody>
 				<xsl:for-each select="root/groups/group">
 					<tr>
-						<td class="caption" colspan="6">
+						<td class="caption" colspan="5">
 							<xsl:value-of select="name" />
 						</td>
 					</tr>
@@ -34,16 +33,15 @@
 							<td id="td3"><xsl:value-of select="location"/></td>
 							<td id="td4">
 								<xsl:choose>
-									<xsl:when test="description/p">
-										<xsl:for-each select="description/p">
+									<xsl:when test="info/p">
+										<xsl:for-each select="info/p">
 											<p><xsl:value-of select="current()"/></p>
 										</xsl:for-each>
 									</xsl:when>
-									<xsl:otherwise><xsl:value-of select="description"/></xsl:otherwise>
+									<xsl:otherwise><xsl:value-of select="info"/></xsl:otherwise>
 								</xsl:choose>
 							</td>
-							<td id="td5"><xsl:value-of select="comment"/></td>
-							<td id="td6">
+							<td id="td5">
 								<xsl:for-each select="links/link">
 									<a class="link">
 										<xsl:attribute name="href">

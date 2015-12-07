@@ -12,8 +12,7 @@
 					</account>
 					<forum>puppies</forum>
 					<location></location>
-					<description></description>
-					<comment>Also committee member.</comment>
+					<info>Also committee member.</info>
 					<links>
 						<link>
 							<label>github</label>
@@ -28,8 +27,7 @@
 					</account>
 					<forum>mindphlux</forum>
 					<location></location>
-					<description></description>
-					<comment>Also committee member.</comment>
+					<info>Also committee member.</info>
 					<links>
 						<link>
 							<label></label>
@@ -44,8 +42,7 @@
 					</account>
 					<forum></forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label>github</label>
@@ -60,8 +57,7 @@
 					</account>
 					<forum>cube</forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label>website</label>
@@ -76,8 +72,7 @@
 					</account>
 					<forum></forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -92,8 +87,7 @@
 					</account>
 					<forum>maqifrnswa</forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -108,8 +102,7 @@
 					</account>
 					<forum>Bhuz</forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label>forum</label>
@@ -124,8 +117,7 @@
 					</account>
 					<forum></forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -140,8 +132,7 @@
 					</account>
 					<forum>elmato</forum>
 					<location>Argentina</location>
-					<description></description>
-					<comment>Entrepreneur behind BitShares mobile wallet development.</comment>
+					<info>Entrepreneur behind BitShares mobile wallet development.</info>
 					<links>
 						<link>
 							<label></label>
@@ -156,8 +147,7 @@
 					</account>
 					<forum>wackou</forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label>website</label>
@@ -172,8 +162,7 @@
 					</account>
 					<forum>rnglab</forum>
 					<location></location>
-					<description></description>
-					<comment>Good efforts aimed at coordinating internationalization tasks.</comment>
+					<info>Good efforts aimed at coordinating internationalization tasks.</info>
 					<links>
 						<link>
 							<label></label>
@@ -188,8 +177,7 @@
 					</account>
 					<forum>Xeldal</forum>
 					<location></location>
-					<description></description>
-					<comment>Active community member.</comment>
+					<info>Active community member.</info>
 					<links>
 						<link>
 							<label>forum</label>
@@ -204,8 +192,7 @@
 					</account>
 					<forum>iHashFury</forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label>forum</label>
@@ -220,8 +207,7 @@
 					</account>
 					<forum></forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -235,8 +221,7 @@
 						<url>http://www.cryptofresh.com/u/delegate-1.lafona</url>
 					</account>
 					<forum>lafona</forum>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -251,8 +236,7 @@
 					</account>
 					<forum></forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -267,8 +251,7 @@
 					</account>
 					<forum>alt</forum>
 					<location>China</location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -283,8 +266,7 @@
 					</account>
 					<forum>Thom</forum>
 					<location>USA</location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -299,8 +281,7 @@
 					</account>
 					<forum></forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -315,8 +296,7 @@
 					</account>
 					<forum>clayop</forum>
 					<location>Korea</location>
-					<description></description>
-					<comment>Also committee member.</comment>
+					<info>Also committee member.</info>
 					<links>
 						<link>
 							<label>forum</label>
@@ -335,8 +315,7 @@
 					</account>
 					<forum>roadscape</forum>
 					<location>USA</location>
-					<description></description>
-					<comment>Entrepreneur behind cryptofresh.com.</comment>
+					<info>Entrepreneur behind cryptofresh.com.</info>
 					<links>
 						<link>
 							<label>github</label>
@@ -355,8 +334,7 @@
 					</account>
 					<forum>pc</forum>
 					<location>Germany</location>
-					<description></description>
-					<comment>Valuable contributor to the BitShares codebase.</comment>
+					<info>Valuable contributor to the BitShares codebase.</info>
 					<links>
 						<link>
 							<label>forum</label>
@@ -375,8 +353,7 @@
 					</account>
 					<forum>BunkerChain Labs</forum>
 					<location>Canada</location>
-					<description></description>
-					<comment>Main entrepreneur behind BunkerChain Labs. Also committee member.</comment>
+					<info>Main entrepreneur behind BunkerChain Labs. Also committee member.</info>
 					<links>
 						<link>
 							<label>forum</label>
@@ -395,8 +372,7 @@
 					</account>
 					<forum></forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -411,8 +387,7 @@
 					</account>
 					<forum></forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -434,8 +409,7 @@
 					</account>
 					<forum>triox</forum>
 					<location>Poland</location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -450,8 +424,7 @@
 					</account>
 					<forum></forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -466,8 +439,7 @@
 					</account>
 					<forum></forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -482,8 +454,7 @@
 					</account>
 					<forum></forum>
 					<location></location>
-					<description></description>
-					<comment></comment>
+					<info></info>
 					<links>
 						<link>
 							<label></label>
@@ -498,8 +469,7 @@
 					</account>
 					<forum>liondani</forum>
 					<location>Greece</location>
-					<description></description>
-					<comment>Active community member.</comment>
+					<info>Active community member.</info>
 					<links>
 						<link>
 							<label>forum</label>
