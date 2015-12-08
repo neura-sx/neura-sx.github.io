@@ -136,7 +136,7 @@
 					<DebitCard>N</DebitCard>
 					<PayPal>N</PayPal>
 					<Bitcoin>Y</Bitcoin>
-					<Ripple>Depends of a gateway policy</Ripple>
+					<Ripple>Depends on a gateway policy</Ripple>
 				</item>
 				<item>
 					<feature>Clear rules that never change (as they are hard-coded in the blockchain)</feature>
