@@ -18,8 +18,9 @@
 				transformXMLDoc('page6','xml/links.xml','xsl/links.xsl');
 				transformXMLDoc('page7','xml/technology.xml','xsl/technology.xsl');
 				transformXMLDoc('page8_1','xml/entities.xml','xsl/entities.xsl');
-				transformXMLDoc('page8_2','xml/personas.xml','xsl/personas.xsl');
-				transformXMLDoc('page8_3','xml/reasons.xml','xsl/reasons.xsl');
+				transformXMLDoc('page8_2','xml/websites.xml','xsl/websites.xsl');
+				transformXMLDoc('page8_3','xml/personas.xml','xsl/personas.xsl');
+				transformXMLDoc('page8_4','xml/reasons.xml','xsl/reasons.xsl');
 				onHashChange();
 			}
 			function onHashChange() {
@@ -62,12 +63,15 @@
 					} else if (location.hash == '#ecosystem/entities') {
 						activatePage('menus','menu8','pages','page8');
 						activatePage('page8_menus','page8_menu1','page8_pages','page8_1');
-					} else if (location.hash == '#ecosystem/personas') {
+					} else if (location.hash == '#ecosystem/websites') {
 						activatePage('menus','menu8','pages','page8');
 						activatePage('page8_menus','page8_menu2','page8_pages','page8_2');
-					} else if (location.hash == '#ecosystem/reasons') {
+					} else if (location.hash == '#ecosystem/personas') {
 						activatePage('menus','menu8','pages','page8');
 						activatePage('page8_menus','page8_menu3','page8_pages','page8_3');
+					} else if (location.hash == '#ecosystem/reasons') {
+						activatePage('menus','menu8','pages','page8');
+						activatePage('page8_menus','page8_menu4','page8_pages','page8_4');
 					}
 				}
 			}
@@ -86,6 +90,7 @@
 		<link rel="stylesheet" href="css/links.css"/>
 		<link rel="stylesheet" href="css/technology.css"/>
 		<link rel="stylesheet" href="css/entities.css"/>
+		<link rel="stylesheet" href="css/websites.css"/>
 		<link rel="stylesheet" href="css/personas.css"/>
 	</head>
 	<body onload="loadPages()" onhashchange="onHashChange()" style="overflow-y:scroll;">
@@ -136,13 +141,15 @@
 				<div id="page8" class="page" style="display:none;">
 					<div id="page8_menus" class="menu submenu">
 						<a id="page8_menu1" href="#ecosystem/entities">Entities</a>
-						<a id="page8_menu2" href="#ecosystem/personas">Personas</a>
-						<a id="page8_menu3" href="#ecosystem/reasons">Reasons</a>
+						<a id="page8_menu2" href="#ecosystem/websites">Websites</a>
+						<a id="page8_menu3" href="#ecosystem/personas">Personas</a>
+						<a id="page8_menu4" href="#ecosystem/reasons">Reasons</a>
 					</div>
 					<div id="page8_pages">
 						<div id="page8_1" class="page" style="display:none;"></div>
 						<div id="page8_2" class="page" style="display:none;"></div>
 						<div id="page8_3" class="page" style="display:none;"></div>
+						<div id="page8_4" class="page" style="display:none;"></div>
 					</div>
 				</div>
 			</div>
