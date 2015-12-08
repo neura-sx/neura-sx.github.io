@@ -3,7 +3,7 @@
 <root>
 	<items>
 		<item>
-			<feature>What funds are supported</feature>
+			<feature>What types of funds are supported?</feature>
 			<BitShares>Both fiat and crypto</BitShares>
 			<Metatrader>Only fiat</Metatrader>
 			<Bitstamp>Both fiat and crypto</Bitstamp>
