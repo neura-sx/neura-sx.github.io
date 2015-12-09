@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
+<root>
+	<items>
+		<item>
+			<name>BitShares 2.0</name>
+			<description>An industrial-grade financial smart contract platform.</description>
+			<status>Launched and fully operational.</status>
+			<entrepreneur>
+				<name>Invictus Innovations (now defunct)</name>
+			</entrepreneur>
+			<developers>
+				<developer>
+					<name>Cryptonomex (CNX)</name>
+					<url>https://cryptonomex.com</url>
+				</developer>
+				<developer>
+					<name>BunkerChain Labs</name>
+					<url>http://www.bunkerchainlabs.com</url>
+				</developer>
+				<developer>
+					<name>Nexus</name>
+					<url>https://forum.makerdao.com/t/nexus-report-shanghai-global-blockchain-summit/315</url>
+				</developer>
+			</developers>
+			<links>
+				<link>
+					<label>website</label>
+					<url>http://bitshares.org</url>
+				</link>
+				<link>
+					<label>forum</label>
+					<url>http://bitsharestalk.org</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<name>Muse</name>
+			<description>The Foundation of the Music Industry’s New Eco System. A blockchain specifically tailored for the Music Industry.</description>
+			<status>The blockchain itself is launched but there is no support for core features yet.</status>
+			<entrepreneur>
+				<name>PeerTracks</name>
+				<url>http://peertracks.com</url>
+			</entrepreneur>
+			<developers>
+				<developer>
+					<name>Cryptonomex (CNX)</name>
+					<url>https://cryptonomex.com</url>
+				</developer>
+				<developer>
+					<name>Bitsapphire</name>
+					<url>https://bitsapphire.com</url>
+				</developer>
+			</developers>
+			<links>
+				<link>
+					<label>website</label>
+					<url>http://museblockchain.com</url>
+				</link>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/board,54.0.html</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<name>Play</name>
+			<description>Blockchain-based game platfrom.</description>
+			<status>The blockchain itself is launched but there is no support for core features yet.</status>
+			<entrepreneur>
+				<name></name>
+				<url></url>
+			</entrepreneur>
+			<developers/>
+			<links>
+				<link>
+					<label>website</label>
+					<url>https://dacplay.org/en</url>
+				</link>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/board,52.0.html</url>
+				</link>
+			</links>
+		</item>
+		<item>
+			<name>Identabit</name>
+			<description>A unique identity based currency enabling distributed compliance.</description>
+			<status>Not launched yet.</status>
+			<entrepreneur>
+				<name>John Underwood</name>
+				<url>https://www.linkedin.com/in/underwun</url>
+			</entrepreneur>
+			<developers>
+				<developer>
+					<name>Cryptonomex (CNX)</name>
+					<url>https://cryptonomex.com</url>
+				</developer>
+			</developers>
+			<links>
+				<link>
+					<label>website</label>
+					<url>>http://identabit.com</url>
+				</link>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/board,96.0.html</url>
+				</link>
+			</links>
+		</item>
+	</items>
+</root>

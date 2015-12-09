@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
 <root>
-	<areas>
-		<area id="A">
+	<groups>
+		<group id="A">
 			<name>Developers</name>
 			<items>
 				<item>
@@ -22,25 +22,44 @@
 					</links>
 				</item>
 				<item>
+					<name>BunkerChain Labs</name>
+					<description></description>
+					<location>Canada</location>
+					<status>Starting up</status>
+					<ceo>
+						<forum>BunkerChain Labs</forum>
+						<real>Jonathan Baha’i</real>
+					</ceo>
+					<links>
+						<link>
+							<label>website</label>
+							<url>http://www.bunkerchainlabs.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
 					<name>Nexus</name>
 					<description></description>
 					<location></location>
 					<status>Starting up</status>
 					<ceo>
 						<forum>Rune</forum>
-						<real></real>
 					</ceo>
 					<links>
 						<link>
 							<label>forum</label>
 							<url>https://bitsharestalk.org/index.php/topic,19418.0.html</url>
 						</link>
+						<link>
+							<label>website</label>
+							<url>https://forum.makerdao.com/t/nexus-report-shanghai-global-blockchain-summit/315</url>
+						</link>						
 					</links>
 				</item>
 			</items>
-		</area>
+		</group>
 		
-		<area id="B">
+		<group id="B">
 			<name>Exchanges</name>
 			<items>
 				<item>
@@ -66,16 +85,16 @@
 					<status>Not launched yet</status>
 					<ceo>
 						<forum>BunkerChain Labs</forum>
-						<real></real>
+						<real>Jonathan Baha’i</real>
 					</ceo>
 					<links>
 					</links>
 				</item>
 
 			</items>
-		</area>
+		</group>
 		
-		<area id="C">
+		<group id="C">
 			<name>Gateways</name>
 			<items>
 				<item>
@@ -101,7 +120,6 @@
 					<status>Fully operational</status>
 					<ceo>
 						<forum>bitcrab</forum>
-						<real></real>
 					</ceo>
 					<links>
 						<link>
@@ -117,7 +135,6 @@
 					<status>Fully operational</status>
 					<ceo>
 						<forum>monsterer</forum>
-						<real></real>
 					</ceo>
 					<links>
 						<link>
@@ -137,7 +154,6 @@
 					<status>Fully operational</status>
 					<ceo>
 						<forum></forum>
-						<real></real>
 					</ceo>
 					<links>
 						<link>
@@ -147,19 +163,19 @@
 					</links>
 				</item>
 			</items>
-		</area>
+		</group>
 		
-		<area id="D">
+		<group id="D">
 			<name>Businesses (UIAs issued on BitShares)</name>
 			<items>
 				<item>
-					<name>BunkerChain Labs Inc.</name>
+					<name>BunkerChain Labs</name>
 					<description></description>
-					<location></location>
+					<location>Canada</location>
 					<status>Currently acting as escrow for CNX</status>
 					<ceo>
 						<forum>BunkerChain Labs</forum>
-						<real></real>
+						<real>Jonathan Baha’i</real>
 					</ceo>
 					<links>
 						<link>
@@ -173,13 +189,12 @@
 					</links>
 				</item>
 				<item>
-					<name>Peak Venture Group Inc. (PVG)</name>
+					<name>Peak Venture Group (PVG)</name>
 					<description></description>
 					<location>USA</location>
 					<status>BitShares integration in progress</status>
 					<ceo>
 						<forum></forum>
-						<real></real>
 					</ceo>
 					<links>
 						<link>
@@ -219,7 +234,6 @@
 					<status></status>
 					<ceo>
 						<forum>Freebieservers</forum>
-						<real></real>
 					</ceo>
 					<links>
 						<link>
@@ -229,124 +243,80 @@
 					</links>
 				</item>
 				<item>
-					<name></name>
+					<name>DACX</name>
 					<description></description>
-					<location></location>
+					<location>China</location>
 					<status></status>
 					<ceo>
 						<forum></forum>
-						<real></real>
 					</ceo>
 					<links>
 						<link>
-							<label></label>
-							<url></url>
+							<label>website</label>
+							<url>https://dacx.com</url>
+						</link>
+						<link>
+							<label>video</label>
+							<url>https://www.youtube.com/watch?v=CMbgER0BOqA</url>
 						</link>
 					</links>
 				</item>
 				<item>
-					<name></name>
+					<name>Bitcoin42</name>
 					<description></description>
-					<location></location>
+					<location>USA</location>
 					<status></status>
 					<ceo>
-						<forum></forum>
-						<real></real>
+						<forum>devlux</forum>
 					</ceo>
 					<links>
 						<link>
-							<label></label>
-							<url></url>
+							<label>website</label>
+							<url>http://bitcoin42.com</url>
 						</link>
 					</links>
 				</item>
 				<item>
-					<name></name>
+					<name>Follow My Vote</name>
 					<description></description>
-					<location></location>
-					<status></status>
+					<location>USA</location>
+					<status>Not launched yet</status>
 					<ceo>
-						<forum></forum>
-						<real></real>
+						<forum>ak</forum>
+						<real>Adam Kaleb Ernest</real>
 					</ceo>
 					<links>
 						<link>
-							<label></label>
-							<url></url>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/board,63.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>https://followmyvote.com</url>
 						</link>
 					</links>
 				</item>
 				<item>
-					<name></name>
+					<name>LottoShares</name>
 					<description></description>
-					<location></location>
+					<location>Sint Maarten (Caribbean)</location>
 					<status></status>
 					<ceo>
-						<forum></forum>
-						<real></real>
+						<forum>Murderistic, MarkLyford</forum>
+						<real>Michael Taggart, Mark Lyford</real>
 					</ceo>
 					<links>
 						<link>
-							<label></label>
-							<url></url>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,18452.msg236536.html#msg236536</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://lottoshares.com</url>
 						</link>
 					</links>
 				</item>
 			</items>
-		</area>
-		
-		<area id="D">
-			<name>Other Graphene-based blockchains</name>
-			<items>
-				<item>
-					<name></name>
-					<description></description>
-					<location></location>
-					<status></status>
-					<ceo>
-						<forum></forum>
-						<real></real>
-					</ceo>
-					<links>
-						<link>
-							<label></label>
-							<url></url>
-						</link>
-					</links>
-				</item>
-				<item>
-					<name></name>
-					<description></description>
-					<location></location>
-					<status></status>
-					<ceo>
-						<forum></forum>
-						<real></real>
-					</ceo>
-					<links>
-						<link>
-							<label></label>
-							<url></url>
-						</link>
-					</links>
-				</item>
-				<item>
-					<name></name>
-					<description></description>
-					<location></location>
-					<status></status>
-					<ceo>
-						<forum></forum>
-						<real></real>
-					</ceo>
-					<links>
-						<link>
-							<label></label>
-							<url></url>
-						</link>
-					</links>
-				</item>
-			</items>
-		</area>
-	</areas>
+		</group>
+	</groups>
 </root>

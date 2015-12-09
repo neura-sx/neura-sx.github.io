@@ -1,16 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
 <root>
-	<areas>
-		<area id="A">
-			<name></name>
+	<groups>
+		<group id="A">
+			<name>Official</name>
 			<items>
 				<item>
-					
+					<name>Website</name>
+					<description>Official BitShares website.</description>
+					<owner>cass</owner>
+					<comment></comment>
+					<url>http://bitshares.org</url>
 				</item>
-				
+				<item>
+					<name>Documentation</name>
+					<description>Very detailed documentation. Also includes migration guides.</description>
+					<owner>xeroc</owner>
+					<comment>Still work-in-progress</comment>
+					<url>http://docs.bitshares.eu</url>
+				</item>
+				<item>
+					<name>Forum</name>
+					<description>Vibrant community. New ideas. Latest announcements.</description>
+					<owner>bitsapphire</owner>
+					<comment></comment>
+					<url>http://bitsharestalk.org</url>
+				</item>
 			</items>
-		</area>
-		
-	</areas>
+		</group>
+		<group id="B">
+			<name>Blockchain explorers / aggregators</name>
+			<items>
+				<item>
+					<name>Cryptofresh</name>
+					<description>A very comprehensive blockchain explorer.</description>
+					<owner>roadscape</owner>
+					<comment>Work in progress</comment>
+					<url>http://cryptofresh.com</url>
+				</item>
+				<item>
+					<name>BitShares Breakout</name>
+					<description>Market aggregator. Also includes basic market stats for various DEX pairs.</description>
+					<owner>Xeldal</owner>
+					<comment></comment>
+					<url>http://bitsharesbreakout.com</url>
+				</item>
+			</items>
+		</group>
+		<group id="C">
+			<name>Information / blogs</name>
+			<items>
+				<item>
+					<name>Community hang-outs 'Beyond Bitcoin'</name>
+					<description>Features weekly developers hang-outs with Daniel Larimer (bytemaster)</description>
+					<owner>fuzzy</owner>
+					<comment></comment>
+					<url>https://beyondbitcoin.org</url>
+				</item>
+				<item>
+					<name>SmartCoin blog</name>
+					<description></description>
+					<owner>fav</owner>
+					<comment></comment>
+					<url>http://blog.smartcoin.pw</url>
+				</item>
+				<item>
+					<name>BitShares French ConneXion</name>
+					<description></description>
+					<owner>EstefanTT</owner>
+					<comment>In French</comment>
+					<url>http://www.bitsharesfcx.com/btsfcx.php</url>
+				</item>
+				<item>
+					<name>The Coming BitShares Revolution</name>
+					<description></description>
+					<owner>Thom</owner>
+					<comment></comment>
+					<url>http://thecomingbitsharesrevolution.website</url>
+				</item>
+				<item>
+					<name>DPOS Hub</name>
+					<description></description>
+					<owner>BunkerChain Labs, CryptoPrometheus</owner>
+					<comment>Not launched yet</comment>
+					<url>http://www.dposhub.com</url>
+				</item>
+			</items>
+		</group>
+	</groups>
 </root>

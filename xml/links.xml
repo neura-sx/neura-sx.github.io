@@ -16,6 +16,11 @@
 					<url>http://docs.bitshares.eu</url>
 				</item>
 				<item>
+					<title>Official BitShares whitepaper</title>
+					<comment>Still work-in-progress</comment>
+					<url>http://docs.bitshares.eu/_downloads/bitshares-financial-platform.pdf</url>
+				</item>
+				<item>
 					<title>BitShares Block Explorer</title>
 					<comment>Still work-in-progress</comment>
 					<url>http://cryptofresh.com</url>
@@ -34,11 +39,6 @@
 					<title>Community hang-outs</title>
 					<comment></comment>
 					<url>https://beyondbitcoin.org</url>
-				</item>
-				<item>
-					<title>Bitshares Breakout</title>
-					<comment>BTS market aggregator</comment>
-					<url>http://bitsharesbreakout.com</url>
 				</item>
 				<item>
 					<title>The Referral Program</title>
