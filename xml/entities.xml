@@ -3,14 +3,350 @@
 <root>
 	<areas>
 		<area id="A">
-			<name></name>
+			<name>Developers</name>
 			<items>
 				<item>
-					
+					<name>Cryptonomex (CNX)</name>
+					<description></description>
+					<location>USA</location>
+					<status>Fully operational</status>
+					<ceo>
+						<forum>bytemaster</forum>
+						<real>Daniel Larimer</real>
+					</ceo>
+					<links>
+						<link>
+							<label>website</label>
+							<url>https://cryptonomex.com</url>
+						</link>
+					</links>
 				</item>
-				
+				<item>
+					<name>Nexus</name>
+					<description></description>
+					<location></location>
+					<status>Starting up</status>
+					<ceo>
+						<forum>Rune</forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19418.0.html</url>
+						</link>
+					</links>
+				</item>
 			</items>
 		</area>
 		
+		<area id="B">
+			<name>Exchanges</name>
+			<items>
+				<item>
+					<name>OpenLedger</name>
+					<description></description>
+					<location>Denmark</location>
+					<status>Fully operational</status>
+					<ceo>
+						<forum>ccedk</forum>
+						<real>Ronny Boesing</real>
+					</ceo>
+					<links>
+						<link>
+							<label>website</label>
+							<url>https://openledger.info</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name>BunkerDEX</name>
+					<description></description>
+					<location>Canada</location>
+					<status>Not launched yet</status>
+					<ceo>
+						<forum>BunkerChain Labs</forum>
+						<real></real>
+					</ceo>
+					<links>
+					</links>
+				</item>
+
+			</items>
+		</area>
+		
+		<area id="C">
+			<name>Gateways</name>
+			<items>
+				<item>
+					<name>CCEDK</name>
+					<description></description>
+					<location>Denmark</location>
+					<status>Fully operational</status>
+					<ceo>
+						<forum>ccedk</forum>
+						<real>Ronny Boesing</real>
+					</ceo>
+					<links>
+						<link>
+							<label>website</label>
+							<url>https://www.ccedk.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name>Transwiser</name>
+					<description></description>
+					<location>China</location>
+					<status>Fully operational</status>
+					<ceo>
+						<forum>bitcrab</forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label>website</label>
+							<url>http://transwiser.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name>Metaexchange</name>
+					<description></description>
+					<location></location>
+					<status>Fully operational</status>
+					<ceo>
+						<forum>monsterer</forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label>website</label>
+							<url>https://metaexchange.info</url>
+						</link>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,17602.0.html</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name>Blocktrades</name>
+					<description></description>
+					<location></location>
+					<status>Fully operational</status>
+					<ceo>
+						<forum></forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label>website</label>
+							<url>https://blocktrades.us</url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</area>
+		
+		<area id="D">
+			<name>Businesses (UIAs issued on BitShares)</name>
+			<items>
+				<item>
+					<name>BunkerChain Labs Inc.</name>
+					<description></description>
+					<location></location>
+					<status>Currently acting as escrow for CNX</status>
+					<ceo>
+						<forum>BunkerChain Labs</forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19721.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://www.bunkerchainlabs.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name>Peak Venture Group Inc. (PVG)</name>
+					<description></description>
+					<location>USA</location>
+					<status>BitShares integration in progress</status>
+					<ceo>
+						<forum></forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,17340.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://www.pvgcorp.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name>Banx Capital</name>
+					<description></description>
+					<location>UK</location>
+					<status>BitShares integration in progress</status>
+					<ceo>
+						<forum>Mark Lyford</forum>
+						<real>MarkLyford</real>
+					</ceo>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,17148.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://banxcapital.com/</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name>Freebie Servers</name>
+					<description></description>
+					<location></location>
+					<status></status>
+					<ceo>
+						<forum>Freebieservers</forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label>website</label>
+							<url>http://freebieservers.com</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name></name>
+					<description></description>
+					<location></location>
+					<status></status>
+					<ceo>
+						<forum></forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name></name>
+					<description></description>
+					<location></location>
+					<status></status>
+					<ceo>
+						<forum></forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name></name>
+					<description></description>
+					<location></location>
+					<status></status>
+					<ceo>
+						<forum></forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name></name>
+					<description></description>
+					<location></location>
+					<status></status>
+					<ceo>
+						<forum></forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</area>
+		
+		<area id="D">
+			<name>Other Graphene-based blockchains</name>
+			<items>
+				<item>
+					<name></name>
+					<description></description>
+					<location></location>
+					<status></status>
+					<ceo>
+						<forum></forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name></name>
+					<description></description>
+					<location></location>
+					<status></status>
+					<ceo>
+						<forum></forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name></name>
+					<description></description>
+					<location></location>
+					<status></status>
+					<ceo>
+						<forum></forum>
+						<real></real>
+					</ceo>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</area>
 	</areas>
 </root>
