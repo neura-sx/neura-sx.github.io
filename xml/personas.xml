@@ -6,18 +6,21 @@
 			<name>Founders</name>
 			<items>
 				<item>
+					<id>5</id>
 					<forum>bytemaster</forum>
 					<real>Daniel Larimer</real>
-					<description>BitShares inventor, one of founders. Backend developer.</description>
+					<description>BitShares inventor, one of BitShares founders. Backend developer.</description>
 					<links/>
 				</item>
 				<item>
+					<id>39773</id>
 					<forum>IOHKCharles</forum>
 					<real>Charles Hoskinson</real>
 					<description>One of BitShares founders. Left BitShares before it was launched but still active on the forum. Later became one of Ethereum founders.</description>
 					<links/>
 				</item>
 				<item>
+					<id>6</id>
 					<forum>Stan</forum>
 					<real>Stan Larimer</real>
 					<description>One of BitShares founders.</description>
@@ -27,57 +30,66 @@
 		</group>
 		
 		<group id="B">
-			<name>Developers</name>
+			<name>Code development</name>
 			<items>
 				<item>
+					<id>4854</id>
 					<forum>vikram</forum>
 					<real></real>
 					<description>Backend developer.</description>
 					<links/>
 				</item>
 				<item>
+					<id>3002</id>
 					<forum>theoretical</forum>
 					<real></real>
 					<description>Backend developer.</description>
 					<links/>
 				</item>
 				<item>
+					<id>11</id>
 					<forum>dannotestein</forum>
 					<real></real>
 					<description>Backend developer.</description>
 					<links/>
 				</item>
 				<item>
+					<id>12639</id>
 					<forum>valzav</forum>
 					<real>Valentine Zavgorodnev</real>
 					<description>Frontend developer.</description>
 					<links/>
 				</item>
 				<item>
+					<id>11456</id>
 					<forum>svk</forum>
 					<real>Sigve Kvalsvik</real>
 					<description>Frontend developer.</description>
 					<links/>
 				</item>
 				<item>
+					<id>7866</id>
 					<forum>jcalfee1</forum>
 					<real>James Calfee</real>
 					<description>Frontend developer.</description>
 					<links/>
 				</item>
 				<item>
+					<id>224</id>
 					<forum>cass</forum>
 					<real></real>
 					<description>UI/UX designer.</description>
 					<links/>
 				</item>
 				<item>
+					<id>6036</id>
 					<forum>wmbutler</forum>
 					<real>Bill Butler</real>
 					<description>Frontend development coordinator</description>
 					<links/>
 				</item>
 				<item>
+					<id>94</id>
 					<forum>pc</forum>
 					<real></real>
 					<description>Contractor working for CNX.</description>
@@ -90,6 +102,7 @@
 			<name>Business development</name>
 			<items>
 				<item>
+					<id>120</id>
 					<forum>xeroc</forum>
 					<real>Fabian Schuh</real>
 					<description></description>
@@ -105,6 +118,7 @@
 					</links>
 				</item>
 				<item>
+					<id>19185</id>
 					<forum>Murderistic</forum>
 					<real></real>
 					<description></description>
@@ -117,48 +131,56 @@
 			<name>Publicly known people</name>
 			<items>
 				<item>
+					<id>5512</id>
 					<forum>AdamBLevine</forum>
 					<real>Adam B. Levine</real>
 					<description>Entrepreneur behind Let's Talk Bitcoin</description>
 					<links/>
 				</item>
 				<item>
+					<id>3016</id>
 					<forum>bitmarket</forum>
 					<real>Max Wright</real>
 					<description>Entrepreneur behind BitShares TV.</description>
 					<links/>
 				</item>
 				<item>
+					<id>19918</id>
 					<forum>underwun</forum>
 					<real>John Underwood</real>
 					<description>Former CEO of Sun Microsystems, founder of Identabit.</description>
 					<links/>
 				</item>
 				<item>
+					<id>18978</id>
 					<forum>bitsapphire</forum>
 					<real>Taulant Ramabaja</real>
 					<description>Entrepreneur behind Bitsapphaire.</description>
 					<links/>
 				</item>
 				<item>
+					<id>37834</id>
 					<forum>MarkLyford</forum>
 					<real>Mark Lyford</real>
 					<description>Entrepreneur behind Banx Capital.</description>
 					<links/>
 				</item>
 				<item>
+					<id>17361</id>
 					<forum>ak</forum>
 					<real>Adam Kaleb Ernest</real>
 					<description>Entrepreneur behind Follow My Vote.</description>
 					<links/>
 				</item>
 				<item>
+					<id>20091</id>
 					<forum>vbuterin</forum>
 					<real>Vitalik Buterin</real>
 					<description>One of Ethereum founders.</description>
 					<links/>
 				</item>
 				<item>
+					<id>39736</id>
 					<forum>ingenesist</forum>
 					<real>Daniel Robles</real>
 					<description>Entrepreneur behind Curiosumé.</description>
@@ -170,7 +192,81 @@
 		<group id="E">
 			<name>Active community members</name>
 			<items>
+				<item><id></id><forum>38PTSWarrior</forum><real></real><description></description><links/></item>
 				<item>
+					<id>35166</id>
+					<forum>abirt</forum>
+					<real>Arlene Birt</real>
+					<description>Creator of Bitshares 2.0 infographics</description>
+					<links>
+						<link>
+							<label>pdf</label>
+							<url>https://pdf.yt/d/atDhSKTY2mwequs0</url>
+						</link>
+					</links>
+				</item>
+				<item><id></id><forum>abit</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Akado</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>alt</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Ander</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>arhag</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Ben Mason</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>betax</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Bhuz</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>biophil</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>bitcrab</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>bitmeat</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>bobmaloney</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>boombastic</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>brainbug</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>BTSdac</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>btswildpig</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>BTS熊</forum><real></real><description></description><links/></item>
+				<item>
+					<id>19864</id>
+					<forum>BunkerChain Labs</forum>
+					<real>Jonathan Baha’i</real>
+					<description>Entrepreneur behind BunkerChain Labs. Active committee member.</description>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,19721.0.html</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>http://www.bunkerchainlabs.com</url>
+						</link>
+					</links>
+				</item>
+				<item><id></id><forum>carpet ride</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>ccedk</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Chronos</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>CLains</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>clayop</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>clout</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>cob</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>crazybit</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>CryptoPrometheus</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>cube</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>cylonmaker2053</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>davidpbrown</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>delulo</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>DestBest</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>devlux</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>donkeypong</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>eagleeye</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>ebit</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>ElMato</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>emailtooaj</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Empirical1.1</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>emski</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Erlich Bachman</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>EstefanTT</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>fav</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Freebieservers</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>funnybear</forum><real></real><description></description><links/></item>
+				<item>
+					<id>602</id>
 					<forum>fuzzy</forum>
 					<real></real>
 					<description>Host of community hang-outs 'Beyond Bitcoin'.</description>
@@ -181,654 +277,68 @@
 						</link>
 					</links>
 				</item>
-				<item>
-					<forum>liondani</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Riverhead</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Ander</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>fav</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>tonyk</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>luckybit</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>testz</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>delulo</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>CLains</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>BTS熊</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>alt</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>donkeypong</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Tuck Fheman</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>gamey</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>sudo</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>onceuponatime</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>ripplexiaoshan</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>BunkerChain Labs</forum>
-					<real>Jonathan Baha’i</real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>clayop</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Akado</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>monsterer</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>kenCode</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>38PTSWarrior</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>mf-tzo</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Shentist</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>emski</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>puppies</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>jsidhu</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>ebit</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>arhag</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>cube</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Method-X</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Rune</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>bitmeat</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Overthetop</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>BTSdac</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>speedy</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>btswildpig</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Thom</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>starspirit</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>abit</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Troglodactyl</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>eagleeye</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Empirical1.1</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>jakub</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>HackFisher</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>matt608</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Xeldal</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Ben Mason</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>mint chocolate chip</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>yellowecho</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>biophil</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>clout</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>betax</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>lil_jay890</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>roadscape</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Pheonike</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>logxing</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>GaltReport</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>davidpbrown</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>cylonmaker2053</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>		
-				<item>
-					<forum>maqifrnswa</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>		
-				<item>
-					<forum>jabbajabbaつ◕_◕つ</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>		
-				<item>
-					<forum>ccedk</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>rgcrypto</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>MrJeans</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>carpet ride</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>NewMine</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>karnal</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>emailtooaj</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>infovortice2013</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>iHashFury</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>mike623317</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>wackou</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>crazybit</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>spartako</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Permie</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>EstefanTT</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>merivercap</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>lovejoy</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>bobmaloney</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>cob</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>CryptoPrometheus</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Erlich Bachman</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>ElMato</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>phillyguy</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>boombastic</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Bhuz</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>kuro112</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>merockstar</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>mindphlux</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>sittingduck</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>lafona</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>bitcrab</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Samupaha</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>triox</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Freebieservers</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>Chronos</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>tbone</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>TravelsAsia</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>rnglab</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>JonnyBitcoin</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>yvv</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>DestBest</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>devlux</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>funnybear</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>brainbug</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-<!-- 				<item> -->
-<!-- 					<forum></forum> -->
-<!-- 					<real></real> -->
-<!-- 					<description></description> -->
-<!-- 					<links/> -->
-<!-- 				</item> -->
+				<item><id></id><forum>GaltReport</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>gamey</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>HackFisher</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>iHashFury</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>infovortice2013</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>jabbajabbaつ◕_◕つ</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>jakub</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>JonnyBitcoin</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>jsidhu</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>karnal</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>kenCode</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>kuro112</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>lafona</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>lil_jay890</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>liondani</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>logxing</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>lovejoy</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>luckybit</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>maqifrnswa</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>matt608</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>merivercap</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>merockstar</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Method-X</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>mf-tzo</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>mike623317</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>mindphlux</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>mint chocolate chip</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>monsterer</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>MrJeans</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>NewMine</forum><real></real><description></description><links/></item>
+				<item><id>39864</id><forum>noisy</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>onceuponatime</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Overthetop</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Permie</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Pheonike</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>phillyguy</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>puppies</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>rgcrypto</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>ripplexiaoshan</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Riverhead</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>rnglab</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>roadscape</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Rune</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Samupaha</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Shentist</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>sittingduck</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>spartako</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>speedy</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>starspirit</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>sudo</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>tbone</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>testz</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Thom</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>tonyk</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>TravelsAsia</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>triox</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Troglodactyl</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Tuck Fheman</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>wackou</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>Xeldal</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>yellowecho</forum><real></real><description></description><links/></item>
+				<item><id></id><forum>yvv</forum><real></real><description></description><links/></item>
 			</items>
 		</group>
 		
@@ -836,25 +346,29 @@
 			<name>Valueable contributors but no longer active</name>
 			<items>
 				<item>
-					<forum>toast</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
-					<forum>robrigo</forum>
-					<real></real>
-					<description></description>
-					<links/>
-				</item>
-				<item>
+					<id>9289</id>
 					<forum>Agent86</forum>
 					<real></real>
 					<description></description>
 					<links/>
 				</item>
 				<item>
+					<id>12671</id>
 					<forum>BitcoinJesus2.O</forum>
+					<real></real>
+					<description></description>
+					<links/>
+				</item>
+				<item>
+					<id>18342</id>
+					<forum>robrigo</forum>
+					<real></real>
+					<description></description>
+					<links/>
+				</item>
+				<item>
+					<id>4308</id>
+					<forum>toast</forum>
 					<real></real>
 					<description></description>
 					<links/>

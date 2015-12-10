@@ -20,7 +20,19 @@
 					</tr>
 					<xsl:for-each select="items/item">
 						<tr>
-							<td id="td1"><xsl:value-of select="forum"/></td>
+							<td id="td1">
+								<xsl:choose>
+									<xsl:when test="id!=''">
+										<a class="account">
+											<xsl:attribute name="href">
+												<xsl:value-of select="concat('https://bitsharestalk.org/index.php?action=profile;u=',id)" />
+											</xsl:attribute>
+											<xsl:value-of select="forum" />
+										</a>
+									</xsl:when>
+									<xsl:otherwise><xsl:value-of select="forum" /></xsl:otherwise>
+								</xsl:choose>
+							</td>
 							<td id="td2"><xsl:value-of select="real"/></td>
 							<td id="td3"><xsl:value-of select="description"/></td>
 							<td id="td4">

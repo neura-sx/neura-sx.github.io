@@ -15,6 +15,21 @@
 <!-- 		</item> -->
 		
 		<item>
+			<timestamp>2015-12-10T00:00</timestamp>
+			<title>New hard-fork release</title>
+			<description>This hard-fork takes effect at 2015-12-16 at 18:00 UTC. It incorporates numerous improvements and fixes.</description>
+			<links>
+				<link>
+					<label>forum</label>
+					<url>https://bitsharestalk.org/index.php/topic,20527.0.html</url>
+				</link>
+				<link>
+					<label>github</label>
+					<url>https://github.com/bitshares/bitshares-2/releases</url>
+				</link>
+			</links>
+		</item>
+		<item>
 			<timestamp>2015-12-04T00:00</timestamp>
 			<title>Upcoming hard-fork</title>
 			<description>
