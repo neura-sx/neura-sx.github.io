@@ -31,7 +31,16 @@
 					} else if (location.hash == '#roadmap') {
 						activatePage('menus','menu2','pages','page2');
 					} else if (location.hash == '#features') {
-						activatePage('menus','menu3','pages','page3');
+						if (isActive('menu3'))
+							disactivatePage('page3_menus','page3_pages');
+						else if (isActive('page3_menu1'))
+							window.location.hash = '#features/payments';
+						else if (isActive('page3_menu2'))
+							window.location.hash = '#features/exchange';
+						else if (isActive('page3_menu3'))
+							window.location.hash = '#features/contracts';
+						else
+							activatePage('menus','menu3','pages','page3');
 					} else if (location.hash == '#features/payments') {
 						activatePage('menus','menu3','pages','page3');
 						activatePage('page3_menus','page3_menu1','page3_pages','page3_1');
@@ -42,7 +51,18 @@
 						activatePage('menus','menu3','pages','page3');
 						activatePage('page3_menus','page3_menu3','page3_pages','page3_3');
 					} else if (location.hash == '#dpos') {
-						activatePage('menus','menu4','pages','page4');
+						if (isActive('menu4'))
+							disactivatePage('page4_menus','page4_pages');
+						else if (isActive('page4_menu1'))
+							window.location.hash = '#dpos/witnesses';
+						else if (isActive('page4_menu2'))
+							window.location.hash = '#dpos/committee';
+						else if (isActive('page4_menu3'))
+							window.location.hash = '#dpos/workers';
+						else if (isActive('page4_menu4'))
+							window.location.hash = '#dpos/proxies';
+						else
+							activatePage('menus','menu4','pages','page4');
 					} else if (location.hash == '#dpos/witnesses') {
 						activatePage('menus','menu4','pages','page4');
 						activatePage('page4_menus','page4_menu1','page4_pages','page4_1');
@@ -60,7 +80,20 @@
 					} else if (location.hash == '#technology') {
 						activatePage('menus','menu7','pages','page7');
 					} else if (location.hash == '#ecosystem') {
-						activatePage('menus','menu8','pages','page8');
+						if (isActive('menu8'))
+							disactivatePage('page8_menus','page8_pages');
+						else if (isActive('page8_menu1'))
+							window.location.hash = '#ecosystem/blockchains';
+						else if (isActive('page8_menu2'))
+							window.location.hash = '#ecosystem/entities';
+						else if (isActive('page8_menu3'))
+							window.location.hash = '#ecosystem/websites';
+						else if (isActive('page8_menu4'))
+							window.location.hash = '#ecosystem/personas';
+						else if (isActive('page8_menu5'))
+							window.location.hash = '#ecosystem/reasons';
+						else
+							activatePage('menus','menu8','pages','page8');
 					} else if (location.hash == '#ecosystem/blockchains') {
 						activatePage('menus','menu8','pages','page8');
 						activatePage('page8_menus','page8_menu1','page8_pages','page8_1');

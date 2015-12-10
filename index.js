@@ -36,3 +36,20 @@ function activatePage(menusId,menuId,pagesId,pageId) {
 			node.style.display = (node == pageToActivate) ? 'block' : 'none';
 	}
 }
+function disactivatePage(menusId,pagesId) {
+	var menus = document.getElementById(menusId);
+	for (var i = 0; i < menus.childNodes.length; i++) {
+		var node = menus.childNodes[i];
+		if (node.nodeType == 1)
+			node.className = '';
+	}
+	var pages = document.getElementById(pagesId);
+	for (var i = 0; i < pages.childNodes.length; i++) {
+		var node = pages.childNodes[i];
+		if (node.nodeType == 1)
+			node.style.display = 'none';
+	}
+}
+function isActive(menuId) {
+	return (document.getElementById(menuId).className == 'selected');
+}
