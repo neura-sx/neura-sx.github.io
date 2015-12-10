@@ -13,7 +13,7 @@
 			<tbody>
 				<xsl:for-each select="root/areas/area">
 					<tr>
-						<td class="caption" colspan="2">
+						<td class="caption" colspan="3">
 							<xsl:value-of select="name" />
 						</td>
 					</tr>
