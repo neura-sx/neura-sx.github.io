@@ -2,26 +2,24 @@
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/">
-		<table id="links-table">
+		<table id="resources-table">
 			<thead>
 				<tr>
 					<th id="th1">Title</th>
-					<th id="th2">Comment</th>
-					<th id="th3">Location</th>
+					<th id="th2">Location</th>
 				</tr>
 			</thead>
 			<tbody>
 				<xsl:for-each select="root/areas/area">
 					<tr>
-						<td class="caption" colspan="3">
+						<td class="caption" colspan="2">
 							<xsl:value-of select="name" />
 						</td>
 					</tr>
 					<xsl:for-each select="items/item">
 						<tr>
 							<td id="td1"><xsl:value-of select="title"/></td>
-							<td id="td2"><xsl:value-of select="comment"/></td>
-							<td id="td3">
+							<td id="td2">
 								<a class="url">
 									<xsl:attribute name="href">
 										<xsl:value-of select="url"/>

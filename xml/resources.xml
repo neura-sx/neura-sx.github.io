@@ -3,223 +3,130 @@
 <root>
 	<areas>
 		<area id="A">
-			<name>Main</name>
+			<name>By Daniel Larimer</name>
 			<items>
 				<item>
-					<title>Official BitShares website</title>
-					<comment></comment>
-					<url>http://bitshares.org</url>
-				</item>
-				<item>
-					<title>Official BitShares documentation</title>
-					<comment>Still work-in-progress</comment>
-					<url>http://docs.bitshares.eu</url>
-				</item>
-				<item>
-					<title>Official BitShares whitepaper</title>
-					<comment>Still work-in-progress</comment>
-					<url>http://docs.bitshares.eu/_downloads/bitshares-financial-platform.pdf</url>
-				</item>
-				<item>
-					<title>BitShares Block Explorer</title>
-					<comment>Still work-in-progress</comment>
-					<url>http://cryptofresh.com</url>
-				</item>
-				<item>
-					<title>Graphene technology</title>
-					<comment>The technology behind BitShares 2.0</comment>
-					<url>https://bitshares.org/technology/</url>
-				</item>
-				<item>
-					<title>BitShares Forum</title>
-					<comment></comment>
-					<url>https://bitsharestalk.org</url>
-				</item>
-				<item>
-					<title>Community hang-outs</title>
-					<comment></comment>
-					<url>https://beyondbitcoin.org</url>
-				</item>
-				<item>
-					<title>The Referral Program</title>
-					<comment></comment>
-					<url>https://bitshares.org/referral-program</url>
-				</item>
-			</items>
-		</area>
-		<area id="B">
-			<name>Daniel Larimer (aka Bytemaster)</name>
-			<items>
-				<item>
-					<title>What is BitShares?</title>
-					<comment>BM's blog</comment>
+					<title>BM's blog: What is BitShares?</title>
 					<url>http://bytemaster.github.io/update/2014/12/18/What-is-BitShares/</url>
 				</item>
-<!-- 				<item> -->
-<!-- 					<title></title> -->
-<!-- 					<comment></comment> -->
-<!-- 					<url></url> -->
-<!-- 				</item> -->
 				<item>
-					<title>Let's talk bitcoin interview E260</title>
-					<comment>As of October 31st, 2015</comment>
+					<title>Let's talk bitcoin interview E260 (October 31st, 2015)</title>
 					<url>https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-260-new-growth</url>
 				</item>
 				<item>
-					<title>Let's talk bitcoin interview E223</title>
-					<comment>As of June 20th, 2015</comment>
+					<title>Let's talk bitcoin interview E223 (June 20th, 2015)</title>
 					<url>https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-223-some-other-castle</url>
 				</item>
 			</items>
 		</area>
-		<area id="C">
+		<area id="B">
 			<name>Blockchain technology</name>
 			<items>
 				<item>
-					<title>Blythe Masters on the Significance of Blockchains in Finance</title>
-					<comment>Full Version</comment>
+					<title>Blythe Masters on the Significance of Blockchains in Finance (full version)</title>
 					<url>https://www.youtube.com/watch?v=O1Yo8bt8JAU</url>
 				</item>
 				<item>
-					<title>Blythe Masters on the Significance of Blockchains in Finance</title>
-					<comment>Highlight Version</comment>
+					<title>Blythe Masters on the Significance of Blockchains in Finance (short version)</title>
 					<url>https://www.youtube.com/watch?v=PZ6WR2R1MnM</url>
 				</item>
 				<item>
 					<title>Adam Vaziri on Decentralized Financial Systems - A Regulatory Perspective</title>
-					<comment></comment>
 					<url>https://www.youtube.com/watch?v=vJwBjBaqSqc</url>
 				</item>
 				<item>
 					<title>Bitcoin: What you didn't know but always wanted to ask</title>
-					<comment></comment>
 					<url>http://securities.bnpparibas.com/quintessence/hot-topics/beyond/bitcoin-and-blockchain-what-you.html#.VaoxAvkYMeD</url>
 				</item>
 				<item>
 					<title>The Future of Money Isn't Bitcoin</title>
-					<comment></comment>
 					<url>http://cointelegraph.com/news/114696/the-dutch-national-b-word-congress-the-future-of-money-isnt-bitcoin</url>
 				</item>
 				<item>
 					<title>10 Big Banks That Are Seriously Looking into Blockchain Technology</title>
-					<comment></comment>
 					<url>http://cointelegraph.com/news/114889/10-big-banks-that-are-seriously-looking-into-blockchain-technology</url>
 				</item>
 				<item>
 					<title>Bank of England: Central banks looking at 'hybrid systems' using Bitcoin's blockchain technology</title>
-					<comment></comment>
 					<url>http://www.ibtimes.co.uk/bank-england-central-banks-looking-hybrid-systems-using-bitcoins-blockchain-technology-1511195</url>
 				</item>
 				<item>
 					<title>How the likes of MasterCard and Visa slow the spread of bitcoin</title>
-					<comment></comment>
 					<url>http://www.ibtimes.co.uk/how-mastercard-visa-slow-spread-bitcoin-1505790</url>
 				</item>
 				<item>
 					<title>What Community Bankers Should Know About Virtual Currencies</title>
-					<comment></comment>
 					<url>https://cbcfrs.org/articles/2015/q2/virtual-currencies</url>
 				</item>
 				<item>
 					<title>Overstock.com and FNY Capital Conclude $5 Million Cryptobond Deal</title>
-					<comment></comment>
 					<url>http://globenewswire.com/news-release/2015/07/31/756843/10144107/en/Overstock-com-and-FNY-Capital-Conclude-5-Million-Cryptobond-Deal.html</url>
 				</item>
 				<item>
 					<title>Blockchain Thinking: The Brain as a DAC</title>
-					<comment></comment>
 					<url>http://ieet.org/index.php/IEET/more/swan20150402</url>
 				</item>
 				<item>
 					<title>Decentralized Autonomous Corporation</title>
-					<comment></comment>
 					<url>http://coinwiki.info/en/Decentralized_autonomous_corporation</url>
 				</item>
 				<item>
 					<title>The dawn of trustworthy computing</title>
-					<comment></comment>
 					<url>http://unenumerated.blogspot.com/2014/12/the-dawn-of-trustworthy-computing.html</url>
 				</item>
 				<item>
 					<title>Blockchain Technology: The Ultimate Disruption in the Financial System</title>
-					<comment></comment>
 					<url>https://www.bbvaresearch.com/wp-content/uploads/2015/07/150710_US_EW_BlockchainTechnology.pdf</url>
 				</item>
 				<item>
 					<title>Why Bitcoin Faces an Uphill Battle in the Remittance Market</title>
-					<comment></comment>
 					<url>http://www.coindesk.com/why-the-future-of-bitcoin-remittance-businesses-isnt-certain/</url>
 				</item>
 				<item>
 					<title>A simple explanation of Bitcoin sidechains</title>
-					<comment></comment>
 					<url>http://gendal.me/2014/10/26/a-simple-explanation-of-bitcoin-sidechains/</url>
 				</item>
 				<item>
 					<title>The Economist's articles about blockchain technology</title>
-					<comment></comment>
 					<url>http://www.economist.com/topics/bitcoins</url>
 				</item>
 				<item>
 					<title>The future will be decentralized by Charles Hoskinson at TEDx Bermuda</title>
-					<comment></comment>
 					<url>https://www.youtube.com/watch?v=97ufCT6lQcY</url>
 				</item>
 				<item>
 					<title>A Brief Introduction to Smart Contracts by Charles Hoskinson</title>
-					<comment></comment>
 					<url>https://www.youtube.com/watch?v=3bY66Zgr8Cs</url>
 				</item>
 				<item>
-					<title>Blythe Masters on the Significance of Blockchains in Finance</title>
-					<comment></comment>
-					<url>https://www.youtube.com/watch?v=O1Yo8bt8JAU</url>
-				</item>
-				<item>
 					<title>SEC Approves Overstock.com Filing to Issue Shares Using Bitcoin Blockchain</title>
-					<comment></comment>
 					<url>https://bitcoinmagazine.com/articles/sec-approves-overstock-com-s-filing-to-issue-shares-using-bitcoin-blockchain-1449539558</url>
 				</item>
-			</items>
-		</area>
-		<area id="D">
-			<name>Open Ledger</name>
-			<items>
 				<item>
-					<title>Is The NanoCard Bitcoin's 'killer' app?</title>
-					<comment></comment>
+					<title>OpenLedger: Is The NanoCard Bitcoin's 'killer' app?</title>
 					<url>http://www.forbes.com/sites/rogeraitken/2015/07/16/is-the-nanocard-bitcoins-killer-app-can-it-transform-the-global-remittance-market/</url>
 				</item>
 				<item>
-					<title>Global Money summit</title>
-					<comment></comment>
+					<title>OpenLedger: Global Money summit</title>
 					<url>http://www.forbes.com/sites/rogeraitken/2015/09/16/bitcoin-exchange-ccedk-set-to-unveil-groundbreaking-crypto-platform-at-global-money-summit/</url>
 				</item>
 			</items>
 		</area>
-		<area id="E">
+		<area id="C">
 			<name>Source code &amp; other assets</name>
 			<items>
 				<item>
 					<title>BitShares 2.0</title>
-					<comment></comment>
 					<url>https://github.com/bitshares/bitshares-2</url>
 				</item>
 				<item>
 					<title>BitShares 2.0 GUI</title>
-					<comment></comment>
 					<url>https://github.com/cryptonomex/graphene-ui</url>
 				</item>
 				
 				<item>
 					<title>BitShares 2.0 Infographics by Arlene Birt</title>
-					<comment></comment>
 					<url>https://pdf.yt/d/atDhSKTY2mwequs0</url>
-				</item>
-				<item>
-					<title>This website's source data</title>
-					<comment>Fill free to create pull requests!</comment>
-					<url>https://github.com/neura-sx/neura-sx.github.io/tree/master/xml</url>
 				</item>
 			</items>
 		</area>

@@ -6,8 +6,9 @@
 		<script src="index.js"></script>
 		<script>
 			function loadPages() {
-				transformXMLDoc('page1','xml/news.xml','xsl/news.xsl');
-				transformXMLDoc('page2','https://bitshares.org/roadmap.xml','xsl/roadmap.xsl');
+				transformXMLDoc('page1_1','xml/news.xml','xsl/news.xsl');
+				transformXMLDoc('page1_2','https://bitshares.org/roadmap.xml','xsl/roadmap.xsl');
+				transformXMLDoc('page1_3','xml/reasons.xml','xsl/reasons.xsl');
 				transformXMLDoc('page3_1','xml/technology.xml','xsl/technology.xsl');
 				transformXMLDoc('page3_2','xml/payments.xml','xsl/payments.xsl');
 				transformXMLDoc('page3_3','xml/exchange.xml','xsl/exchange.xsl');
@@ -16,20 +17,37 @@
 				transformXMLDoc('page4_2','xml/committee.xml','xsl/committee.xsl');
 				transformXMLDoc('page4_3','xml/workers.xml','xsl/workers.xsl');
 				transformXMLDoc('page4_4','xml/proxies.xml','xsl/proxies.xsl');
-				transformXMLDoc('page6','xml/links.xml','xsl/links.xsl');
+				transformXMLDoc('page7_1','xml/websites.xml','xsl/websites.xsl');
+				transformXMLDoc('page7_2','xml/resources.xml','xsl/resources.xsl');
 				transformXMLDoc('page8_1','xml/blockchains.xml','xsl/blockchains.xsl');
 				transformXMLDoc('page8_2','xml/entities.xml','xsl/entities.xsl');
-				transformXMLDoc('page8_3','xml/websites.xml','xsl/websites.xsl');
-				transformXMLDoc('page8_4','xml/personas.xml','xsl/personas.xsl');
-				transformXMLDoc('page8_5','xml/reasons.xml','xsl/reasons.xsl');
+				transformXMLDoc('page8_3','xml/personas.xml','xsl/personas.xsl');
 				onHashChange();
 			}
 			function onHashChange() {
 				if (location.hash != '') {
-					if (location.hash == '#news') {
+				
+					if (location.hash == '#progress') {
+						if (isActive('menu1'))
+							disactivatePage('page1_menus','page1_pages');
+						else if (isActive('page1_menu1'))
+							window.location.hash = '#progress/news';
+						else if (isActive('page1_menu2'))
+							window.location.hash = '#progress/roadmap';
+						else if (isActive('page1_menu3'))
+							window.location.hash = '#progress/reasons';
+						else
+							activatePage('menus','menu1','pages','page1');
+					} else if (location.hash == '#progress/news') {
 						activatePage('menus','menu1','pages','page1');
-					} else if (location.hash == '#roadmap') {
-						activatePage('menus','menu2','pages','page2');
+						activatePage('page1_menus','page1_menu1','page1_pages','page1_1');
+					} else if (location.hash == '#progress/roadmap') {
+						activatePage('menus','menu1','pages','page1');
+						activatePage('page1_menus','page1_menu2','page1_pages','page1_2');
+					} else if (location.hash == '#progress/reasons') {
+						activatePage('menus','menu1','pages','page1');
+						activatePage('page1_menus','page1_menu3','page1_pages','page1_3');
+					
 					} else if (location.hash == '#features') {
 						if (isActive('menu3'))
 							disactivatePage('page3_menus','page3_pages');
@@ -55,33 +73,49 @@
 					} else if (location.hash == '#features/contracts') {
 						activatePage('menus','menu3','pages','page3');
 						activatePage('page3_menus','page3_menu4','page3_pages','page3_4');
-					} else if (location.hash == '#dpos') {
+						
+					} else if (location.hash == '#governance') {
 						if (isActive('menu4'))
 							disactivatePage('page4_menus','page4_pages');
 						else if (isActive('page4_menu1'))
-							window.location.hash = '#dpos/witnesses';
+							window.location.hash = '#governance/witnesses';
 						else if (isActive('page4_menu2'))
-							window.location.hash = '#dpos/committee';
+							window.location.hash = '#governance/committee';
 						else if (isActive('page4_menu3'))
-							window.location.hash = '#dpos/workers';
+							window.location.hash = '#governance/workers';
 						else if (isActive('page4_menu4'))
-							window.location.hash = '#dpos/proxies';
+							window.location.hash = '#governance/proxies';
 						else
 							activatePage('menus','menu4','pages','page4');
-					} else if (location.hash == '#dpos/witnesses') {
+					} else if (location.hash == '#governance/witnesses') {
 						activatePage('menus','menu4','pages','page4');
 						activatePage('page4_menus','page4_menu1','page4_pages','page4_1');
-					} else if (location.hash == '#dpos/committee') {
+					} else if (location.hash == '#governance/committee') {
 						activatePage('menus','menu4','pages','page4');
 						activatePage('page4_menus','page4_menu2','page4_pages','page4_2');
-					} else if (location.hash == '#dpos/workers') {
+					} else if (location.hash == '#governance/workers') {
 						activatePage('menus','menu4','pages','page4');
 						activatePage('page4_menus','page4_menu3','page4_pages','page4_3');
-					} else if (location.hash == '#dpos/proxies') {
+					} else if (location.hash == '#governance/proxies') {
 						activatePage('menus','menu4','pages','page4');
 						activatePage('page4_menus','page4_menu4','page4_pages','page4_4');
+						
 					} else if (location.hash == '#links') {
-						activatePage('menus','menu6','pages','page6');
+						if (isActive('menu7'))
+							disactivatePage('page7_menus','page7_pages');
+						else if (isActive('page7_menu1'))
+							window.location.hash = '#links/websites';
+						else if (isActive('page7_menu2'))
+							window.location.hash = '#links/resources';
+						else
+							activatePage('menus','menu7','pages','page7');
+					} else if (location.hash == '#links/websites') {
+						activatePage('menus','menu7','pages','page7');
+						activatePage('page7_menus','page7_menu1','page7_pages','page7_1');
+					} else if (location.hash == '#links/resources') {
+						activatePage('menus','menu7','pages','page7');
+						activatePage('page7_menus','page7_menu2','page7_pages','page7_2');
+					
 					} else if (location.hash == '#ecosystem') {
 						if (isActive('menu8'))
 							disactivatePage('page8_menus','page8_pages');
@@ -90,11 +124,7 @@
 						else if (isActive('page8_menu2'))
 							window.location.hash = '#ecosystem/entities';
 						else if (isActive('page8_menu3'))
-							window.location.hash = '#ecosystem/websites';
-						else if (isActive('page8_menu4'))
 							window.location.hash = '#ecosystem/personas';
-						else if (isActive('page8_menu5'))
-							window.location.hash = '#ecosystem/reasons';
 						else
 							activatePage('menus','menu8','pages','page8');
 					} else if (location.hash == '#ecosystem/blockchains') {
@@ -103,36 +133,36 @@
 					} else if (location.hash == '#ecosystem/entities') {
 						activatePage('menus','menu8','pages','page8');
 						activatePage('page8_menus','page8_menu2','page8_pages','page8_2');
-					} else if (location.hash == '#ecosystem/websites') {
-						activatePage('menus','menu8','pages','page8');
-						activatePage('page8_menus','page8_menu3','page8_pages','page8_3');
 					} else if (location.hash == '#ecosystem/personas') {
 						activatePage('menus','menu8','pages','page8');
-						activatePage('page8_menus','page8_menu4','page8_pages','page8_4');
-					} else if (location.hash == '#ecosystem/reasons') {
-						activatePage('menus','menu8','pages','page8');
-						activatePage('page8_menus','page8_menu5','page8_pages','page8_5');
+						activatePage('page8_menus','page8_menu3','page8_pages','page8_3');
 					}
 				}
 			}
 		</script>
 		<link rel="stylesheet" href="index.css">
+		
 		<link rel="stylesheet" href="css/news.css"/>
 		<link rel="stylesheet" href="css/roadmap.css"/>
+		<link rel="stylesheet" href="css/reasons.css"/>
+		
+		<link rel="stylesheet" href="css/technology.css"/>
 		<link rel="stylesheet" href="css/payments.css"/>
 		<link rel="stylesheet" href="css/exchange.css"/>
 		<link rel="stylesheet" href="css/contracts.css"/>
+		
 		<link rel="stylesheet" href="css/witnesses.css"/>
 		<link rel="stylesheet" href="css/committee.css"/>
 		<link rel="stylesheet" href="css/workers.css"/>
 		<link rel="stylesheet" href="css/proxies.css"/>
-		<link rel="stylesheet" href="css/reasons.css"/>
-		<link rel="stylesheet" href="css/links.css"/>
-		<link rel="stylesheet" href="css/technology.css"/>
+		
 		<link rel="stylesheet" href="css/blockchains.css"/>
 		<link rel="stylesheet" href="css/entities.css"/>
-		<link rel="stylesheet" href="css/websites.css"/>
 		<link rel="stylesheet" href="css/personas.css"/>
+		
+		<link rel="stylesheet" href="css/websites.css"/>
+		<link rel="stylesheet" href="css/resources.css"/>
+		
 	</head>
 	<body onload="loadPages()" onhashchange="onHashChange()" style="overflow-y:scroll;">
 		<div class="container">
@@ -140,16 +170,28 @@
 				<h1>BitShares 2.0</h1>
 			</div>
 			<div id="menus" class="menu">
-				<a id="menu1" href="#news">News</a>
-				<a id="menu2" href="#roadmap">Roadmap</a>
+				<a id="menu1" href="#progress">Progress</a>
 				<a id="menu3" href="#features">Features</a>
-				<a id="menu4" href="#dpos">Governance</a>
+				<a id="menu4" href="#governance">Governance</a>
 				<a id="menu8" href="#ecosystem">Ecosystem</a>
-				<a id="menu6" href="#links">Links</a>
+				<a id="menu7" href="#links">Links</a>
 			</div>
 			<div id="pages">
-				<div id="page1" class="page" style="display:none;"></div>
-				<div id="page2" class="page" style="display:none;"></div>
+
+				<div id="page1" class="page" style="display:none;">
+					<div id="page1_menus" class="menu submenu">
+						<a id="page1_menu1" href="#progress/news">News</a>
+						<a id="page1_menu2" href="#progress/roadmap">Roadmap</a>
+						<a id="page1_menu3" href="#progress/reasons">Reasons</a>
+					</div>
+					<div id="page1_pages">
+						<div id="page1_1" class="page" style="display:none;"></div>
+						<div id="page1_2" class="page" style="display:none;"></div>
+						<div id="page1_3" class="page" style="display:none;"></div>
+						<div id="page1_4" class="page" style="display:none;"></div>
+					</div>
+				</div>
+				
 				<div id="page3" class="page" style="display:none;">
 					<div id="page3_menus" class="menu submenu">
 						<a id="page3_menu1" href="#features/technology">Technology</a>
@@ -164,12 +206,13 @@
 						<div id="page3_4" class="page" style="display:none;"></div>
 					</div>
 				</div>
+				
 				<div id="page4" class="page" style="display:none;">
 					<div id="page4_menus" class="menu submenu">
-						<a id="page4_menu1" href="#dpos/witnesses">Witnesses</a>
-						<a id="page4_menu2" href="#dpos/committee">Committee</a>
-						<a id="page4_menu3" href="#dpos/workers">Workers</a>
-						<a id="page4_menu4" href="#dpos/proxies">Proxies</a>
+						<a id="page4_menu1" href="#governance/witnesses">Witnesses</a>
+						<a id="page4_menu2" href="#governance/committee">Committee</a>
+						<a id="page4_menu3" href="#governance/workers">Workers</a>
+						<a id="page4_menu4" href="#governance/proxies">Proxies</a>
 					</div>
 					<div id="page4_pages">
 						<div id="page4_1" class="page" style="display:none;"></div>
@@ -178,21 +221,28 @@
 						<div id="page4_4" class="page" style="display:none;"></div>
 					</div>
 				</div>
-				<div id="page6" class="page" style="display:none;"></div>
+				
+				<div id="page7" class="page" style="display:none;">
+					<div id="page7_menus" class="menu submenu">
+						<a id="page7_menu1" href="#links/websites">Websites</a>
+						<a id="page7_menu2" href="#links/resources">Resources</a>
+					</div>
+					<div id="page7_pages">
+						<div id="page7_1" class="page" style="display:none;"></div>
+						<div id="page7_2" class="page" style="display:none;"></div>
+					</div>
+				</div>
+				
 				<div id="page8" class="page" style="display:none;">
 					<div id="page8_menus" class="menu submenu">
 						<a id="page8_menu1" href="#ecosystem/blockchains">Blockchains</a>
 						<a id="page8_menu2" href="#ecosystem/entities">Entities</a>
-						<a id="page8_menu3" href="#ecosystem/websites">Websites</a>
-						<a id="page8_menu4" href="#ecosystem/personas">Personas</a>
-						<a id="page8_menu5" href="#ecosystem/reasons">Reasons</a>
+						<a id="page8_menu3" href="#ecosystem/personas">Personas</a>
 					</div>
 					<div id="page8_pages">
 						<div id="page8_1" class="page" style="display:none;"></div>
 						<div id="page8_2" class="page" style="display:none;"></div>
 						<div id="page8_3" class="page" style="display:none;"></div>
-						<div id="page8_4" class="page" style="display:none;"></div>
-						<div id="page8_5" class="page" style="display:none;"></div>
 					</div>
 				</div>
 			</div>

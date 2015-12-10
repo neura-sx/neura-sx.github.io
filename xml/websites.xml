@@ -20,11 +20,39 @@
 					<url>http://docs.bitshares.eu</url>
 				</item>
 				<item>
+					<name>Whitepaper</name>
+					<description>Official whitepaper by Fabian S &amp; Daniel Larimer</description>
+					<owner>xeroc</owner>
+					<comment>Still work-in-progress</comment>
+					<url>http://docs.bitshares.eu/_downloads/bitshares-financial-platform.pdf</url>
+				</item>
+				<item>
+					<name>Technology</name>
+					<description>Graphene - the technology behind BitShares 2.0</description>
+					<owner>bytemaster</owner>
+					<comment></comment>
+					<url>https://bitshares.org/technology</url>
+				</item>
+				<item>
+					<name>Referral Program</name>
+					<description></description>
+					<owner>bytemaster</owner>
+					<comment></comment>
+					<url>https://bitshares.org/referral-program</url>
+				</item>
+				<item>
 					<name>Forum</name>
 					<description>Vibrant community. New ideas. Latest announcements.</description>
 					<owner>bitsapphire</owner>
 					<comment></comment>
 					<url>http://bitsharestalk.org</url>
+				</item>
+				<item>
+					<name>Hang-outs</name>
+					<description>Community hang-outs called 'Beyond Bitcoin'. Features weekly developers hang-outs with Daniel Larimer (bytemaster)</description>
+					<owner>fuzzy</owner>
+					<comment></comment>
+					<url>https://beyondbitcoin.org</url>
 				</item>
 			</items>
 		</group>
@@ -48,14 +76,14 @@
 			</items>
 		</group>
 		<group id="C">
-			<name>Information / blogs</name>
+			<name>Blogs</name>
 			<items>
 				<item>
-					<name>Community hang-outs 'Beyond Bitcoin'</name>
-					<description>Features weekly developers hang-outs with Daniel Larimer (bytemaster)</description>
-					<owner>fuzzy</owner>
+					<name>BM's blog</name>
+					<description>About BitShares and the whole blockchain industry.</description>
+					<owner>bytemaster</owner>
 					<comment></comment>
-					<url>https://beyondbitcoin.org</url>
+					<url>http://bytemaster.github.io</url>
 				</item>
 				<item>
 					<name>SmartCoin blog</name>
@@ -64,6 +92,11 @@
 					<comment></comment>
 					<url>http://blog.smartcoin.pw</url>
 				</item>
+			</items>
+		</group>
+		<group id="D">
+			<name>Informational sites</name>
+			<items>
 				<item>
 					<name>BitShares French ConneXion</name>
 					<description></description>
