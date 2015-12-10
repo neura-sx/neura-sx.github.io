@@ -8,15 +8,15 @@
 			function loadPages() {
 				transformXMLDoc('page1','xml/news.xml','xsl/news.xsl');
 				transformXMLDoc('page2','https://bitshares.org/roadmap.xml','xsl/roadmap.xsl');
-				transformXMLDoc('page3_1','xml/payments.xml','xsl/payments.xsl');
-				transformXMLDoc('page3_2','xml/exchange.xml','xsl/exchange.xsl');
-				transformXMLDoc('page3_3','xml/contracts.xml','xsl/contracts.xsl');
+				transformXMLDoc('page3_1','xml/technology.xml','xsl/technology.xsl');
+				transformXMLDoc('page3_2','xml/payments.xml','xsl/payments.xsl');
+				transformXMLDoc('page3_3','xml/exchange.xml','xsl/exchange.xsl');
+				transformXMLDoc('page3_4','xml/contracts.xml','xsl/contracts.xsl');
 				transformXMLDoc('page4_1','xml/witnesses.xml','xsl/witnesses.xsl');
 				transformXMLDoc('page4_2','xml/committee.xml','xsl/committee.xsl');
 				transformXMLDoc('page4_3','xml/workers.xml','xsl/workers.xsl');
 				transformXMLDoc('page4_4','xml/proxies.xml','xsl/proxies.xsl');
 				transformXMLDoc('page6','xml/links.xml','xsl/links.xsl');
-				transformXMLDoc('page7','xml/technology.xml','xsl/technology.xsl');
 				transformXMLDoc('page8_1','xml/blockchains.xml','xsl/blockchains.xsl');
 				transformXMLDoc('page8_2','xml/entities.xml','xsl/entities.xsl');
 				transformXMLDoc('page8_3','xml/websites.xml','xsl/websites.xsl');
@@ -34,22 +34,27 @@
 						if (isActive('menu3'))
 							disactivatePage('page3_menus','page3_pages');
 						else if (isActive('page3_menu1'))
-							window.location.hash = '#features/payments';
+							window.location.hash = '#features/technology';
 						else if (isActive('page3_menu2'))
-							window.location.hash = '#features/exchange';
+							window.location.hash = '#features/payments';
 						else if (isActive('page3_menu3'))
+							window.location.hash = '#features/exchange';
+						else if (isActive('page3_menu4'))
 							window.location.hash = '#features/contracts';
 						else
 							activatePage('menus','menu3','pages','page3');
-					} else if (location.hash == '#features/payments') {
+					} else if (location.hash == '#features/technology') {
 						activatePage('menus','menu3','pages','page3');
 						activatePage('page3_menus','page3_menu1','page3_pages','page3_1');
-					} else if (location.hash == '#features/exchange') {
+					} else if (location.hash == '#features/payments') {
 						activatePage('menus','menu3','pages','page3');
 						activatePage('page3_menus','page3_menu2','page3_pages','page3_2');
-					} else if (location.hash == '#features/contracts') {
+					} else if (location.hash == '#features/exchange') {
 						activatePage('menus','menu3','pages','page3');
 						activatePage('page3_menus','page3_menu3','page3_pages','page3_3');
+					} else if (location.hash == '#features/contracts') {
+						activatePage('menus','menu3','pages','page3');
+						activatePage('page3_menus','page3_menu4','page3_pages','page3_4');
 					} else if (location.hash == '#dpos') {
 						if (isActive('menu4'))
 							disactivatePage('page4_menus','page4_pages');
@@ -77,8 +82,6 @@
 						activatePage('page4_menus','page4_menu4','page4_pages','page4_4');
 					} else if (location.hash == '#links') {
 						activatePage('menus','menu6','pages','page6');
-					} else if (location.hash == '#technology') {
-						activatePage('menus','menu7','pages','page7');
 					} else if (location.hash == '#ecosystem') {
 						if (isActive('menu8'))
 							disactivatePage('page8_menus','page8_pages');
@@ -139,7 +142,6 @@
 			<div id="menus" class="menu">
 				<a id="menu1" href="#news">News</a>
 				<a id="menu2" href="#roadmap">Roadmap</a>
-				<a id="menu7" href="#technology">Technology</a>
 				<a id="menu3" href="#features">Features</a>
 				<a id="menu4" href="#dpos">Governance</a>
 				<a id="menu8" href="#ecosystem">Ecosystem</a>
@@ -150,14 +152,16 @@
 				<div id="page2" class="page" style="display:none;"></div>
 				<div id="page3" class="page" style="display:none;">
 					<div id="page3_menus" class="menu submenu">
-						<a id="page3_menu1" href="#features/payments">Payments</a>
-						<a id="page3_menu2" href="#features/exchange">Exchange</a>
-						<a id="page3_menu3" href="#features/contracts">SmartContracts</a>
+						<a id="page3_menu1" href="#features/technology">Technology</a>
+						<a id="page3_menu2" href="#features/payments">Payments</a>
+						<a id="page3_menu3" href="#features/exchange">Exchange</a>
+						<a id="page3_menu4" href="#features/contracts">SmartContracts</a>
 					</div>
 					<div id="page3_pages">
 						<div id="page3_1" class="page" style="display:none;"></div>
 						<div id="page3_2" class="page" style="display:none;"></div>
 						<div id="page3_3" class="page" style="display:none;"></div>
+						<div id="page3_4" class="page" style="display:none;"></div>
 					</div>
 				</div>
 				<div id="page4" class="page" style="display:none;">
@@ -175,7 +179,6 @@
 					</div>
 				</div>
 				<div id="page6" class="page" style="display:none;"></div>
-				<div id="page7" class="page" style="display:none;"></div>
 				<div id="page8" class="page" style="display:none;">
 					<div id="page8_menus" class="menu submenu">
 						<a id="page8_menu1" href="#ecosystem/blockchains">Blockchains</a>
