@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
 <root>
+	<source>
+		<author>Stan</author>
+		<url>http://bitsharesblog.com/wp-content/uploads/2015/10/barriers_to_adoption.png</url>
+	</source>
 	<groups>
 		<group>
 			<items>

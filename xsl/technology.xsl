@@ -2,6 +2,23 @@
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/">
+		<xsl:variable name="url" select="root/source/url" />
+		<div class="source">
+			<xsl:value-of select="concat('Source',': ')" />
+			<a>
+				<xsl:attribute name="href">
+					<xsl:value-of select="$url"/>
+				</xsl:attribute>
+				<xsl:choose>
+  					<xsl:when test="string-length($url) &gt; 100">
+						<xsl:value-of select="concat(substring($url,1,100),'...')" />
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="$url"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</a>
+		</div>
 		<table id="technology-table">
 			<tbody>
 				<xsl:for-each select="root/groups/group">

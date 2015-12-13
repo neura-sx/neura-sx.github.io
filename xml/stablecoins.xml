@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="temp.xsl"?> -->
+<root>
+	<source>
+		<author>Rune</author>
+		<url>https://www.reddit.com/r/Stablit/comments/3vzt82/list_of_stablecoin_systems/</url>
+	</source>
+	<items>
+		<item>
+			<name>SmartCoins: BitUSD, BitEUR, BitCNY, BitGold, BitOil etc</name>
+			<base>USD, EUR, CNY, Gold, Oil etc</base>
+			<blockchain>Bitshares 2.0</blockchain>
+			<description>The original stablecoin. SmartCoins are backed by on-chain collateral in the form of the BitShares core currency, to which they can be converted at any time at an exchange rate set by a trustworthy price feed. In all but the most extreme market conditions, SmartCoins are guaranteed to be worth at least their face value.</description>
+			<status>Successfully running for 1+ year.</status>
+			<links>
+				<link>
+					<label>website</label>
+					<url>http://bitshares.org</url>
+				</link>
+			</links>
+		</item>
+		
+		<item>
+			<name>NuBits</name>
+			<base>USD</base>
+			<blockchain>NuShares</blockchain>
+			<description>Backed by fiat reserves held by DAO appointed custodians with no legal guarantee, as well as on-chain collateral. Pegged to fiat, but not depending on fiat (not holding fiat as collateral).</description>
+			<status>Successfully run for 1+ year.</status>
+			<links>
+				<link>
+					<label>website</label>
+					<url>https://nubits.com/</url>
+				</link>
+			</links>
+		</item>
+		
+		<item>
+			<name>USDT (Tether)</name>
+			<base>USD</base>
+			<blockchain>Bitcoin</blockchain>
+			<description>Backed by fiat reserves held by centrally appointed, audited custodians with legal guarantee. Requires KYC.</description>
+			<status>Successfully run for 1+ year.</status>
+			<links>
+				<link>
+					<label>website</label>
+					<url>https://tether.to/</url>
+				</link>
+			</links>
+		</item>
+		
+		<item>
+			<name>TRMB (TaiYi)</name>
+			<base>CNY</base>
+			<blockchain>TaiYi</blockchain>
+			<description>Backed by fiat reserves held by centrally appointed custodians with no legal guarantee (not totally sure as the whitepaper is in Chinese).</description>
+			<status>Launched a few months ago.</status>
+			<links>
+				<link>
+					<label>website</label>
+					<url>http://taiyilabs.com/</url>
+				</link>
+			</links>
+		</item>
+		
+		<item>
+			<name>Dai</name>
+			<base>SDR</base>
+			<blockchain>Ethereum</blockchain>
+			<description>Initially backed by fiat reserves held by DAO appointed custodians with no legal guarantee. Becomes free floating and backed by diversified on-chain collateral after gaining network effect.</description>
+			<status>Still in development.</status>
+			<links>
+				<link>
+					<label>website</label>
+					<url>https://makerdao.com/</url>
+				</link>
+			</links>
+		</item>
+		
+		<item>
+			<name>Decentralized Capital</name>
+			<base>USD, EUR etc</base>
+			<blockchain>Ethereum</blockchain>
+			<description>Backed by fiat reserves held by centrally appointed, audited custodians with legal guarantee. Requires KYC.</description>
+			<status>Still in development.</status>
+			<links>
+				<link>
+					<label>website</label>
+					<url>http://decentralizedcapital.com/</url>
+				</link>
+			</links>
+		</item>
+		
+		<item>
+			<name>DUSD</name>
+			<base>USD</base>
+			<blockchain>Ethereum</blockchain>
+			<description>Backed by fiat reserves held by centrally appointed, audited custodians with legal guarantee. Might not require KYC.</description>
+			<status>Still in development.</status>
+			<links>
+				<link>
+					<label>website</label>
+					<url>http://string.technology/</url>
+				</link>
+			</links>
+		</item>
+		
+		<item>
+			<name>Seignorage Shares</name>
+			<base></base>
+			<blockchain></blockchain>
+			<description>Backed by on-chain collateral.</description>
+			<status>Published whitepaper.</status>
+			<links>
+				<link>
+					<label>website</label>
+					<url>http://www.slideshare.net/rmsams/00-main</url>
+				</link>
+			</links>
+		</item>
+		
+	</items>
+</root>

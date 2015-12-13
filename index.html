@@ -10,9 +10,10 @@
 				transformXMLDoc('page1_2','https://bitshares.org/roadmap.xml','xsl/roadmap.xsl');
 				transformXMLDoc('page1_3','xml/reasons.xml','xsl/reasons.xsl');
 				transformXMLDoc('page3_1','xml/technology.xml','xsl/technology.xsl');
-				transformXMLDoc('page3_2','xml/payments.xml','xsl/payments.xsl');
-				transformXMLDoc('page3_3','xml/exchange.xml','xsl/exchange.xsl');
-				transformXMLDoc('page3_4','xml/contracts.xml','xsl/contracts.xsl');
+				transformXMLDoc('page3_2','xml/stablecoins.xml','xsl/stablecoins.xsl');
+				transformXMLDoc('page3_3','xml/payments.xml','xsl/payments.xsl');
+				transformXMLDoc('page3_4','xml/exchange.xml','xsl/exchange.xsl');
+				transformXMLDoc('page3_5','xml/smartcontracts.xml','xsl/smartcontracts.xsl');
 				transformXMLDoc('page4_1','xml/witnesses.xml','xsl/witnesses.xsl');
 				transformXMLDoc('page4_2','xml/committee.xml','xsl/committee.xsl');
 				transformXMLDoc('page4_3','xml/workers.xml','xsl/workers.xsl');
@@ -54,26 +55,31 @@
 						else if (isActive('page3_menu1'))
 							window.location.hash = '#features/technology';
 						else if (isActive('page3_menu2'))
-							window.location.hash = '#features/payments';
+							window.location.hash = '#features/stablecoins';
 						else if (isActive('page3_menu3'))
-							window.location.hash = '#features/exchange';
+							window.location.hash = '#features/payments';
 						else if (isActive('page3_menu4'))
-							window.location.hash = '#features/contracts';
+							window.location.hash = '#features/exchange';
+						else if (isActive('page3_menu5'))
+							window.location.hash = '#features/smartcontracts';
 						else
 							activatePage('menus','menu3','pages','page3');
 					} else if (location.hash == '#features/technology') {
 						activatePage('menus','menu3','pages','page3');
 						activatePage('page3_menus','page3_menu1','page3_pages','page3_1');
-					} else if (location.hash == '#features/payments') {
+					} else if (location.hash == '#features/stablecoins') {
 						activatePage('menus','menu3','pages','page3');
 						activatePage('page3_menus','page3_menu2','page3_pages','page3_2');
-					} else if (location.hash == '#features/exchange') {
+					} else if (location.hash == '#features/payments') {
 						activatePage('menus','menu3','pages','page3');
 						activatePage('page3_menus','page3_menu3','page3_pages','page3_3');
-					} else if (location.hash == '#features/contracts') {
+					} else if (location.hash == '#features/exchange') {
 						activatePage('menus','menu3','pages','page3');
 						activatePage('page3_menus','page3_menu4','page3_pages','page3_4');
-						
+					} else if (location.hash == '#features/smartcontracts') {
+						activatePage('menus','menu3','pages','page3');
+						activatePage('page3_menus','page3_menu5','page3_pages','page3_5');
+					
 					} else if (location.hash == '#governance') {
 						if (isActive('menu4'))
 							disactivatePage('page4_menus','page4_pages');
@@ -147,9 +153,10 @@
 		<link rel="stylesheet" href="css/reasons.css"/>
 		
 		<link rel="stylesheet" href="css/technology.css"/>
+		<link rel="stylesheet" href="css/stablecoins.css"/>
 		<link rel="stylesheet" href="css/payments.css"/>
 		<link rel="stylesheet" href="css/exchange.css"/>
-		<link rel="stylesheet" href="css/contracts.css"/>
+		<link rel="stylesheet" href="css/smartcontracts.css"/>
 		
 		<link rel="stylesheet" href="css/witnesses.css"/>
 		<link rel="stylesheet" href="css/committee.css"/>
@@ -195,15 +202,17 @@
 				<div id="page3" class="page" style="display:none;">
 					<div id="page3_menus" class="menu submenu">
 						<a id="page3_menu1" href="#features/technology">Technology</a>
-						<a id="page3_menu2" href="#features/payments">Payments</a>
-						<a id="page3_menu3" href="#features/exchange">Exchange</a>
-						<a id="page3_menu4" href="#features/contracts">SmartContracts</a>
+						<a id="page3_menu2" href="#features/stablecoins">StableCoins</a>
+						<a id="page3_menu3" href="#features/payments">Payments</a>
+						<a id="page3_menu4" href="#features/exchange">Exchange</a>
+						<a id="page3_menu5" href="#features/smartcontracts">SmartContracts</a>
 					</div>
 					<div id="page3_pages">
 						<div id="page3_1" class="page" style="display:none;"></div>
 						<div id="page3_2" class="page" style="display:none;"></div>
 						<div id="page3_3" class="page" style="display:none;"></div>
 						<div id="page3_4" class="page" style="display:none;"></div>
+						<div id="page3_5" class="page" style="display:none;"></div>
 					</div>
 				</div>
 				
