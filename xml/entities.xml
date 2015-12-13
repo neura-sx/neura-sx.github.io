@@ -3,7 +3,7 @@
 <root>
 	<groups>
 		<group id="A">
-			<name>Developers</name>
+			<name>Codebase Development</name>
 			<items>
 				<item>
 					<name>Cryptonomex (CNX)</name>
@@ -60,6 +60,52 @@
 		</group>
 		
 		<group id="B">
+			<name>Alternative User Interfaces</name>
+			<items>
+				<item>
+					<name>Moonstone</name>
+					<description>An open-source lightweight wallet for BitShares.</description>
+					<location>Kosovo (Europe)</location>
+					<status>Private alpha to be released in Dec 2015</status>
+					<ceo>
+						<forum>bitsapphaire</forum>
+						<real>Taulant Ramabaja</real>
+					</ceo>
+					<links>
+						<link>
+							<label>website</label>
+							<url>http://www.moonstone.io/</url>
+						</link>
+						<link>
+							<label>website</label>
+							<url>https://bitsapphire.com/</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name>LimeWallet</name>
+					<description>Mobile wallet for BitShares. Both Android and iPhone.</description>
+					<location>Argentina</location>
+					<status>Upgrading to be compatible with BitShares 2.0</status>
+					<ceo>
+						<forum>ElMato</forum>
+						<real>Matias Romeo</real>
+					</ceo>
+					<links>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,12494.0.html</url>
+						</link>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,17900.0.html</url>
+						</link>
+					</links>
+				</item>
+			</items>
+		</group>
+		
+		<group id="C">
 			<name>Exchanges</name>
 			<items>
 				<item>
@@ -94,7 +140,7 @@
 			</items>
 		</group>
 		
-		<group id="C">
+		<group id="D">
 			<name>Gateways</name>
 			<items>
 				<item>
@@ -165,7 +211,7 @@
 			</items>
 		</group>
 		
-		<group id="D">
+		<group id="E">
 			<name>Businesses (UIAs issued on BitShares)</name>
 			<items>
 				<item>
