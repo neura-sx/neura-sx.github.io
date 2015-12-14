@@ -84,9 +84,9 @@
 				</item>
 				<item>
 					<name>LimeWallet</name>
-					<description>Mobile wallet for BitShares. Both Android and iPhone.</description>
+					<description>Mobile wallet for BitShares. Support for both Android and iPhone.</description>
 					<location>Argentina</location>
-					<status>Upgrading to be compatible with BitShares 2.0</status>
+					<status>Ongoing efforts to port to BitShares 2.0</status>
 					<ceo>
 						<forum>ElMato</forum>
 						<real>Matias Romeo</real>
@@ -99,6 +99,10 @@
 						<link>
 							<label>forum</label>
 							<url>https://bitsharestalk.org/index.php/topic,17900.0.html</url>
+						</link>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,20275.msg261144.html#msg261144</url>
 						</link>
 					</links>
 				</item>

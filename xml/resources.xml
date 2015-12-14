@@ -3,7 +3,7 @@
 <root>
 	<areas>
 		<area id="A">
-			<name>By Daniel Larimer</name>
+			<name>BitShares</name>
 			<items>
 				<item>
 					<title>BM's blog: What is BitShares?</title>
@@ -17,9 +17,36 @@
 					<title>Let's talk bitcoin interview E223 (June 20th, 2015)</title>
 					<url>https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-223-some-other-castle</url>
 				</item>
+				<item>
+					<title>BitShares TV</title>
+					<url>https://www.youtube.com/channel/UChtICzF0ZEhhgoMA8YWhULw</url>
+				</item>
+				<item>
+					<title>BitShares Peer to Peer Tour - 2015</title>
+					<url>https://www.youtube.com/watch?v=ivwuANB1Syo</url>
+				</item>
+				<item>
+					<title>Interview with Adam Kaleb Ernest from Follow My Vote</title>
+					<url>https://www.youtube.com/watch?v=TQMoKiP5q7Y</url>
+				</item>
 			</items>
 		</area>
+		
 		<area id="B">
+			<name>OpenLedger</name>
+			<items>
+				<item>
+					<title>Is The NanoCard Bitcoin's 'killer' app?</title>
+					<url>http://www.forbes.com/sites/rogeraitken/2015/07/16/is-the-nanocard-bitcoins-killer-app-can-it-transform-the-global-remittance-market/</url>
+				</item>
+				<item>
+					<title>Global Money summit</title>
+					<url>http://www.forbes.com/sites/rogeraitken/2015/09/16/bitcoin-exchange-ccedk-set-to-unveil-groundbreaking-crypto-platform-at-global-money-summit/</url>
+				</item>
+			</items>
+		</area>	
+		
+		<area id="C">
 			<name>Blockchain technology</name>
 			<items>
 				<item>
@@ -106,17 +133,10 @@
 					<title>SEC Approves Overstock.com Filing to Issue Shares Using Bitcoin Blockchain</title>
 					<url>https://bitcoinmagazine.com/articles/sec-approves-overstock-com-s-filing-to-issue-shares-using-bitcoin-blockchain-1449539558</url>
 				</item>
-				<item>
-					<title>OpenLedger: Is The NanoCard Bitcoin's 'killer' app?</title>
-					<url>http://www.forbes.com/sites/rogeraitken/2015/07/16/is-the-nanocard-bitcoins-killer-app-can-it-transform-the-global-remittance-market/</url>
-				</item>
-				<item>
-					<title>OpenLedger: Global Money summit</title>
-					<url>http://www.forbes.com/sites/rogeraitken/2015/09/16/bitcoin-exchange-ccedk-set-to-unveil-groundbreaking-crypto-platform-at-global-money-summit/</url>
-				</item>
 			</items>
 		</area>
-		<area id="C">
+		
+		<area id="D">
 			<name>Source code &amp; other assets</name>
 			<items>
 				<item>
@@ -127,10 +147,17 @@
 					<title>BitShares 2.0 GUI</title>
 					<url>https://github.com/cryptonomex/graphene-ui</url>
 				</item>
-				
 				<item>
 					<title>BitShares 2.0 Infographics by Arlene Birt</title>
-					<url>https://pdf.yt/d/atDhSKTY2mwequs0</url>
+					<url>https://bitshares.org/media/2015_bitshares_infographic_en.pdf</url>
+				</item>
+				<item>
+					<title>Meetup Brochure</title>
+					<url>https://rawgit.com/roadscape/bts-brochure/master/brochure.pdf</url>
+				</item>
+				<item>
+					<title>Meetup Brochure - editable version (Chrome only!)</title>
+					<url>https://rawgit.com/roadscape/bts-brochure/master/index.html</url>
 				</item>
 			</items>
 		</area>

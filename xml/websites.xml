@@ -40,6 +40,12 @@
 					<comment></comment>
 					<url>https://bitshares.org/referral-program</url>
 				</item>
+			</items>
+		</group>
+		
+		<group id="B">
+			<name>Community</name>
+			<items>
 				<item>
 					<name>Forum</name>
 					<description>Vibrant community. New ideas. Latest announcements.</description>
@@ -54,9 +60,17 @@
 					<comment></comment>
 					<url>https://beyondbitcoin.org</url>
 				</item>
+				<item>
+					<name>Meet-ups</name>
+					<description>BitShares meet-ups worldwide</description>
+					<owner>roadscape</owner>
+					<comment></comment>
+					<url>http://www.meetup.com/TC-BitShares/</url>
+				</item>
 			</items>
 		</group>
-		<group id="B">
+		
+		<group id="C">
 			<name>Blockchain explorers / aggregators</name>
 			<items>
 				<item>
@@ -75,7 +89,8 @@
 				</item>
 			</items>
 		</group>
-		<group id="C">
+		
+		<group id="D">
 			<name>Blogs</name>
 			<items>
 				<item>
@@ -94,7 +109,8 @@
 				</item>
 			</items>
 		</group>
-		<group id="D">
+		
+		<group id="E">
 			<name>Informational sites</name>
 			<items>
 				<item>
