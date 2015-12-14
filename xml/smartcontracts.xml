@@ -64,9 +64,9 @@
 		</item>
 		<item>
 			<feature>What are the consequences of the chosen lethal-code prevention method in terms of safety &amp; unmanageable hard-forks?</feature>
-			<BitShares>They are unaffected.</BitShares>
+			<BitShares>The system is unaffected (no negative consequences).</BitShares>
 			<Ethereum>Constant danger of unknown loopholes in the system.</Ethereum>
-			<TauChain>They are unaffected.</TauChain>
+			<TauChain>The system is unaffected (no negative consequences).</TauChain>
 		</item>
 
 		
