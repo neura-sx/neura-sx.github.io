@@ -236,6 +236,10 @@
 							<label>website</label>
 							<url>http://www.bunkerchainlabs.com</url>
 						</link>
+						<link>
+							<label>video</label>
+							<url>https://www.youtube.com/watch?v=iuW0jl1NIUA</url>
+						</link>
 					</links>
 				</item>
 				<item>
@@ -274,6 +278,29 @@
 						<link>
 							<label>website</label>
 							<url>http://banxcapital.com/</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name>Sollars &amp; Sense</name>
+					<description>Sollar TV - a pay-per-view video platform powered by BitShares</description>
+					<location>USA</location>
+					<status>Work in progress</status>
+					<ceo>
+						<forum>SolomonSollarsNSense</forum>
+					</ceo>
+					<links>
+						<link>
+							<label>video</label>
+							<url>https://www.youtube.com/watch?v=jEdxfwfxhu8</url>
+						</link>
+						<link>
+							<label>video</label>
+							<url>https://www.youtube.com/watch?v=YpxFD38o45I</url>
+						</link>
+						<link>
+							<label>video</label>
+							<url>https://www.youtube.com/watch?v=wy6NYRqAhmE</url>
 						</link>
 					</links>
 				</item>
