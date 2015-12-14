@@ -70,13 +70,13 @@
 						<name>mr.agsexplorer</name>
 						<url>http://www.cryptofresh.com/u/mr.agsexplorer</url>
 					</account>
-					<forum></forum>
-					<location></location>
+					<forum>boombastic</forum>
+					<location>China</location>
 					<info></info>
 					<links>
 						<link>
-							<label></label>
-							<url></url>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php?topic=5944.0</url>
 						</link>
 					</links>
 				</item>
@@ -115,7 +115,7 @@
 						<name>spartako</name>
 						<url>http://www.cryptofresh.com/u/spartako</url>
 					</account>
-					<forum></forum>
+					<forum>spartako</forum>
 					<location></location>
 					<info></info>
 					<links>
@@ -130,7 +130,7 @@
 						<name>elmato</name>
 						<url>http://www.cryptofresh.com/u/elmato</url>
 					</account>
-					<forum>elmato</forum>
+					<forum>ElMato</forum>
 					<location>Argentina</location>
 					<info>Entrepreneur behind BitShares mobile wallet development.</info>
 					<links>
@@ -205,7 +205,7 @@
 						<name>delegate.taolje</name>
 						<url>http://www.cryptofresh.com/u/delegate.taolje</url>
 					</account>
-					<forum></forum>
+					<forum>taoljj</forum>
 					<location></location>
 					<info></info>
 					<links>
@@ -234,7 +234,7 @@
 						<name>fox</name>
 						<url>http://www.cryptofresh.com/u/fox</url>
 					</account>
-					<forum></forum>
+					<forum>Fox</forum>
 					<location></location>
 					<info></info>
 					<links>
@@ -287,13 +287,13 @@
 						<name>spectral</name>
 						<url>http://www.cryptofresh.com/u/spectral</url>
 					</account>
-					<forum></forum>
-					<location></location>
+					<forum>spectral</forum>
+					<location>Norway</location>
 					<info></info>
 					<links>
 						<link>
-							<label></label>
-							<url></url>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,14152.0.html</url>
 						</link>
 					</links>
 				</item>
@@ -378,7 +378,7 @@
 						<name>bue</name>
 						<url>http://www.cryptofresh.com/u/bue</url>
 					</account>
-					<forum></forum>
+					<forum>twitter</forum>
 					<location></location>
 					<info></info>
 					<links>
@@ -393,8 +393,8 @@
 						<name>harvey-xts</name>
 						<url>http://www.cryptofresh.com/u/harvey-xts</url>
 					</account>
-					<forum></forum>
-					<location></location>
+					<forum>Harvey</forum>
+					<location>China</location>
 					<info></info>
 					<links>
 						<link>
@@ -430,8 +430,8 @@
 						<name>delegated-proof-of-steak</name>
 						<url>http://www.cryptofresh.com/u/delegated-proof-of-steak</url>
 					</account>
-					<forum></forum>
-					<location></location>
+					<forum>modprobe</forum>
+					<location>USA</location>
 					<info></info>
 					<links>
 						<link>
@@ -445,13 +445,13 @@
 						<name>delegate.webber</name>
 						<url>http://www.cryptofresh.com/u/delegate.webber</url>
 					</account>
-					<forum></forum>
-					<location></location>
+					<forum>Webber</forum>
+					<location>China</location>
 					<info></info>
 					<links>
 						<link>
-							<label></label>
-							<url></url>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php?topic=20421.0</url>
 						</link>
 					</links>
 				</item>
@@ -460,13 +460,13 @@
 						<name>delegate.btsnow</name>
 						<url>http://www.cryptofresh.com/u/delegate.btsnow</url>
 					</account>
-					<forum></forum>
-					<location></location>
+					<forum>dannotestein</forum>
+					<location>USA</location>
 					<info></info>
 					<links>
 						<link>
-							<label></label>
-							<url></url>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php?topic=12945.0</url>
 						</link>
 					</links>
 				</item>
@@ -482,6 +482,21 @@
 						<link>
 							<label>forum</label>
 							<url>https://bitsharestalk.org/index.php/topic,6406.0.html</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<account>
+						<name>dragonball</name>
+						<url>http://www.cryptofresh.com/u/dragonball</url>
+					</account>
+					<forum>ffwong</forum>
+					<location></location>
+					<info></info>
+					<links>
+						<link>
+							<label></label>
+							<url></url>
 						</link>
 					</links>
 				</item>
