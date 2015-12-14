@@ -65,7 +65,7 @@
 					<description>BitShares meet-ups worldwide</description>
 					<owner>roadscape</owner>
 					<comment></comment>
-					<url>http://www.meetup.com/TC-BitShares/</url>
+					<url>http://www.meetup.com/TC-BitShares</url>
 				</item>
 			</items>
 		</group>
@@ -94,6 +94,13 @@
 			<name>Blogs</name>
 			<items>
 				<item>
+					<name>BitShares blog</name>
+					<description>Unofficial BitShares blog.</description>
+					<owner></owner>
+					<comment></comment>
+					<url>http://bitsharesblog.com</url>
+				</item>
+				<item>
 					<name>BM's blog</name>
 					<description>About BitShares and the whole blockchain industry.</description>
 					<owner>bytemaster</owner>
@@ -114,11 +121,39 @@
 			<name>Informational sites</name>
 			<items>
 				<item>
+					<name>BitShares News</name>
+					<description></description>
+					<owner>BitShares News</owner>
+					<comment></comment>
+					<url>http://bitsharesnews.info</url>
+				</item>
+				<item>
 					<name>BitShares French ConneXion</name>
 					<description></description>
 					<owner>EstefanTT</owner>
 					<comment>In French</comment>
 					<url>http://www.bitsharesfcx.com/btsfcx.php</url>
+				</item>
+				<item>
+					<name>BitShares Munich</name>
+					<description></description>
+					<owner>kenCode</owner>
+					<comment>In German</comment>
+					<url>http://bitshares-munich.de</url>
+				</item>
+				<item>
+					<name>BitShares Korea</name>
+					<description></description>
+					<owner>clayop</owner>
+					<comment>In Korean</comment>
+					<url>http://www.bitshares.kr</url>
+				</item>
+				<item>
+					<name>BitShares Hong Kong</name>
+					<description></description>
+					<owner></owner>
+					<comment>In Chinese</comment>
+					<url>http://www.bts.hk</url>
 				</item>
 				<item>
 					<name>The Coming BitShares Revolution</name>
