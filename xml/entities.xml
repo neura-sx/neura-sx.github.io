@@ -279,16 +279,35 @@
 				</item>
 				<item>
 					<name>Freebie Servers</name>
-					<description></description>
-					<location></location>
-					<status></status>
+					<description>A legal betting platform for gaming leagues.</description>
+					<location>USA</location>
+					<status>Planned to go live Q1 2016.</status>
 					<ceo>
-						<forum>Freebieservers</forum>
+						<forum>Freebieservers, kuro112</forum>
 					</ceo>
 					<links>
 						<link>
 							<label>website</label>
 							<url>http://freebieservers.com</url>
+						</link>
+						<link>
+							<label>forum</label>
+							<url>https://bitsharestalk.org/index.php/topic,17092.0.html</url>
+						</link>
+					</links>
+				</item>
+				<item>
+					<name>Sharebits</name>
+					<description>Deposit some UIAs with a bot, send off-chain tips to anyone and then withdraw them to your BTS account.</description>
+					<location>USA</location>
+					<status>Operational, beta stage.</status>
+					<ceo>
+						<forum>fuzzy, Freebieservers, kuro112, hybridd</forum>
+					</ceo>
+					<links>
+						<link>
+							<label>website</label>
+							<url>http://www.sharebits.io/</url>
 						</link>
 					</links>
 				</item>
