@@ -38,6 +38,27 @@
 			<Poloniex>The exchange company does.</Poloniex>
 		</item>
 		<item>
+			<feature>What happens when the exchange is compromised?</feature>
+			<BitShares>Nothing happens apart from a brief period of inconvenience.</BitShares>
+			<Metatrader>Some funds might be lost but it's very hard for the hacker to run away with the funds.</Metatrader>
+			<Bitstamp>All funds which are not kept in cold wallets might be irrevocably lost.</Bitstamp>
+			<Poloniex>All funds which are not kept in cold wallets might be irrevocably lost.</Poloniex>
+		</item>
+		<item>
+			<feature>How high is the incentive to hack the system?</feature>
+			<BitShares>Very low as the hacker has little to gain. S/he would have to hack every single individual account.</BitShares>
+			<Metatrader>Medium as it's hard to run away with the money.</Metatrader>
+			<Bitstamp>Very high as there is a lot to gain.</Bitstamp>
+			<Poloniex>Very high as there is a lot to gain.</Poloniex>
+		</item>
+		<item>
+			<feature>Is there opportunity for high frequency trading, front running, or hidden orders?</feature>
+			<BitShares>No. Everybody has unfair advantage.</BitShares>
+			<Metatrader>Yes. The brokerage house has a clear opportunity to cheat or play against its customers.</Metatrader>
+			<Bitstamp>Yes. The exchange operator has a privileged access to the order-book.</Bitstamp>
+			<Poloniex>Yes. The exchange operator has a privileged access to the order-book.</Poloniex>
+		</item>
+		<item>
 			<feature>Is margin trading available?</feature>
 			<BitShares>Will be as soon as Collateralized Bond Market is implemented.</BitShares>
 			<Metatrader>Yes. Actually only margin trading is possible.</Metatrader>
