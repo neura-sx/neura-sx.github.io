@@ -25,8 +25,8 @@
 										<xsl:value-of select="url"/>
 									</xsl:attribute>
 									<xsl:choose>
-       									<xsl:when test="string-length(url) &gt; 100">
-											<xsl:value-of select="concat(substring(url,1,100),'...')" />
+       									<xsl:when test="string-length(url) &gt; 70">
+											<xsl:value-of select="concat(substring(url,1,70),'...')" />
 										</xsl:when>
 										<xsl:otherwise>
 											<xsl:value-of select="url"/>
