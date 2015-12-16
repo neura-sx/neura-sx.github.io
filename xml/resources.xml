@@ -5,9 +5,18 @@
 		<area id="A">
 			<name>BitShares</name>
 			<items>
+				
+				<item>
+					<title>The Origin of BitShares</title>
+					<url>https://bitsharestalk.org/index.php/topic,14019.0.html</url>
+				</item>
 				<item>
 					<title>BM's blog: What is BitShares?</title>
-					<url>http://bytemaster.github.io/update/2014/12/18/What-is-BitShares/</url>
+					<url>http://bytemaster.github.io/update/2014/12/18/What-is-BitShares</url>
+				</item>
+				<item>
+					<title>BM's blog: The Worlds First Decentralized Exchange</title>
+					<url>http://bytemaster.github.io/article/2015/01/07/The-Worlds-First-Decentalized-Exchange</url>
 				</item>
 				<item>
 					<title>Let's talk bitcoin interview E260 (October 31st, 2015)</title>
@@ -49,6 +58,10 @@
 		<area id="C">
 			<name>Blockchain technology</name>
 			<items>
+				<item>
+					<title>The Minimal Requirement for Decentralization of Bitcoin</title>
+					<url>http://bytemaster.github.io/article/2015/01/20/The-Minimal-Requirement-for-Decentalization</url>
+				</item>
 				<item>
 					<title>Blythe Masters on the Significance of Blockchains in Finance (full version)</title>
 					<url>https://www.youtube.com/watch?v=O1Yo8bt8JAU</url>
@@ -128,6 +141,10 @@
 				<item>
 					<title>SEC Approves Overstock.com Filing to Issue Shares Using Bitcoin Blockchain</title>
 					<url>https://bitcoinmagazine.com/articles/sec-approves-overstock-com-s-filing-to-issue-shares-using-bitcoin-blockchain-1449539558</url>
+				</item>
+				<item>
+					<title>Comparison table of all the 2.0 platforms</title>
+					<url>https://bitcointalk.org/index.php?topic=1153740.0</url>
 				</item>
 			</items>
 		</area>
