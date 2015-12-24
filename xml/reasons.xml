@@ -3,14 +3,14 @@
 <root>
 	<items>
 		<item>
-			<item>
-				<who>puppies</who>
-				<quote>Rather than just whining about the fed, or attempting to join the mafia with the hopes that we can change the mafia from within, BitShares is a direct attempt at competition.  If we can make the bankers and the politicians redundant, then we will have won.</quote>
-				<source>
-					<label>forum</label>
-					<url>https://bitsharestalk.org/index.php/topic,20760.msg268152.html#msg268152</url>
-				</source>
-			</item>
+			<who>puppies</who>
+			<quote>Rather than just whining about the fed, or attempting to join the mafia with the hopes that we can change the mafia from within, BitShares is a direct attempt at competition.  If we can make the bankers and the politicians redundant, then we will have won.</quote>
+			<source>
+				<label>forum</label>
+				<url>https://bitsharestalk.org/index.php/topic,20760.msg268152.html#msg268152</url>
+			</source>
+		</item>
+		<item>
 			<who>delulo</who>
 			<quote>
 				<p>We are convinced that hierarchical structures in the form of states and the explicit and subtle form of violence associated is not the only possible (least evil) way to "run society". We are concerned about what technology can do in the hands of centralized power (surveillance). Yet at the same time technology has the potential to make possible a peaceful revolution providing a more effective and less violent way to coordinate interests and regulate society.</p>
