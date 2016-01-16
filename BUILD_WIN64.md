@@ -59,7 +59,7 @@ Create the following system variables:
 `OPENSSL_ROOT_DIR` defined as `%GRAPHENE_ROOT%\openssl-1.0.1q-vs2015`
 
 * **Amend the existing system path variable**  
-Add `%OPENSSL_ROOT_DIR%\bin` at the end of your *PATH* variable.  
+Add `%OPENSSL_ROOT_DIR%\bin` at the end of your `PATH` variable.  
 In case of Windows 7 make sure all paths within the path variable are sperated by `;`.
 
 #### BitShares source code ####
@@ -78,7 +78,7 @@ As a result you should have the folder `[Graphene-Main]/bitshares-2` populated w
 You can close the powershell console now.
 
 #### CMake amendmends ####
-There are two little hacks needed to make the compilation work on Windows.  
+There are two little hacks needed to make CMake pre-processing work on Windows.  
 * **[Graphene-Main]\bitshares-2\CMakeLists.txt**  
 Line 35:  
 `list( APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/libraries/fc/CMakeModules" )`  
@@ -96,7 +96,7 @@ needs to be changed to something like this:
 The purpose of CMake is to create a Visual Studio project for the BitShares source code.  
 Open a standard command prompt console and run the following commands:  
 (*Remember to put actual paths instead of* [..] *placeholders. Also, before you begin make sure you've switched to the disk where* `[Graphene-Main]` *is located*)  
-([VisualStudio-Root] *stands for Visual Studio 2015 home folder, e.g.* `C:\Program Files (x86)\Microsoft Visual Studio 14.0`)  
+(`[VisualStudio-Root]` *stands for Visual Studio 2015 home folder, e.g.* `C:\Program Files (x86)\Microsoft Visual Studio 14.0`)  
 ```
 cd [Graphene-Main]
 [VisualStudio-Root]\VC\vcvarsall" x86_amd64
