@@ -103,7 +103,7 @@ cd [Graphene-Main]
 [Visual-Studio-Home]\VC\vcvarsall x86_amd64
 [Graphene-Aux]\cmake-3.4.1-win32-x86\bin\cmake-gui -G "Visual Studio 14 Win64"
 ```
-A CMake GUI should pop up as a result.  
+As a result the CMake GUI should appear on your screen.  
 Enter the following path in the source code field:  
 `[Graphene-Main]\bitshares-2`  
 Enter the following ptah in the binaries field:  
