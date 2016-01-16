@@ -7,8 +7,8 @@ Windows 64-bit - Visual Studio 2015
   * [7-zip](http://www.7-zip.org)
   * [Github desktop](https://desktop.github.com)
   * [Visual Studio 2015](https://www.visualstudio.com) (the Community version is free)  
-When installing choose custom installation and make sure the following feature is selected:  
-`Programming Languages -> Visual C++ -> Common Tools for Visual C++ 2015`
+When installing please choose custom installation and make sure the `Common Tools for Visual C++ 2015` feature is selected. In the features tree it's located here:  
+`Programming Languages -> Visual C++ -> Common Tools for Visual C++ 2015`.
 
 #### Folder structure ####
 * Create a new folder, e.g. `C:\Users\[your user name]\Documents\Graphene-Main`. This is where BitShares source code and binaries will be stored.
@@ -16,7 +16,7 @@ When installing choose custom installation and make sure the following feature i
 
 Those folders can be located wherever you like and can be named whatever you prefer.  
 For convenience, from now on those folders will be referred to as `[Graphene-Main]` and `[Graphene-Aux]`.  
-If you want, you can keep everything in one folder so that `[Graphene-Main]` = `[Graphene-Aux]`.
+If you want, you can keep everything in one folder so that `[Graphene-Aux]` is the same as `[Graphene-Main]`.
 
 #### Downloads ####
 
@@ -35,7 +35,8 @@ Run the downloaded exe file and when prompted choose the deployment location as 
 Once Boost is deployed you should have a folder named `[Graphene-Aux]\boost_1_60_0\lib64-msvc-14.0`.  
 Create a new folder `[Graphene-Aux]\boost_1_60_0\stage`.  
 Move `[Graphene-Aux]\boost_1_60_0\lib64-msvc-14.0` to `[Graphene-Aux]\boost_1_60_0\stage`.  
-Rename `[Graphene-Aux]\boost_1_60_0\stage\lib64-msvc-14.0` to `[Graphene-Aux]\boost_1_60_0\stage\lib`.
+Rename `[Graphene-Aux]\boost_1_60_0\stage\lib64-msvc-14.0` to `[Graphene-Aux]\boost_1_60_0\stage\lib`.  
+(*If you don't trust this exe file, get the Boost compilation from elsewhere (or compile it from source) and make sure that the 64-bit libraries are located here:* `[Graphene-Aux]\boost_1_60_0\stage\lib`)
 
 * **OpenSSL**  
 We will use a precompiled version available here:  
@@ -48,7 +49,8 @@ instead of something like this:
 Inside the `[Graphene-Aux]\openssl-1.0.1q-vs2015` folder we need to do some renaming:  
  * rename `bin` to `bin32` and then `bin64` to `bin`  
  * rename `include` to `include32` and then `include64` to `include`  
- * rename `lib` to `lib32` and then `lib64` to `lib`
+ * rename `lib` to `lib32` and then `lib64` to `lib`  
+(*Again, if you don't trust this precompiled version, get the OpenSSL compilation from elsewhere (or compile it from source) and make sure that the 64-bit binaries, includes and libraries are located in those:* `bin`,`lib` *and* `include` *folders*)
 
 #### System variables and paths ####
 Open the Control Panel and navigate to `System and Security\System\Advanced System Settings\Environment Variables`.  
