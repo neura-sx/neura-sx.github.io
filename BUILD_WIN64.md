@@ -97,10 +97,10 @@ needs to be changed to something like this:
 #### Run CMake ####
 The purpose of CMake is to create a Visual Studio project for the BitShares source code.  
 Open a standard command prompt console and run the following commands:  
-(*Before you begin make sure you've switched to the disk where* `[Graphene-Main]` *is located.* `[VisualStudio-Root]` *stands for Visual Studio 2015 home folder, e.g.* `C:\Program Files (x86)\Microsoft Visual Studio 14.0`)  
+(*Before you begin make sure you've switched to the disk where* `[Graphene-Main]` *is located.* `[VisualStudioHome]` *stands for Visual Studio 2015 home folder, e.g.* `C:\Program Files (x86)\Microsoft Visual Studio 14.0`)  
 ```
 cd [Graphene-Main]
-[VisualStudio-Root]\VC\vcvarsall" x86_amd64
+[VisualStudioHome]\VC\vcvarsall" x86_amd64
 [Graphene-Aux]\cmake-3.4.1-win32-x86\bin\cmake-gui -G "Visual Studio 14 Win64"
 ```
 A CMake GUI should pop up as a result.  
