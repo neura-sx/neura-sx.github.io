@@ -22,7 +22,7 @@ If you want, you can keep everything in one folder so that `[Graphene-Main]` = `
 
 * **CMake**  
 https://cmake.org/files/v3.4/cmake-3.4.1-win32-x86.zip  
-Unzip the file and move it to `[Graphene-Aux]/cmake-3.4.1-win32-x86`.  
+Unzip the file and move it to `[Graphene-Aux]\cmake-3.4.1-win32-x86`.  
 Make sure you don't have any nested folders, i.e. you should have:  
 `[Graphene-Aux]\cmake-3.4.1-win32-x86\bin`  
 instead of something like this:  
@@ -31,21 +31,21 @@ instead of something like this:
 * **Boost**  
 We will use a precompiled version available here:  
 http://netcologne.dl.sourceforge.net/project/boost/boost-binaries/1.60.0/boost_1_60_0-msvc-14.0-64.exe  
-Run the downloaded exe file and when prompted choose the deployment location as `[Graphene-Aux]/boost_1_60_0`.  
-Once Boost is deployed you should have a folder named `[Graphene-Aux]/boost_1_60_0/lib64-msvc-14.0`.  
-Create a new folder `[Graphene-Aux]/boost_1_60_0/stage`.  
-Move `[Graphene-Aux]/boost_1_60_0/lib64-msvc-14.0` to `[Graphene-Aux]/boost_1_60_0/stage`.  
-Rename `[Graphene-Aux]/boost_1_60_0/stage/lib64-msvc-14.0` to `[Graphene-Aux]/boost_1_60_0/stage/lib`.
+Run the downloaded exe file and when prompted choose the deployment location as `[Graphene-Aux]\boost_1_60_0`.  
+Once Boost is deployed you should have a folder named `[Graphene-Aux]\boost_1_60_0\lib64-msvc-14.0`.  
+Create a new folder `[Graphene-Aux]\boost_1_60_0\stage`.  
+Move `[Graphene-Aux]\boost_1_60_0\lib64-msvc-14.0` to `[Graphene-Aux]\boost_1_60_0\stage`.  
+Rename `[Graphene-Aux]\boost_1_60_0\stage\lib64-msvc-14.0` to `[Graphene-Aux]\boost_1_60_0\stage\lib`.
 
 * **OpenSSL**  
 We will use a precompiled version available here:  
 www.npcglib.org/~stathis/downloads/openssl-1.0.1q-vs2015.7z  
-Extract the content of this archive using 7-zip to `[Graphene-Aux]/openssl-1.0.1q-vs2015`.  
+Extract the content of this archive using 7-zip to `[Graphene-Aux]\openssl-1.0.1q-vs2015`.  
 Make sure you don't have any nested folders, i.e. you should have:  
-`[Graphene-Aux]/openssl-1.0.1q-vs2015/bin`  
+`[Graphene-Aux]\openssl-1.0.1q-vs2015\bin`  
 instead of something like this:  
-`[Graphene-Aux]/openssl-1.0.1q-vs2015/openssl-1.0.1q-vs2015/bin`.  
-Inside the `[Graphene-Aux]/openssl-1.0.1q-vs2015` folder we need to do some renaming:  
+`[Graphene-Aux]\openssl-1.0.1q-vs2015\openssl-1.0.1q-vs2015\bin`.  
+Inside the `[Graphene-Aux]\openssl-1.0.1q-vs2015` folder we need to do some renaming:  
  * rename `bin` to `bin32` and then `bin64` to `bin`  
  * rename `include` to `include32` and then `include64` to `include`  
  * rename `lib` to `lib32` and then `lib64` to `lib`
@@ -74,7 +74,7 @@ git clone https://github.com/bitshares/bitshares-2.git
 cd bitshares-2
 git submodule update --init --recursive
 ```
-As a result you should have the folder `[Graphene-Main]/bitshares-2` populated with BitShares2 source code.  
+As a result you should have the folder `[Graphene-Main]\bitshares-2` populated with BitShares2 source code.  
 You can close the powershell console now.
 
 #### CMake amendmends ####
@@ -104,9 +104,9 @@ cd [Graphene-Main]
 ```
 A CMake GUI should pop up as a result.  
 Enter the following path in the *source code* field  
-`[Graphene-Main]/bitshares-2`  
+`[Graphene-Main]\bitshares-2`  
 Enter the following ptah in the *binaries* field  
-`[Graphene-Main]/bin64`  
+`[Graphene-Main]\bin64`  
 And hit `Configure`.  
 Confirm the creation of a new folder called `bin64`.  
 A new pop-up window should appear. Please select `Visual Studio 14 2015 Win64` and `Use default native compilers` and hit `Finish`. 
@@ -128,4 +128,4 @@ To do that, right-click on the `fc` project, open the properties panel, navigate
 add a new line with this content:  
 `#include <algorithm>`.
 
-Now we are ready to compile. Choose `Build Solution' from the main menu to start building the entire solution. It will take a while but the task should complete without any errors and with all 47 projects compiled.
+Now we are ready to compile. Choose `Build Solution` from the main menu to start building the entire solution. It will take a while but the task should complete without any errors and with all 47 projects compiled.
