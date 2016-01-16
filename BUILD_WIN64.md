@@ -56,9 +56,9 @@ Inside the `[Graphene-Aux]\openssl-1.0.1q-vs2015` folder we need to do some rena
 Open the Control Panel and navigate to `System and Security -> System\Advanced System Settings -> Environment Variables`.  
 * **Create new system variables**  
 Create the following system variables:  
-`GRAPHENE_ROOT` defined as `[Graphene-Main]` (*place your actual path here!*)  
-`BOOST_ROOT` defined as `%GRAPHENE_ROOT%\boost_1_60_0`  
-`OPENSSL_ROOT_DIR` defined as `%GRAPHENE_ROOT%\openssl-1.0.1q-vs2015`
+(*Remember to put actual paths instead of* `[Graphene-Aux]`)  
+`BOOST_ROOT` defined as `[Graphene-Aux]\boost_1_60_0`   
+`OPENSSL_ROOT_DIR` defined as `[Graphene-Aux]\openssl-1.0.1q-vs2015`
 
 * **Amend the existing system path variable**  
 Add `%OPENSSL_ROOT_DIR%\bin` at the end of your `PATH` variable.  
