@@ -11,7 +11,7 @@ When installing please choose custom installation and make sure the `Common Tool
 `Programming Languages -> Visual C++ -> Common Tools for Visual C++ 2015`.
 
 #### Folder structure ####
-* Create a new folder, e.g. `C:\Users\[your user name]\Documents\Graphene-Main`. This is where BitShares source code and binaries will be stored.
+* Create a new folder, e.g. `C:\Users\[your user name]\Documents\Graphene-Main`. This is where BitShares source code and binaries will be stored. Also, this is the future location of the Visual Studio project.
 * Create a new folder, e.g. `C:\Users\[your user name]\Documents\Graphene-Aux`. This is where auxiliary libraries and tools will be stored.
 
 Those folders can be located wherever you like and can be named whatever you prefer.  
