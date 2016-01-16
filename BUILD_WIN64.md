@@ -69,7 +69,7 @@ Open your power shell console. Normally it is located here:
 `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe`  
 but this location can differ depending on your OS settings.  
 In the power shell console run the following commands:  
-(*Before you begin make sure you've switched to the disk where* `[Graphene-Main]` *is located. And remember to use the actual path instead of* `[Graphene-Main]`)  
+(*Before you begin make sure you've switched to the disk where* `[Graphene-Main]` *is located.*)  
 ```
 cd [Graphene-Main]
 git clone https://github.com/bitshares/bitshares-2.git
@@ -97,7 +97,7 @@ needs to be changed to something like this:
 #### Run CMake ####
 The purpose of CMake is to create a Visual Studio project for the BitShares source code.  
 Open a standard command prompt console and run the following commands:  
-(*Before you begin make sure you've switched to the disk where* `[Graphene-Main]` *is located. And remember to use the actual paths instead of* `[...]` *placeholders.* `[VisualStudio-Root]` *stands for Visual Studio 2015 home folder, e.g.* `C:\Program Files (x86)\Microsoft Visual Studio 14.0`)  
+(*Before you begin make sure you've switched to the disk where* `[Graphene-Main]` *is located.* `[VisualStudio-Root]` *stands for Visual Studio 2015 home folder, e.g.* `C:\Program Files (x86)\Microsoft Visual Studio 14.0`)  
 ```
 cd [Graphene-Main]
 [VisualStudio-Root]\VC\vcvarsall" x86_amd64
