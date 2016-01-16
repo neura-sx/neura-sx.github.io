@@ -22,7 +22,7 @@ If you want, you can keep everything in one folder so that `[Graphene-Main]` = `
 
 * **CMake**  
 https://cmake.org/files/v3.4/cmake-3.4.1-win32-x86.zip  
-Unzip the file and move it to `[Graphene-Aux]/cmake-3.4.1-win32-x86`  
+Unzip the file and move it to `[Graphene-Aux]/cmake-3.4.1-win32-x86`.  
 Make sure you don't have any nested folders, i.e. you should have:  
 `[Graphene-Aux]\cmake-3.4.1-win32-x86\bin`  
 instead of something like this:  
@@ -31,8 +31,8 @@ instead of something like this:
 * **Boost**  
 We will use a precompiled version available here:  
 http://netcologne.dl.sourceforge.net/project/boost/boost-binaries/1.60.0/boost_1_60_0-msvc-14.0-64.exe  
-Run the downloaded exe file and when prompted choose the deployment location as `[Graphene-Aux]/boost_1_60_0`  
-Once Boost is deployed you should have a folder named `[Graphene-Aux]/boost_1_60_0/lib64-msvc-14.0`  
+Run the downloaded exe file and when prompted choose the deployment location as `[Graphene-Aux]/boost_1_60_0`.  
+Once Boost is deployed you should have a folder named `[Graphene-Aux]/boost_1_60_0/lib64-msvc-14.0`.  
 Create a new folder `[Graphene-Aux]/boost_1_60_0/stage`.  
 Move `[Graphene-Aux]/boost_1_60_0/lib64-msvc-14.0` to `[Graphene-Aux]/boost_1_60_0/stage`.  
 Rename `[Graphene-Aux]/boost_1_60_0/stage/lib64-msvc-14.0` to `[Graphene-Aux]/boost_1_60_0/stage/lib`.
@@ -40,23 +40,23 @@ Rename `[Graphene-Aux]/boost_1_60_0/stage/lib64-msvc-14.0` to `[Graphene-Aux]/bo
 * **OpenSSL**  
 We will use a precompiled version available here:  
 www.npcglib.org/~stathis/downloads/openssl-1.0.1q-vs2015.7z  
-Extract the content of this archive using 7-zip to `[Graphene-Aux]/openssl-1.0.1q-vs2015`  
+Extract the content of this archive using 7-zip to `[Graphene-Aux]/openssl-1.0.1q-vs2015`.  
 Make sure you don't have any nested folders, i.e. you should have:  
 `[Graphene-Aux]/openssl-1.0.1q-vs2015/bin`  
 instead of something like this:  
 `[Graphene-Aux]/openssl-1.0.1q-vs2015/openssl-1.0.1q-vs2015/bin`.  
 Inside the `[Graphene-Aux]/openssl-1.0.1q-vs2015` folder we need to do some renaming:  
-rename `bin` to `bin32` and then `bin64` to `bin`  
-rename `include` to `include32` and then `include64` to `include`  
-rename `lib` to `lib32` and then `lib64` to `lib`
+ * rename `bin` to `bin32` and then `bin64` to `bin`  
+ * rename `include` to `include32` and then `include64` to `include`  
+ * rename `lib` to `lib32` and then `lib64` to `lib`
 
 #### System variables and paths ####
-Open the Control Panel and navigate to `System and Security\System\Advanced System Settings\Environment Variables`  
+Open the Control Panel and navigate to `System and Security\System\Advanced System Settings\Environment Variables`.  
 * **Create new system variables**  
 Create the following system variables:  
-GRAPHENE_ROOT defined as `[Graphene-Main]` (*place your actual path here!*)  
-BOOST_ROOT defined as `%GRAPHENE_ROOT%\boost_1_60_0`  
-OPENSSL_ROOT_DIR defined as `%GRAPHENE_ROOT%\openssl-1.0.1q-vs2015`
+`GRAPHENE_ROOT` defined as `[Graphene-Main]` (*place your actual path here!*)  
+`BOOST_ROOT` defined as `%GRAPHENE_ROOT%\boost_1_60_0`  
+`OPENSSL_ROOT_DIR` defined as `%GRAPHENE_ROOT%\openssl-1.0.1q-vs2015`
 
 * **Amend the existing system path variable**  
 Add `%OPENSSL_ROOT_DIR%\bin` at the end of your *PATH* variable.  
