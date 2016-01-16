@@ -104,14 +104,14 @@ cd [Graphene-Main]
 [Graphene-Aux]\cmake-3.4.1-win32-x86\bin\cmake-gui -G "Visual Studio 14 Win64"
 ```
 A CMake GUI should pop up as a result.  
-Enter the following path in the *source code* field  
+Enter the following path in the source code field:  
 `[Graphene-Main]\bitshares-2`  
-Enter the following ptah in the *binaries* field  
+Enter the following ptah in the binaries field:  
 `[Graphene-Main]\bin64`  
 And hit `Configure`.  
 Confirm the creation of a new folder called `bin64`.  
-A new pop-up window should appear. Please select `Visual Studio 14 2015 Win64` and `Use default native compilers` and hit `Finish`. 
-There will some warnings displayed in red in the CMake console but these can be safely ignored.  
+A new pop-up window should appear. Please select `Visual Studio 14 2015 Win64` and `Use default native compilers` and then hit `Finish`. 
+There will be some warnings displayed in red in the CMake console but these can be safely ignored.  
 If successful, the process is should end with the message `Configuring done`.  
 Now hit `Generate`. And once you get the message `Generating done` you can exit the CMake GUI and also close the command prompt console.
 
