@@ -47,13 +47,13 @@ Make sure you don't have any nested folders, i.e. you should have:
 instead of something like this:  
 `[Graphene-Aux]\openssl-1.0.1q-vs2015\openssl-1.0.1q-vs2015\bin`.  
 Inside the `[Graphene-Aux]\openssl-1.0.1q-vs2015` folder we need to do some renaming:  
- * rename `bin` to `bin32` and then `bin64` to `bin`  
- * rename `include` to `include32` and then `include64` to `include`  
- * rename `lib` to `lib32` and then `lib64` to `lib`  
+-- rename `bin` to `bin32` and then `bin64` to `bin`  
+-- rename `include` to `include32` and then `include64` to `include`  
+-- rename `lib` to `lib32` and then `lib64` to `lib`  
 (*Again, if you don't trust this precompiled version, get the OpenSSL compilation from elsewhere (or compile it from source) and make sure that the 64-bit binaries, includes and libraries are located in* `bin`,`lib` *and* `include` *folders*)
 
 #### System variables and paths ####
-Open the Control Panel and navigate to `System and Security\System\Advanced System Settings\Environment Variables`.  
+Open the Control Panel and navigate to `System and Security -> System\Advanced System Settings -> Environment Variables`.  
 * **Create new system variables**  
 Create the following system variables:  
 `GRAPHENE_ROOT` defined as `[Graphene-Main]` (*place your actual path here!*)  
