@@ -84,8 +84,9 @@ needs to be changed to something like this:
 
 #### Run CMake ####
 The purpose of CMake is to create a Visual Studio solution for the BitShares source code.  
+The `[Visual-Studio-Home]` placeholder used below stands for Visual Studio 2015 home folder, e.g.  
+`C:\Program Files (x86)\Microsoft Visual Studio 14.0`  
 Open a standard command prompt console and run the following commands:  
-(`[Visual-Studio-Home]` *stands for Visual Studio 2015 home folder, e.g.* `C:\Program Files (x86)\Microsoft Visual Studio 14.0`)  
 ```
 cd [Graphene-Main]
 set GRAPHENE_AUX=[Graphene-Aux]
