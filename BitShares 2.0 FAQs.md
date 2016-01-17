@@ -1,5 +1,5 @@
 ===
-###### Why does CLI client immediately crashes first time I try to run it?
+###### Why does the CLI client crash immediately when I try to run it for the first time?
 The CLI client is unable to run on its own, i.e. without being connected to the witness node (via a web socket connection). So to successfully run the CLI client you need to do this:
 * make sure you have this entry uncommented in the `witness_node_data_dir/config.ini` file  
 `rpc-endpoint = 127.0.0.1:8090`
