@@ -1,4 +1,8 @@
 ===
+###### What is the difference between public and private testnet as described [here](http://docs.bitshares.eu/testnet/index.html)?
+Not much. The biggest difference is that public testnest are intended for wider audience.
+
+===
 ###### How can I close the witness node in a clean way?
 In windows use `ctrl-c`.
 
