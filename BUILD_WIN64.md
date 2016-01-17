@@ -50,9 +50,8 @@ Inside the `[Graphene-Aux]\openssl-1.0.1q-vs2015` folder we need to do some rena
 (*Again, if you don't trust this precompiled version, get the OpenSSL compilation from elsewhere (or compile it from source) and make sure that the 64-bit binaries, includes and libraries are located in* `bin`*,*`lib` *and* `include` *folders*)
 
 #### System path variable ####
-Open the Control Panel and navigate to  
-`System and Security -> System\Advanced System Settings -> Environment Variables`.  
-Add `[Graphene-Aux]\openssl-1.0.1q-vs2015\bin` at the end of your system path variable named `Path`.
+Add `[Graphene-Aux]\openssl-1.0.1q-vs2015\bin` to your system path variable.  
+To do this, open the Control Panel and navigate to `System and Security -> System\Advanced System Settings -> Environment Variables` and edit the system path variable named `Path`.
 
 #### BitShares source code ####
 Open your power shell console. Normally it is located here:  
