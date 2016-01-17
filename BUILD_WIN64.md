@@ -103,7 +103,7 @@ Enter the following path in the binaries field: `[Graphene-Main]\bin64`.
 And then hit `Configure`.  
 When prompted, confirm the creation of a new folder called `bin64`.  
 A new pop-up window should appear. Please select `Visual Studio 14 2015 Win64` and `Use default native compilers` and then hit `Finish`. 
-There will be some red warnings displayed in the CMake console but these can be safely ignored.  
+There will be some red warnings displayed in the output window of the GUI but these can be safely ignored.  
 If successful, the process should end with the message `Configuring done` displayed in the GUI.  
 Now hit `Generate`. And once you get the message `Generating done` you can exit the CMake GUI and also close the command prompt console.
 
