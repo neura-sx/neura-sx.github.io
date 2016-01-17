@@ -122,4 +122,4 @@ To do that, right-click on the `fc` project, open the properties panel, navigate
 add a new line with this content:  
 `#include <algorithm>`.
 
-Now we are ready to compile. Choose `Build Solution` from the main menu to start building the entire solution. It will take a while but the task should complete without any errors and with all 47 projects compiled.
+Now we are ready to compile. Choose `Build Solution` from the main menu to start building the entire solution. It will take a while but the task should complete without any errors and with all 47 projects successfully built.
