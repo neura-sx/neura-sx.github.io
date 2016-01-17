@@ -49,7 +49,7 @@ Inside the `[Graphene-Aux]\openssl-1.0.1q-vs2015` folder we need to do some rena
 -- rename `lib` to `lib32` and then `lib64` to `lib`  
 (*Again, if you don't trust this precompiled version, get the OpenSSL compilation from elsewhere (or compile it from source) and make sure that the 64-bit binaries, includes and libraries are located in* `bin`*,*`lib` *and* `include` *folders. The important thing is that OpenSSL needs to be compiled in MSVC 2015 because previous compilations are incompatible with VS 2015 as described [here](http://stackoverflow.com/questions/30412951/unresolved-external-symbol-imp-fprintf-and-imp-iob-func-sdl2).*)
 
-As a result you should end up with these three folders inside `[Graphene-Aux]`:
+As a result, you should end up with these three folders inside `[Graphene-Aux]`:
 ```
 boost_1_60_0
 cmake-3.4.1-win32-x86
@@ -71,7 +71,7 @@ git clone https://github.com/bitshares/bitshares-2.git
 cd bitshares-2
 git submodule update --init --recursive
 ```
-As a result you should have the folder `[Graphene-Main]\bitshares-2` populated with BitShares2 source code.  
+As a result, you should have the folder `[Graphene-Main]\bitshares-2` populated with BitShares2 source code.  
 You can close the powershell console now.
 
 #### CMake amendmends ####
@@ -113,7 +113,7 @@ A new pop-up window should appear. Please select `Visual Studio 14 2015 Win64` a
 There will be some red warnings displayed in the output window of the GUI but these can be safely ignored.  
 If successful, the process should end with the message `Configuring done` displayed in the GUI.  
 Now hit `Generate`. And once you get the message `Generating done` you can exit the CMake GUI and also close the command prompt console.  
-As a result you should have `[Graphene-Main]\bin64` containing several folders making up a Visual Studio solution, including the `BitShares.sln` file.
+As a result, there should be a Visual Studio solution structure located in `[Graphene-Main]\bin64`, including the `BitShares.sln` file.
 
 #### Run Visual Studio ####
 We are now ready to compile the source code in Visual Studio.  
