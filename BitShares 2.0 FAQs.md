@@ -11,6 +11,6 @@ In Windows you can try `ctrl-d` which stops the process but stil porduces a nast
 ===
 ###### Regarding the witness node, is it safe to delete logs stored in `witness_node_data_dir\logs\p2p`?
 Yes, but
-- they're rotated automatically after 24 hours I think
-- if you delete them anyway you should probably modify config.ini so they aren't written to disk in the first place.
+-- they're rotated automatically after 24 hours anyway
+-- if you are not uing them you should probably modify `config.ini` so they aren't written to disk in the first place.
 
