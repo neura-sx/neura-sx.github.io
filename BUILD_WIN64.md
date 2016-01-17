@@ -49,6 +49,13 @@ Inside the `[Graphene-Aux]\openssl-1.0.1q-vs2015` folder we need to do some rena
 -- rename `lib` to `lib32` and then `lib64` to `lib`  
 (*Again, if you don't trust this precompiled version, get the OpenSSL compilation from elsewhere (or compile it from source) and make sure that the 64-bit binaries, includes and libraries are located in* `bin`*,*`lib` *and* `include` *folders. The important thing is that OpenSSL needs to be compiled in MSVC 2015 because previous compilations are incompatible with VS 2015 as described [here](http://stackoverflow.com/questions/30412951/unresolved-external-symbol-imp-fprintf-and-imp-iob-func-sdl2).*)
 
+As a result you should end up with these three folders inside `[Graphene-Aux]`:
+```
+boost_1_60_0
+cmake-3.4.1-win32-x86
+openssl-1.0.1q-vs2015
+```
+
 #### System path variable ####
 Add `[Graphene-Aux]\openssl-1.0.1q-vs2015\bin` to your system path variable.  
 To do this, open the Control Panel and navigate to `System and Security -> System\Advanced System Settings -> Environment Variables` and edit the system path variable named `Path`.
