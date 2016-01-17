@@ -84,9 +84,10 @@ needs to be changed to something like this:
 
 #### Run CMake ####
 The purpose of CMake is to create a Visual Studio solution for the BitShares source code.  
-The `[Visual-Studio-Home]` placeholder used below stands for Visual Studio 2015 home folder, e.g.  
+The `[Visual-Studio-Home]` placeholder stands for Visual Studio 2015 home folder, e.g.  
 `C:\Program Files (x86)\Microsoft Visual Studio 14.0`  
 Open a standard command prompt console and run the following commands:  
+(*make sure you replace all placeholders with appropriate paths*)
 ```
 cd [Graphene-Main]
 set GRAPHENE_AUX=[Graphene-Aux]
@@ -97,12 +98,10 @@ set OPENSSL_ROOT_DIR=%GRAPHENE_AUX%\openssl-1.0.1q-vs2015
 "[Graphene-Aux]\cmake-3.4.1-win32-x86\bin\cmake-gui" -G "Visual Studio 14 Win64"
 ```
 As a result the CMake GUI should appear on your screen.  
-Enter the following path in the source code field:  
-`[Graphene-Main]\bitshares-2`  
-Enter the following ptah in the binaries field:  
-`[Graphene-Main]\bin64`  
-And hit `Configure`.  
-Confirm the creation of a new folder called `bin64`.  
+Enter the following path in the source code field: `[Graphene-Main]\bitshares-2`.  
+Enter the following ptah in the binaries field: `[Graphene-Main]\bin64`  
+And then hit `Configure`.  
+When prompted, confirm the creation of a new folder called `bin64`.  
 A new pop-up window should appear. Please select `Visual Studio 14 2015 Win64` and `Use default native compilers` and then hit `Finish`. 
 There will be some warnings displayed in red in the CMake console but these can be safely ignored.  
 If successful, the process should end with the message `Configuring done`.  
