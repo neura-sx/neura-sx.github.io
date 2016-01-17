@@ -1,5 +1,16 @@
 ===
-###### I have problems with syncing the witness node - the `info` command in the CLI client tells me that `head_block_age` is several days old and it seems to be stuck on this. Is it common that this task fails? Shall I keep trying to sync it?
+###### Why does CLI client immediately crashes first time you try to run it?
+The CLI client is unable to run on its own, i.e. without being connected via a web socket to the witness node. So to sucessfully run the CLI client you need to do this:
+* make sure you have this entry uncommented in the `witness_node_data_dir/config.ini` file  
+`rpc-endpoint = 127.0.0.1:8090`
+* before you start the CLI client, you need to start the witness node (and wait a while till it's up and running)
+
+===
+###### How do I check wheather the witness node is already synced?
+Run the `info` command in the CLI client and check the `head_block_age` value.
+
+===
+###### I have problems with syncing the witness node - it seems to be unable to sync beyond a certain date. Is it common that this task fails? Shall I keep trying to sync it?
 You should always make sure you use the newest build available [here](https://github.com/bitshares/bitshares-2/releases/latest) as earlier releases will get stuck due to hard-forks.
 
 ===
