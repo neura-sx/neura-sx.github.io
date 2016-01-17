@@ -23,13 +23,13 @@ CLI and WEB wallet are two separated applications. They use separated ways to re
 It doesn't work that way with the current implementation.  
 But you can work around it but importing an active key of an account that has funds:
 
-1. In the gui, go to the permissions tab of an account that is funded
-2. Click on the BTS public key on the ACTIVE tab and copy the private key
+1. In the gui, go to the permissions tab of an account that is funded and has a Lifetime Member status.
+2. Click on the BTS public key on the ACTIVE tab and copy the private key.
 3. In the cli-wallet run:  
 `import_key <account_name> <private_key>`
 4. Then run:  
 `suggest_brain_key`  
-and copy the brain key (you might want to make a backup of your brain key somewhere)
+and copy the brain key. (You might want to make a backup of your brain key somewhere.)
 5. Create a new account with this command:  
 `create_account_with_brain_key <brainkey> <new_account_name> <imported_name> <imported_name> true`
 
