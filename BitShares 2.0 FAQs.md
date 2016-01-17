@@ -33,7 +33,7 @@ and copy the brain key. (You might want to make a backup of your brain key somew
 5. Create a new account with this command:  
 `create_account_with_brain_key <brainkey> <new_account_name> <imported_name> <imported_name> true`
 
-This will create a new account called `new_account_name` and set the registrar and referrer to `<imported_name>`.
-The brainkey can be used to regenerate the account (even in the gui wallet).  
+This will create a new account called `<new_account_name>` and set the registrar and referrer to `<imported_name>`.
+The brainkey can be used to regenerate the account (even in the GUI wallet).  
 You can manually delete the other active key from the `wallet.json` file. 
 
