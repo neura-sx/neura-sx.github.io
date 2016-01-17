@@ -1,3 +1,7 @@
+====
+###### I have problems with syncing the witness node - the `info` command in the CLI client tells me that `head_block_age` is several days old and it seems to be stuck on this. Is it common that this task fails? Shall I keep trying to sync it?
+You should always make sure you use the newest build available [here](https://github.com/bitshares/bitshares-2/releases/latest) as earlier releases will get stuck due to hard-forks.
+
 ===
 ###### What is the difference between public and private testnet as described [here](http://docs.bitshares.eu/testnet/index.html)?
 Not much. The biggest difference is that public testnest are intended for wider audience.
