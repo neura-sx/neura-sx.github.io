@@ -47,7 +47,7 @@ Inside the `[Graphene-Aux]\openssl-1.0.1q-vs2015` folder we need to do some rena
 -- rename `bin` to `bin32` and then `bin64` to `bin`  
 -- rename `include` to `include32` and then `include64` to `include`  
 -- rename `lib` to `lib32` and then `lib64` to `lib`  
-(*Again, if you don't trust this precompiled version, get the OpenSSL compilation from elsewhere (or compile it from source) and make sure that the 64-bit binaries, includes and libraries are located in* `bin`*,*`lib` *and* `include` *folders*)
+(*Again, if you don't trust this precompiled version, get the OpenSSL compilation from elsewhere (or compile it from source) and make sure that the 64-bit binaries, includes and libraries are located in* `bin`*,*`lib` *and* `include` *folders. The important thing is that OpenSSL needs to be compiled in MSVC 2015 as previous compilations are incompatible with VS 2015.*)
 
 #### System path variable ####
 Add `[Graphene-Aux]\openssl-1.0.1q-vs2015\bin` to your system path variable.  
