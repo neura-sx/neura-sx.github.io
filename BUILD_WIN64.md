@@ -32,7 +32,7 @@ instead of something like this:
 We will use a precompiled version available here:  
 http://netcologne.dl.sourceforge.net/project/boost/boost-binaries/1.60.0/boost_1_60_0-msvc-14.0-64.exe  
 Run the downloaded exe file and when prompted choose the deployment location as `[Graphene-Aux]\boost_1_60_0`.  
-Once Boost is successfully deployed you should have a folder named `[Graphene-Aux]\boost_1_60_0\lib64-msvc-14.0` which containes 64-bit Boost libraries.  
+Once Boost is successfully deployed, you end up with `[Graphene-Aux]\boost_1_60_0\lib64-msvc-14.0` containing 64-bit Boost libraries.  
 
 (*If you don't trust this exe file, get the Boost compilation from elsewhere (or compile it from source) and make sure that the 64-bit libraries are located in* `[Graphene-Aux]\boost_1_60_0\lib64-msvc-14.0`)
 
