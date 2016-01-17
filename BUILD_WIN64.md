@@ -23,7 +23,7 @@ If you want, you can keep everything in one folder so that `[Graphene-Aux]` is t
 * **CMake**  
 https://cmake.org/files/v3.4/cmake-3.4.1-win32-x86.zip  
 Unzip the file and move it to `[Graphene-Aux]\cmake-3.4.1-win32-x86`.  
-Make sure you don't have any nested folders, i.e. you should have:  
+Make sure you don't end up with nested folders, i.e. you should have:  
 `[Graphene-Aux]\cmake-3.4.1-win32-x86\bin`  
 instead of something like this:  
 `[Graphene-Aux]\cmake-3.4.1-win32-x86\cmake-3.4.1-win32-x86\bin`.
@@ -32,17 +32,15 @@ instead of something like this:
 We will use a precompiled version available here:  
 http://netcologne.dl.sourceforge.net/project/boost/boost-binaries/1.60.0/boost_1_60_0-msvc-14.0-64.exe  
 Run the downloaded exe file and when prompted choose the deployment location as `[Graphene-Aux]\boost_1_60_0`.  
-Once Boost is deployed you should have a folder named `[Graphene-Aux]\boost_1_60_0\lib64-msvc-14.0`.  
-Create a new folder `[Graphene-Aux]\boost_1_60_0\stage`.  
-Move `[Graphene-Aux]\boost_1_60_0\lib64-msvc-14.0` to `[Graphene-Aux]\boost_1_60_0\stage`.  
-Rename `[Graphene-Aux]\boost_1_60_0\stage\lib64-msvc-14.0` to `[Graphene-Aux]\boost_1_60_0\stage\lib`.  
-(*If you don't trust this exe file, get the Boost compilation from elsewhere (or compile it from source) and make sure that the 64-bit libraries are located here:* `[Graphene-Aux]\boost_1_60_0\stage\lib`)
+Once Boost is successfully deployed you should have a folder named `[Graphene-Aux]\boost_1_60_0\lib64-msvc-14.0` which containes 64-bit Boost libraries.  
+
+(*If you don't trust this exe file, get the Boost compilation from elsewhere (or compile it from source) and make sure that the 64-bit libraries are located in* `[Graphene-Aux]\boost_1_60_0\lib64-msvc-14.0`)
 
 * **OpenSSL**  
 We will use a precompiled version available here:  
 www.npcglib.org/~stathis/downloads/openssl-1.0.1q-vs2015.7z  
 Extract the content of this archive using 7-zip to `[Graphene-Aux]\openssl-1.0.1q-vs2015`.  
-Make sure you don't have any nested folders, i.e. you should have:  
+Make sure you don't end up with nested folders, i.e. you should have:  
 `[Graphene-Aux]\openssl-1.0.1q-vs2015\bin`  
 instead of something like this:  
 `[Graphene-Aux]\openssl-1.0.1q-vs2015\openssl-1.0.1q-vs2015\bin`.  
@@ -52,24 +50,15 @@ Inside the `[Graphene-Aux]\openssl-1.0.1q-vs2015` folder we need to do some rena
 -- rename `lib` to `lib32` and then `lib64` to `lib`  
 (*Again, if you don't trust this precompiled version, get the OpenSSL compilation from elsewhere (or compile it from source) and make sure that the 64-bit binaries, includes and libraries are located in* `bin`*,*`lib` *and* `include` *folders*)
 
-#### System variables and paths ####
+#### System path variable ####
 Open the Control Panel and navigate to `System and Security -> System\Advanced System Settings -> Environment Variables`.  
-* **Create new system variables**  
-Create the following system variables:  
-(*Remember to put the actual path instead of* `[Graphene-Aux]`)  
-`BOOST_ROOT` defined as `[Graphene-Aux]\boost_1_60_0`   
-`OPENSSL_ROOT_DIR` defined as `[Graphene-Aux]\openssl-1.0.1q-vs2015`
-
-* **Amend the existing system path variable**  
-Add `%OPENSSL_ROOT_DIR%\bin` at the end of your `PATH` variable.  
-In case of Windows 7 make sure all paths within the path variable are sperated by `;`.
+Amend the existing system path variable by adding `[Graphene-Aux]\openssl-1.0.1q-vs2015\bin` at the end of your `PATH` system variable. In case of Windows 7 make sure all paths within the path variable are sperated by `;`.
 
 #### BitShares source code ####
 Open your power shell console. Normally it is located here:  
 `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe`  
 but this location can differ depending on your OS settings.  
 In the power shell console run the following commands:  
-(*Before you begin make sure you've switched to the disk where* `[Graphene-Main]` *is located.*)  
 ```
 cd [Graphene-Main]
 git clone https://github.com/bitshares/bitshares-2.git
@@ -97,11 +86,15 @@ needs to be changed to something like this:
 #### Run CMake ####
 The purpose of CMake is to create a Visual Studio project for the BitShares source code.  
 Open a standard command prompt console and run the following commands:  
-(*Before you begin make sure you've switched to the disk where* `[Graphene-Main]` *is located.* `[Visual-Studio-Home]` *stands for Visual Studio 2015 home folder, e.g.* `C:\Program Files (x86)\Microsoft Visual Studio 14.0`)  
+(`[Visual-Studio-Home]` *stands for Visual Studio 2015 home folder, e.g.* `C:\Program Files (x86)\Microsoft Visual Studio 14.0`)  
 ```
 cd [Graphene-Main]
-[Visual-Studio-Home]\VC\vcvarsall x86_amd64
-[Graphene-Aux]\cmake-3.4.1-win32-x86\bin\cmake-gui -G "Visual Studio 14 Win64"
+set GRAPHENE_AUX=[Graphene-Aux]
+set BOOST_ROOT=%GRAPHENE_AUX%\boost_1_60_0
+set BOOST_LIBRARYDIR=%BOOST_ROOT%\lib64-msvc-14.0
+set OPENSSL_ROOT_DIR=%GRAPHENE_AUX%\openssl-1.0.1q-vs2015
+"[Visual-Studio-Home]\VC\vcvarsall" x86_amd64
+"[Graphene-Aux]\cmake-3.4.1-win32-x86\bin\cmake-gui" -G "Visual Studio 14 Win64"
 ```
 As a result the CMake GUI should appear on your screen.  
 Enter the following path in the source code field:  
