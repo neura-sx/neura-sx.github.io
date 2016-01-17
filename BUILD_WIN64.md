@@ -83,7 +83,7 @@ needs to be changed to something like this:
 "888" is just a random number, it could  be anything e.g. "123" - it just needs to be a number (enclosed by double inverted commas), not text. *Please make sure you don't confuse line 133 with line 89 which looks the same but it's within the* `git_describe` *function.*
 
 #### Run CMake ####
-The purpose of CMake is to create a Visual Studio project for the BitShares source code.  
+The purpose of CMake is to create a Visual Studio solution for the BitShares source code.  
 Open a standard command prompt console and run the following commands:  
 (`[Visual-Studio-Home]` *stands for Visual Studio 2015 home folder, e.g.* `C:\Program Files (x86)\Microsoft Visual Studio 14.0`)  
 ```
