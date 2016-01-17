@@ -99,7 +99,7 @@ set OPENSSL_ROOT_DIR=%GRAPHENE_AUX%\openssl-1.0.1q-vs2015
 ```
 As a result the CMake GUI should appear on your screen.  
 Enter the following path in the source code field: `[Graphene-Main]\bitshares-2`.  
-Enter the following ptah in the binaries field: `[Graphene-Main]\bin64`  
+Enter the following path in the binaries field: `[Graphene-Main]\bin64`.  
 And then hit `Configure`.  
 When prompted, confirm the creation of a new folder called `bin64`.  
 A new pop-up window should appear. Please select `Visual Studio 14 2015 Win64` and `Use default native compilers` and then hit `Finish`. 
