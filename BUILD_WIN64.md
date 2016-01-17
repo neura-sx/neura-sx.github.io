@@ -7,7 +7,7 @@ Windows 64-bit - Visual Studio 2015
   * [7-zip](http://www.7-zip.org)
   * [Github desktop](https://desktop.github.com)
   * [Visual Studio 2015](https://www.visualstudio.com) (the Community version is free)  
-When installing please choose custom installation and make sure the `Common Tools for Visual C++ 2015` feature is selected. In the features tree it's located here:  
+When installing VS please choose custom installation and make sure the `Common Tools for Visual C++ 2015` feature is selected. In the features tree it is located here:  
 `Programming Languages -> Visual C++ -> Common Tools for Visual C++ 2015`.
 
 #### Folder structure ####
