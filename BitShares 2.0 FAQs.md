@@ -1,6 +1,11 @@
-====
+===
 ###### I have problems with syncing the witness node - the `info` command in the CLI client tells me that `head_block_age` is several days old and it seems to be stuck on this. Is it common that this task fails? Shall I keep trying to sync it?
 You should always make sure you use the newest build available [here](https://github.com/bitshares/bitshares-2/releases/latest) as earlier releases will get stuck due to hard-forks.
+
+===
+###### What is the best way to interact with the witness node? It does not have an inbuilt CLI so there seems to be no way to control it. I can only open it and close it.
+The only way you can interact with the witness node is through the CLI client by using its API.  
+You can also use the GUI (i.e. the light client). In the GUI, change `Settings -> API connection`, add `ws://127.0.0.1:8090/ws` (according to settings of your witness node) and select it.
 
 ===
 ###### What is the difference between public and private testnet as described [here](http://docs.bitshares.eu/testnet/index.html)?
