@@ -20,15 +20,18 @@ CLI and WEB wallet are two separated applications. They use separated ways to re
 
 ===
 ###### I'd like to create and register a new account in my CLI wallet and pay for the registration from an existing account in the web GUI. How do I do this?
-It doesn't work that way with the current implementation. But you can work around it but importing an active key of an account that has funds:
+It doesn't work that way with the current implementation.  
+But you can work around it but importing an active key of an account that has funds:
 
 1. In the gui, go to the permissions tab of an account that is funded
-2. klick on the BTS.... pubkey on the ACTIVE tab and copy the private key
-3. in the cli-wallet run:  
-`import_key <accountname> "privkey"`
-4. then run:    suggest_brain_key     .... and copy the brain key  (make a  backup somewhere)
-5. create a new account with  
-`create_account_with_brain_key "<brainkey>" <new_account_name> <imported_name> <imported_name> true`
+2. Click on the BTS public key on the ACTIVE tab and copy the private key
+3. In the cli-wallet run:  
+`import_key <account_name> <private_key>`
+4. Then run:  
+`suggest_brain_key`  
+and copy the brain key (you might want to make a backup of your brain key somewhere)
+5. Create a new account with this command:  
+`create_account_with_brain_key <brainkey> <new_account_name> <imported_name> <imported_name> true`
 
 This will create a new account called new_account_name and set the registrar and referrer to "imported_name".
 The brainkey can be used to regenerate the account (even in the gui wallet).  
