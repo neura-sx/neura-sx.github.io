@@ -62,11 +62,11 @@ Inside the `[Graphene-Aux]\openssl-1.0.1q-vs2015` folder we need to do some rena
 #### Expected result
 As a result, you should end up with these folders inside `[Graphene-Aux]`:
 * `boost_1_60_0`
-    * `lib64-msvc-14.0`
+    * `lib64-msvc-14.0`, ...
 * `cmake-3.4.1-win32-x86`
-    * `bin`
+    * `bin`, ...
 * `openssl-1.0.1q-vs2015`
-    * `bin`, `bin32`, `include`, `include32`, `lib`, `lib32`
+    * `bin`, `bin32`, `include`, `include32`, `lib`, `lib32`, ...
 
 ### System path variable
 Add `[Graphene-Aux]\openssl-1.0.1q-vs2015\bin` to your system path variable.  
@@ -135,7 +135,12 @@ There will be some red warnings displayed in the output window of the GUI but th
 If successful, the process should end with the message `Configuring done` displayed in the GUI.  
 Now hit `Generate`. And once you get the message `Generating done` you can exit the CMake GUI and also close the command prompt console.  
 
-As a result, there should be a Visual Studio solution structure located in `[Graphene-Main]\bin64`, including the `BitShares.sln` file.
+As a result, there should be a Visual Studio solution structure located in `[Graphene-Main]\bin64`, including the `BitShares.sln` file.  
+You should end up with these folders inside `[Graphene-Main]`:
+* `bin64`
+    * `BitShares.sln`, ...
+* `bitshares-2`
+    * `libraries`, `programs`, `CMakeLists.txt`, ...
 
 ### Run Visual Studio
 We are now ready to compile the source code in Visual Studio.  
