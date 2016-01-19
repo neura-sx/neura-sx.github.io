@@ -3,8 +3,8 @@
 > Why does the CLI client crash immediately when I try to run it for the first time?
 
 The CLI client is unable to run on its own, i.e. without being connected to the witness node (via a web socket connection). So to successfully run the CLI client you need to do this:
-1. Make sure you have `rpc-endpoint = 127.0.0.1:8090` uncommented in the `witness_node_data_dir/config.ini` file.
-2. Before you start the CLI client, you need to start the witness node (and wait a while till it's up and running).
+* Make sure you have `rpc-endpoint = 127.0.0.1:8090` uncommented in the `witness_node_data_dir/config.ini` file.
+* Before you start the CLI client, you need to start the witness node (and wait a while till it's up and running).
 
 ---
 > How do I check whether the witness node is already synced?
@@ -75,20 +75,20 @@ CLI and WEB wallet are two separated applications. They use separated ways to re
 It doesn't work that way with the current implementation.  
 But you can work around it by importing from the GUI to the CLI an active private key of a Lifetime Member account that has funds:
 
-1. In the GUI, go to the permissions tab of an account that is funded and has a Lifetime Member status.  
+* In the GUI, go to the permissions tab of an account that is funded and has a Lifetime Member status.  
 Click on the BTS public key on the active tab and copy the private key.
 
-2. Import this private key into the CLI wallet by running this command:
+* Import this private key into the CLI wallet by running this command:
 ```
 import_key <account_name> <private_key>
 ```
 
-3. Create a new brain-key with this command:
+* Create a new brain-key with this command:
 ```
 suggest_brain_key
 ```
 
-4. With the new-brain key (i.e. `<brain_key>`) you can now create a new account (i.e. `<new_acc_name>`) and set the registrar and referrer to the account you've just imported from the GUI (i.e. `<imp_acc_name>`):
+* With the new-brain key (i.e. `<brain_key>`) you can now create a new account (i.e. `<new_acc_name>`) and set the registrar and referrer to the account you've just imported from the GUI (i.e. `<imp_acc_name>`):
 ```
 create_account_with_brain_key <brain_key> <new_acc_name> <imp_acc_name> <imp_acc_name> true
 ```
