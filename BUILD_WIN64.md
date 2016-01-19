@@ -6,7 +6,7 @@
   * [Github desktop](https://desktop.github.com)
   * [Visual Studio 2015](https://www.visualstudio.com) (the Community version is free)
 
-> When installing Visual Studio you need to choose a custom installation and make sure the `Common Tools for Visual C++ 2015` feature is selected. You will find it here: `Programming Languages -> Visual C++ -> Common Tools for Visual C++ 2015`.
+> When installing Visual Studio you need to choose a custom installation and make sure the `Common Tools for Visual C++ 2015` feature is selected. You will find it here: `Programming Languages -> Visual C++`.
 
 ### Folder structure
 * Create a new folder, e.g. `C:\Users\[your user name]\Documents\Graphene-Main`.  
