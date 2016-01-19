@@ -77,17 +77,14 @@ But you can work around it by importing from the GUI to the CLI an active privat
 
 * In the GUI, go to the permissions tab of an account that is funded and has a Lifetime Member status.  
 Click on the BTS public key on the active tab and copy the private key.
-
 * Import this private key into the CLI wallet by running this command:  
 ```
 import_key <account_name> <private_key>
 ```
-
 * Create a new brain-key with this command:  
 ```
 suggest_brain_key
 ```
-
 * With the new-brain key (i.e. `<brain_key>`) you can now create a new account (i.e. `<new_acc_name>`) and set the registrar and referrer to the account you've just imported from the GUI (i.e. `<imp_acc_name>`):  
 ```
 create_account_with_brain_key <brain_key> <new_acc_name> <imp_acc_name> <imp_acc_name> true
