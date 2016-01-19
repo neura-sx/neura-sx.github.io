@@ -46,7 +46,6 @@ Once Boost is successfully deployed, you should end up with `[Graphene-Aux]\boos
 #### Fetch OpenSSL  
 We will use a precompiled version available here:  
 [www.npcglib.org/~stathis/downloads/openssl-1.0.1q-vs2015.7z]()  
-
 Extract the content of this archive using 7-zip to `[Graphene-Aux]\openssl-1.0.1q-vs2015`.  
 
 > Make sure you don't end up with nested folders, i.e. you should have:  
