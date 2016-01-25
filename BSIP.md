@@ -6,15 +6,20 @@
     Created: 2015-12-27
     Discussion: https://bitsharestalk.org/index.php/topic,20789.0.html
     Worker: t.b.d.
+    
+# Summary for Shareholders
+This worker proposal aims to introduce a percentage-based transfer fee solution as an alternative to the current flat rate. The main goal is to make BitShares viable for transferring smaller amounts - the current flat transfer rate restrains this, as for smaller transfers the flat fee makes up a significant part of the amount being sent. As we have it know, most of the blockchain's blocks are empty, which from a business perspective is a clear waste of company's resources.
+
+The aim of this proposal is to make use of the fact that users generally are more willing to pay higher transfer fees when they send bigger amounts (and this is the situation when we make profit) whereas they will not accept relatively big transfer fees for smaller amounts (and this is the situation when we need to forgo profit). An overall increase in the network's revenue and liquidity is expected, as lower fees should open up BitShares to micro-transactions.  
+
+This proposal is also important for another reason: it paves the way for adding new features to Graphene without the direct involvement of its core developers. The documentation produced as a result of this work will help other developers to join the ecosystem.
 
 # Abstract
-This is a worker proposal aiming to introduce a percentage-based transfer fee solution as an alternative to the current flat rate. The main goal is to make BitShares viable for transferring smaller amounts - the current flat transfer rate restrains this as the flat fee makes up a significant part of the ammount being sent.
-
 Any percentage-based transfer fee scheme needs some kind of basis for deriving the actual BTS value of the amount being transferred. The core idea of this approach is to derive this value from the **Core Exchange Rate** (CER) which is defined by the asset's issuer.  A complementary modification in the referral system is also needed in order to prevent abuse on the part of referrers.
 
 The only actors actually affected by this proposal are referral businesses, as their revenue stream will be negatively affected for smaller transfers but instead positively affected for larger ones. The effect for issuers will only be positive or none at all, as for them this an opt-in feature. As for shareholders in general, the change will be positive because BitShares will become more competitive in terms of transfer fees when compared to other systems. 
 
-If we keep the minimum fee at around 6 BTS, the financial effect for the blockchain itself will be neutral, as all profits (or losses) will be absorbed by the referrers. However, an overall increase in the network's revenue is expected, as it is safe to assume that, once small transfers get significantly cheaper, there will be more of them and each of them will contribute to the network's revenue. As we have it know, most of the blockchain's blocks are empty, which from a business perspective is a clear waste of company's resources.
+If we keep the minimum fee at around 6 BTS, the financial effect for the blockchain itself will be neutral, as all profits (or losses) will be absorbed by the referrers. However, an overall increase in the network's revenue is expected, as it is safe to assume that, once small transfers get significantly cheaper, there will be more of them and each of them will contribute to the network's revenue.
 
 # Motivation
 Having a flat transfer fee of 30 BTS for non-LTM users, currently BitShares cannot be regarded as a competitive payment solution for transfers below the equivalent of $5. The current fee in this case is above 2%, which is way more than any legacy system wants to charge its customers.
@@ -24,13 +29,13 @@ There are two important objectives this proposal aims to achieve:
 
 * to allow referrers to earn extra income associated with bigger transfers (while taking away from them the current income associated with smaller transfers).
 
-Apart from that, we would like to make detailed documention an important part of this proposal, thus offering an important benefit for the whole ecosystem: a step-by-step description how to implement new features without relying on CNX so that other coders & entrepreneurs can follow our example. The documention will entail:
-* programming context: a breif overview of Graphene's architecture
+Apart from that, we would like to make detailed documentation an important part of this proposal, thus offering an important benefit for the whole ecosystem: a step-by-step description how to implement new features without relying on CNX so that other coders & entrepreneurs can follow our example. The documentation will entail:
+* programming context: a brief overview of Graphene's architecture
 * what changes have been made in the code and their rationale
-* how unit testing and testnet verification has been approuched
-* how the whole implemention has been deployed
+* how unit testing and testnet verification has been approached
+* how the whole implementation has been deployed
 
-This documention will hopefully become the foundation of a larger tutorial for Graphene developers. The work on this material has already started and a brief preview can be accessed [here](https://neura-sx.gitbooks.io/graphene-book/content/).
+This documentation will hopefully become the foundation of a larger tutorial for Graphene developers. The work on this material has already been started and a brief preview can be accessed [here](https://neura-sx.gitbooks.io/graphene-book/content/).
 
 
 # Rationale
@@ -81,7 +86,8 @@ As the issuer is the only entity that actually controls CER, the percentage-base
 * assets which are worth nothing or almost nothing (i.e. most UIAs) will be able to be transferred almost for free (for 6 BTS instead of the current 30 BTS).
 However, if an issuer for some reasons does not find the above features beneficial, he will be able to keep the existing flat fee structure.
 
-#### The inteded workflow
+#### The intended workflow
+
 Action | Result
 --- | ---
 An issuer sets his asset to percentage-based transfer fee mode. | After the change, fees for all transfers of that asset will be calculated with new algorithm.
@@ -92,11 +98,21 @@ The Committee sets flat fee mode for a SmartCoin. | After the change, fees for a
 A user makes a transfer on an asset with the flat fee mode.  | The user will be charged flat fee, 20% of the fee goes to network, 80% of the fee goes to referral program and is split among the parties inside the referral program (registrar, referrer and etc).
 A user makes a transfer on an asset with the percentage based fee mode. | The user will be charged a percentage fee, the minimum fee goes to network, the rest (if there is anything left) goes to the referral program and is split among the parties inside the referral program.
 
-
 # Discussion
 Being voluntary for issuers, the above proposal is actually targeted to the referral businesses: do they perceive it as a beneficial change for the ecosystem and a fair deal for them? If we stick to the values used above, they will need to forgo the referral income on transfers below the equivalent of $2 but will substantially increase their income on transfers above the equivalent of $10. In the range between $2 and $10 they will get on average half of the income they have now. Nevertheless, the main benefit will be indirect: it's much easier to sell a reasonably priced product.
 
 As for the BitShares network itself, the overall impact of this proposal will be positive, as the network's resources will be better utilized. With the current flat fees, most of the blocks are empty. Percentage-based fees will not fix this waste immediately, but will be a step in the right direction and a foundation for businesses based on small tips and micro-payments.
-  
+
+# Areas covered
+This proposal covers the entire implementation of percentage-based fees.  
+In particular, the following aspects will be covered:
+* coding
+* code review by CNX
+* unit testing and testnet testing
+* deployment
+* full documentation & guidelines for similar projects
+* GUI support
+
+
 # Copyright
 This document is placed in the public domain.
