@@ -82,7 +82,7 @@ As the issuer is the only entity that actually controls CER, the percentage-base
 However, if an issuer for some reasons does not find the above features beneficial, he will be able to keep the existing flat fee structure.
 
 #### The inteded workflow
-
+--- | ---
 Action | Result
 --- | ---
 An issuer sets his asset to percentage-based transfer fee mode. | After the change, fees for all transfers of that asset will be calculated with new algorithm.
