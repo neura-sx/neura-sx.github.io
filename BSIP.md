@@ -1,7 +1,7 @@
     BSIP: 0010
     Title: Percentage-based transfer fee solution based on CER
     Authors: Jakub Zarembinski <jakub.zarembinski@neura.sx>
-    Status: Draft
+    Status: Final
     Type: Protocol
     Created: 2015-12-27
     Discussion: https://bitsharestalk.org/index.php/topic,20789.0.html
@@ -113,6 +113,15 @@ In particular, the following aspects will be covered:
 * full documentation & guidelines for similar projects
 * GUI support
 
+# Known limitations
+There are the following limitations that cannot be overcome due to technical reasons:
+* The percentage-based fee scheme cannot be applied to stealth transfers (as the amount being transferred is unknown, thus it's impossible to calculate its BTS value).
+
+* The percentage-based fee scheme cannot be applied to the core currency i.e. BTS. However all SmartCoins (both public and private), UIAs and possibly also FBAs (once they get implemented) will be covered.
+
+* There might be a negative UX in a very rare situation: when CER is being updated by the issuer between the moment the user hits "Transfer" and the moment s/he hits "Confirm". In this situation the user might receive an error message about having insufficient funds for the transfer fee and will have to redo the transfer.
+
+* In case of committee-controlled SmartCoins, occasionally there might be a small discrepancy between the current value of CER and the value of CER enclosed in the committee proposal to switch a given SmartCoin to the percentage-based mode.
 
 # Copyright
 This document is placed in the public domain.
