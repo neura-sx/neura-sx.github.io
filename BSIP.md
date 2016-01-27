@@ -124,7 +124,7 @@ There are the following limitations that cannot be overcome due to technical rea
 * ~~In case of committee-controlled SmartCoins, occasionally there might be a small discrepancy between the current value of CER and the value of CER enclosed in the committee proposal to switch a given SmartCoin to the percentage-based mode.~~ EDIT: We will probably be able to offer a patch to the code-base, which makes it to possible to update an asset without changing CER, and thus fix this issue.
 
 
-*  If the committee decides to apply percentage-based fees to SmartCoins, our partners (e.g. exchanges) need to notified in advance, so that they have time to adjust their applications to make sure those applications are compatible with percentage-based fees.
+*  If the committee decides to apply percentage-based fees to SmartCoins, our partners (e.g. exchanges, gateways etc) need to notified in advance, so that they have time to adjust their applications to make sure those applications are compatible with percentage-based fees.
 
 
 # Copyright
