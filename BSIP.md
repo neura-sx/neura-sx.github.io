@@ -47,7 +47,7 @@ Also, a percentage-based transfer fee system, if introduced without any modifica
 #### The assumptions
 The following description uses a fictional asset called BAX but this solution can be applied to all assets (i.e. both public and private SmartCoins, UIAs and FBAs) and all non-stealth transfers. Also, what is described below refers to pay-as-you-go users. For LTM users exactly the same rules apply, except for the fact that in this case the referrer's income is redirected to the user's cash-back fund.
 
-> Values used in the description below are just an initial proposal, the actual values will be determined be the committee.
+> Please note that values used in the description below are just an initial proposal, the actual values will be determined be the committee.
 
 #### The concept
 The transfer fee can be paid either in BTS or BAX.
