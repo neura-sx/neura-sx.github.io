@@ -113,7 +113,7 @@ In particular, the following aspects will be covered:
 * full documentation & guidelines for similar projects
 * GUI support
 
-# Known limitations
+# Known issues and limitations
 There are the following limitations that cannot be overcome due to technical reasons:
 * The percentage-based fee scheme cannot be applied to stealth transfers (as the amount being transferred is unknown, thus it's impossible to calculate its BTS value).
 
@@ -121,7 +121,11 @@ There are the following limitations that cannot be overcome due to technical rea
 
 * There might be a negative UX in a very rare situation: when CER is being updated by the issuer between the moment the user hits "Transfer" and the moment s/he hits "Confirm". In this situation the user might receive an error message about having insufficient funds for the transfer fee and will have to redo the transfer.
 
-* In case of committee-controlled SmartCoins, occasionally there might be a small discrepancy between the current value of CER and the value of CER enclosed in the committee proposal to switch a given SmartCoin to the percentage-based mode.
+* ~~In case of committee-controlled SmartCoins, occasionally there might be a small discrepancy between the current value of CER and the value of CER enclosed in the committee proposal to switch a given SmartCoin to the percentage-based mode.~~ EDIT: We will probably be able to offer a patch to the code-base, which makes it to possible to update an asset without changing CER, and thus fix this issue.
+
+
+*  If the committee decides to apply percentage-based fees to SmartCoins, our partners (e.g. exchanges) need to notified in advance, so that they have time to adjust their applications to make sure those applications are compatible with percentage-based fees.
+
 
 # Copyright
 This document is placed in the public domain.
